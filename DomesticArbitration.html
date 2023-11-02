@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+     	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+     	<meta name="description" content="FOREVER - MingiBei">
+      	<meta name="author" content="zhuming">
+        <meta name="ROBOTS" content="NOINDEX">
+      	<title>FOREVER - MingiBei</title>
+        
+        
+        <!-- Bootstrap -->
+    	<link rel="stylesheet" href="static/css/bootstrap.min.css" type="text/css" media="screen">
+        <!-- Pace -->
+        <link rel="stylesheet" href="static/css/preloader.css" media="screen">
+        <link rel="stylesheet" href="static/css/preloader-default.css" media="screen">
+        <!-- Flexslider -->
+        <link rel="stylesheet" href="static/css/flexslider.css" type="text/css">
+        <!-- Animate -->
+        <link rel="stylesheet" href="static/css/animate.css" type="text/css">       
+        <!-- Countdown -->
+        <link rel="stylesheet" href="static/css/jquery.countdown.css" type="text/css">
+        <!-- Magnific Popup -->
+        <link rel="stylesheet" href="static/css/magnific-popup.css" type="text/css">
+        <!-- Owl Carousel -->
+        <link rel="stylesheet" href="static/css/owl.carousel.css" type="text/css">
+        <link rel="stylesheet" href="static/css/owl.theme.css" type="text/css">
+        <!-- Icon -->
+        <link rel="stylesheet" href="static/css/fontello.css" type="text/css" media="screen">
+        <!-- Font -->
+        <link href='static/css/css.css' rel='stylesheet' type='text/css'>
+        <link href='static/css/css1.css' rel='stylesheet' type='text/css'>
+        <link href='static/css/css2.css' rel='stylesheet' type='text/css'>
+        
+        <!-- Theme CSS -->
+    	<link href="static/css/style.css" rel="stylesheet" media="screen">
+        
+        <!-- Skin CSS -->
+    	<!-- <link href="css/skin/light-teal/light-teal.css" rel="stylesheet" media="screen"> -->
+        <!-- <link href="css/skin/light-teal/light-teal-reverse-navbar.css" rel="stylesheet" media="screen"> -->
+        <!-- <link href="css/skin/pattern/pattern-1.css" rel="stylesheet" media="screen"> -->
+        
+        <script>
+  			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  			ga('create', 'UA-50945301-2', 'dethemes.com');
+  			ga('send', 'pageview');
+
+		</script>
+	</head>
+
+	<body class="no-slider-page">
+    	<!--PRELOADER-->
+        <div id="preloader">
+        
+        	<div class="alignment">
+            	<div class="v-align center-middle"> 
+            		
+                    <!-- LEFT HEART -->
+            		<div class="heart-animation">                	
+            			<i class="de-icon-heart"></i>
+               	 	</div>
+                
+                	<!-- RIGHT HEART -->
+                	<div class="heart-animation-reverse">
+            			<i class="de-icon-heart"></i>
+                	</div>     
+                     
+                </div>
+            </div>
+            
+        </div> <!--END of PRELOADER-->
+        
+        <!--SETTING-->
+        <div id="options-setting"> 
+        	<div id="setting-button-wrapper">
+        		<a id="setting-button" href="#">
+        			<div class="de-icon square light small-size inline" style="border:1px solid #CCC;">
+         				<i class="de-icon-cog"></i>
+            		</div>
+            	</a>
+            </div>
+            <div>
+            	<h5>TEMPLATE COLOR</h5>
+                <div style="position:relative">
+                	<a href="#" id="coral"><span class="swatches">&nbsp;</span></a>
+                	<a href="#" id="coral-red"><span class="swatches">&nbsp;</span></a>
+                	<a href="#" id="lapis"><span class="swatches">&nbsp;</span></a>
+               	 	<a href="#" id="light-teal"><span class="swatches">&nbsp;</span></a>
+                	<a href="#" id="tan"><span class="swatches">&nbsp;</span></a>
+               	 	<a href="#" id="reset-color"><span>Reset</span></a>
+                </div>
+            </div>
+            <hr>
+            <div>
+            	<h5>BLOCK NAVBAR BACKGROUND</h5>
+                <div style="position:relative;">
+                	<a href="#" id="white-navbar"><span class="navbar-setting-button active">White</span></a>&nbsp;
+                	<a href="#" id="color-navbar"><span class="navbar-setting-button">Template Color</span></a>
+                </div>
+                <p class="setting-info"> For Transparent NavBar, this option will only works on sticky mode.</p>
+            </div>
+            <hr>
+            <div>
+            	<h5>PATTERN</h5>
+                <div style="position:relative;">
+                	<a href="#" id="pattern-1"><span class="pattern-setting-button">1</span></a>&nbsp;
+                	<a href="#" id="pattern-2"><span class="pattern-setting-button">2</span></a>&nbsp;
+                    <a href="#" id="pattern-3"><span class="pattern-setting-button">3</span></a>&nbsp;
+                    <a href="#" id="pattern-none"><span class="pattern-setting-button active">None</span></a>&nbsp;
+                </div>
+            </div>
+        </div>        
+       	<!--END of SETTING-->
+       
+        
+        <!-- NAVIGATION -->    
+    	<header id="nav-header">
+        	<nav id="nav-bar" class="top-bar fluid-width block-color nav-center sticky-nav animation fadeInDown">
+            	
+                <div id="nav-wrapper">
+            		
+                    <!-- LOGO -->
+            		<div class="logo-wrapper">
+                		<!-- CSS LOGO --> 
+                        <a href="index.html">
+                    		<div class="css-logo rounded">
+                   				<div class="css-logo-text">
+                        			<strong>铭</strong><i class="de-icon-heart-1"></i><strong>贝</strong>
+                    			</div>
+                    		</div>
+                        </a>
+                    
+                    	<!-- IMG LOGO 
+                    	<div class="img-logo">
+                    		<img src="images/slide1.jpg">
+                    	</div>-->
+                	</div>
+                	<!-- END of LOGO -->
+                    <!--
+                    <div id="mobile-nav">
+                    	<i class="de-icon-menu"></i>
+                    </div>
+                
+                	<ul id="nav-menu">
+                		<li class="first-child">
+                        	<a href="index.html">HOME</a>
+                            <ul>
+                            	<li>
+                                	<a href="#">MENU VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="index.html">TOP BAR - TRANSPARENT</a></li>
+                                        <li><a href="index-topbar-color.html">TOP BAR - COLOR</a></li>
+                                        <li><a href="index-bottombar-transparent.html">BOTTOM BAR - TRANSPARENT</a></li>
+                                        <li><a href="index-bottombar-color.html">BOTTOM BAR - COLOR</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                	<a href="#">SLIDER VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="index.html">IMAGE - FADE</a></li>
+                                        <li><a href="index-slide.html">IMAGE - SLIDE</a></li>
+                                        <li><a href="index-image-animation-v1.html">IMAGE - ANIMATION - MUSIC - V1</a></li>
+                                        <li><a href="index-image-animation-v2.html">IMAGE - ANIMATION - MUSIC - V2</a></li>
+                                        <li><a href="index-title-animation.html">TITLE - ANIMATION</a></li>
+                                        <li><a href="index-image-title-animation.html">TITLE &amp; IMAGE - ANIMATION</a></li>
+                                        <li><a href="index-video.html">VIDEO</a></li>
+                                    </ul>
+                                </li>    
+                                <li>
+                                	<a href="#">PRELOADER VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="index.html">PRELOADER - DEFAULT</a></li>
+                                        <li><a href="index-preloader-logo-spinner.html">PRELOADER - V1</a></li>
+                                        <li><a href="index-preloader-couple-name.html">PRELOADER - V2</a></li>
+                                    </ul>
+                                </li>                             
+                            </ul>
+                        </li>
+                   		<li>
+                        	<a href="#">ABOUT</a>
+                            <ul>
+                            	<li>
+                                	<a href="profile-him.html">ABOUT HIM</a>
+                                </li>
+                                <li>
+                                	<a href="profile-her.html">ABOUT HER</a>
+                                </li>
+                           	</ul> 	
+                        </li>
+                    	<li>
+                        	<a href="#">GALLERY</a>
+                            <ul>
+                            	<li><a href="gallery.html">GALLERY</a></li>
+                                <li><a href="gallery-slider.html">GALLERY WITH SLIDER</a></li>
+                                <li><a href="gallery-full-5col.html">FULL GALLERY - 5 COLUMN</a></li>
+                                <li><a href="gallery-full-4col.html">FULL GALLERY - 4 COLUMN</a></li>
+                                <li><a href="gallery-full-3col.html">FULL GALLERY - 3 COLUMN</a></li>
+                            </ul>
+                        </li>
+                    	<li><a href="the-story.html">THE STORY</a></li>
+                        <li class="first-child split-margin">
+                        	<a href="#">THE WEDDING</a>
+                             <ul>
+                             	<li><a href="location.html">LOCATION</a></li>
+                                <li><a href="accomodation.html">ACCOMODATION</a></li>
+                                <li>
+                                	<a href="#">BRIDESMAID</a>
+                                    <ul>
+                             			<li><a href="bridesmaid-gallery.html">BRIDESMAID GALLERY</a></li>
+                                		<li><a href="bridesmaid-parallax-image.html">BRIDESMAID - PARALLAX IMAGE</a></li>
+                           			</ul>
+                                </li>
+                                <li>
+                                	<a href="#">GROOMSMEN</a>
+                                    <ul>
+                             			<li><a href="groomsmen-gallery.html">GROOMSMEN GALLERY</a></li>
+                                		<li><a href="groomsmen-parallax-image.html">GROOMSMEN - PARALLAX IMAGE</a></li>
+                           			</ul>
+                                </li>
+                                <li><a href="gift.html">GIFT REGISTRY</a></li>
+                            </ul>
+                        </li>
+                    	
+                        <li>
+                        	<a href="#">BLOG</a>
+                            <ul>
+                            	<li><a href="blog.html">BLOG</a></li>
+                                <li><a href="blog-slider.html">BLOG SLIDER</a></li>
+                                <li><a href="blog-parallax-image.html">BLOG PARALLAX IMAGE</a></li>
+                                <li><a href="blog-parallax-sidebar.html">BLOG PARALLAX - SIDEBAR</a></li>
+                            </ul>
+                        </li>
+                    	<li>
+                       	 	<a href="page.html">PAGE</a>
+                        </li>
+                    	<li>
+                        	<a href="#">RSVP</a>
+                            <ul>
+                             	<li><a href="rsvp-1.html">RSVP - 1</a></li>
+                                <li><a href="rsvp-2.html">RSVP - 2</a></li>
+                                <li><a href="rsvp-3.html">RSVP - 3</a></li>
+                                <li><a href="rsvp-custom.html">CUSTOM</a></li>
+                           	</ul>
+                        </li>
+                	</ul>
+                    -->
+
+                    <div id="mobile-nav">
+                    	<i class="de-icon-menu"></i>
+                    </div>
+
+                	<ul id="nav-menu">
+                		<li class="first-child">
+                        	<a href="">HIM_BLOG</a>
+                            <!--
+                            <ul>
+                            	<li>
+                                	<a href="#">MENU VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="">TOP BAR - TRANSPARENT</a></li>
+                                        <li><a href="index-topbar-color.html">TOP BAR - COLOR</a></li>
+                                        <li><a href="index-bottombar-transparent.html">BOTTOM BAR - TRANSPARENT</a></li>
+                                        <li><a href="index-bottombar-color.html">BOTTOM BAR - COLOR</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                	<a href="#">SLIDER VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="">IMAGE - FADE</a></li>
+                                        <li><a href="index-slide.html">IMAGE - SLIDE</a></li>
+                                        <li><a href="index-image-animation-v1.html">IMAGE - ANIMATION - MUSIC - V1</a></li>
+                                        <li><a href="index-image-animation-v2.html">IMAGE - ANIMATION - MUSIC - V2</a></li>
+                                        <li><a href="index-title-animation.html">TITLE - ANIMATION</a></li>
+                                        <li><a href="index-image-title-animation.html">TITLE &amp; IMAGE - ANIMATION</a></li>
+                                        <li><a href="index-video.html">VIDEO</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                	<a href="#">PRELOADER VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="">PRELOADER - DEFAULT</a></li>
+                                        <li><a href="index-preloader-logo-spinner.html">PRELOADER - V1</a></li>
+                                        <li><a href="index-preloader-couple-name.html">PRELOADER - V2</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            -->
+                        </li>
+                   		<!--
+                        <li>
+                        	<a href="#">ABOUT</a>
+                            <ul>
+                            	<li>
+                                	<a href="profile-him.html">ABOUT HIM</a>
+                                </li>
+                                <li>
+                                	<a href="profile-her.html">ABOUT HER</a>
+                                </li>
+                           	</ul>
+                        </li>
+                    	<li>
+                        	<a href="#">GALLERY</a>
+                            <ul>
+                            	<li><a href="gallery.html">GALLERY</a></li>
+                                <li><a href="gallery-slider.html">GALLERY WITH SLIDER</a></li>
+                                <li><a href="gallery-full-5col.html">FULL GALLERY - 5 COLUMN</a></li>
+                                <li><a href="gallery-full-4col.html">FULL GALLERY - 4 COLUMN</a></li>
+                                <li><a href="gallery-full-3col.html">FULL GALLERY - 3 COLUMN</a></li>
+                            </ul>
+                        </li>
+                    	<li><a href="the-story.html">THE STORY</a></li>
+                        -->
+                        <li class="first-child split-margin">
+                        	<a href="#">HER_BLOG</a>
+                            <!--
+                             <ul>
+                             	<li><a href="location.html">LOCATION</a></li>
+                                <li><a href="accomodation.html">ACCOMODATION</a></li>
+                                <li>
+                                	<a href="#">BRIDESMAID</a>
+                                    <ul>
+                             			<li><a href="bridesmaid-gallery.html">BRIDESMAID GALLERY</a></li>
+                                		<li><a href="bridesmaid-parallax-image.html">BRIDESMAID - PARALLAX IMAGE</a></li>
+                           			</ul>
+                                </li>
+                                <li>
+                                	<a href="#">GROOMSMEN</a>
+                                    <ul>
+                             			<li><a href="groomsmen-gallery.html">GROOMSMEN GALLERY</a></li>
+                                		<li><a href="groomsmen-parallax-image.html">GROOMSMEN - PARALLAX IMAGE</a></li>
+                           			</ul>
+                                </li>
+                                <li><a href="gift.html">GIFT REGISTRY</a></li>
+                            </ul>
+                            -->
+                        </li>
+                    	<!--
+                        <li>
+                        	<a href="#">BLOG</a>
+                            <ul>
+                            	<li><a href="blog.html">BLOG</a></li>
+                                <li><a href="blog-slider.html">BLOG SLIDER</a></li>
+                                <li><a href="blog-parallax-image.html">BLOG PARALLAX IMAGE</a></li>
+                                <li><a href="blog-parallax-sidebar.html">BLOG PARALLAX - SIDEBAR</a></li>
+                            </ul>
+                        </li>
+                    	<li>
+                       	 	<a href="page.html">PAGE</a>
+                        </li>
+                    	<li>
+                        	<a href="#">RSVP</a>
+                            <ul>
+                             	<li><a href="rsvp-1.html">RSVP - 1</a></li>
+                                <li><a href="rsvp-2.html">RSVP - 2</a></li>
+                                <li><a href="rsvp-3.html">RSVP - 3</a></li>
+                                <li><a href="rsvp-custom.html">CUSTOM</a></li>
+                           	</ul>
+                        </li>
+                        -->
+                	</ul>
+
+
+
+
+
+
+
+                    <div class="clearboth"></div>
+                    
+                </div>
+                
+            </nav>
+        </header> <!-- END of NAVIGATION -->
+        
+        <!--CONTENT SECTION-->
+        <section id="content">
+        	
+            <!-- CONTAINER-1 -->
+        	<div class="container">            
+            	
+                <!-- TITLE -->
+                <div class="row">
+                    <div class="col-md-offset-3 col-md-6 text-center">
+                    
+                        <div class="page-title">
+                        	<h1>Domestic Arbitration：国内仲裁</h1>
+                                                       
+                        	<div class="heart-divider">
+                            	<span class="grey-line"></span>
+                            	<i class="de-icon-heart pink-heart"></i>
+                            	<i class="de-icon-heart grey-heart"></i>
+                            	<span class="grey-line"></span>
+                        	</div>
+						</div>
+                        
+                	</div>
+				</div><!-- END of TITLE -->                
+                
+  			</div><!-- END of CONTAINER-1 -->
+           
+            
+            <!-- CONTAINER-2 -->
+            <div class="container">
+                
+                <!-- ATTACHMENT -->	
+ 				<div class="row">
+                    <div class="col-md-offset-1 col-md-10">
+                      
+                   		<div class="row">
+                        
+                        	<!--PHOTO-->
+                        	<div class="col-md-6">     
+                                <img src="static/picture/DomesticArbitration.jpg" alt="" class="fullwidth" style="margin-bottom:30px;">
+								<h3>Why do parties go to arbitration? 为什么当事人要去仲裁？</h3>
+								<p style="color:red;">1.Mandatory-per existing contract 强制性-根据现有合同</p>
+								<p>(1)In order to go into arbitration, it is not sufficient to simply have a dispute. Because arbitration is extra-judicial, both parties must agree to have their own dispute resolved by arbitration. 要进行仲裁，仅仅有争议是不够的。由于仲裁是法庭职权以外的，所以双方必须都同意通过仲裁解决各自的争议。 </p>
+
+								<p>(2)In England and Wales, this means that there must be an arbitration agreement that is evidenced in writing. 在英格兰和威尔士，这意味着必须有书面证明的仲裁协议。 </p>
+
+								<p>(3)If there is an arbitration clause in the contract, even if one party can invalidate the contract, the arbitration agreement will be separate and still binding. 如果合同中的仲裁条款，即使一方可以宣布合同无效，仲裁协议将是单独的，仍然具有约束力。</p>
+<p style="color:red;">2.Voluntary – agreed between parties. 自愿的---双方同意的</p>
+<p>(1)Much less frequently, parties with no prior arbitration agreement may decide to use arbitration to resolve their dispute. 没有事先仲裁协议的当事人可能决定使用仲裁来解决他们的争议，这种情况要少见得多。</p>
+<p>(2)This might be the case where two parties had an informal trading relationship but no contract. They may decide that arbitration is a more efficient way to resolve their dispute. If they wish to do this, they must still create a binding written arbitration agreement. This type of agreement is often referred to as a ‘submission agreement’. 这可能是双方有非正式的贸易关系，但没有合同的情况。他们可能认为仲裁是解决纠纷的更有效的方法。如果他们希望这样做，他们仍然必须创建一个具有约束力的书面仲裁协议。这种类型的协议通常被称为“提交协议”。</p>
+								<hr />
+								<p>Arbitration is a creation of contract. What this means is that the entire process derives its power and authority from the fact that two parties have agreed to make use of an extra-judicial alternative dispute resolution process. They have effectively said “I agree to be bound by the decision of the arbitrator”. 仲裁是合同的产生。这意味着整个过程的权力和权威来源于双方同意使用法庭职权以外的替代争议解决程序。他们实际上是在说“我同意受仲裁员裁决的约束。”</p>
+<p>This is distinct from the power of a court. No party has to say “I agree to be bound by the decision of the judge”. The judge’s power comes from the power of the state. 这与法院的权力不同。没有一方必须说“我同意受法官判决的约束”。法官的权力来源于国家的权力。</p>
+
+								<img src="static/picture/DA1.jpg" alt="" class="fullwidth" style="margin-bottom:30px;">
+
+								<p style="color:red;"><strong>仲裁通常不能处理孩子的监护权，刑事案件或离婚。这些问题需要国家通过法庭行使权力。因此，从业者必须了解仲裁的局限性以及可以处理的主题的局限性。</strong></p>
+				<img src="static/picture/DA2.jpg" alt="" class="fullwidth" style="margin-bottom:30px;">
+								<img src="static/picture/DA3.jpg" alt="" class="fullwidth" style="margin-bottom:30px;">
+												<img src="static/picture/DA4.jpg" alt="" class="fullwidth" style="margin-bottom:30px;">
+								<img src="static/picture/DA5.jpg" alt="" class="fullwidth" style="margin-bottom:30px;">
+												<img src="static/picture/DA6.jpg" alt="" class="fullwidth" style="margin-bottom:30px;">
+								<img src="static/picture/DA7.jpg" alt="" class="fullwidth" style="margin-bottom:30px;">
+
+                            </div>
+                            
+                            <!-- DESCRIPTION -->
+                            <div class="col-md-6">
+								<h2 style="color:red;"><strong>What is the aim of this module?</strong></h2>
+								<p>Understanding how the process of Domestic Arbitration works and what are the outcomes of this mechanism. 了解国内仲裁是如何运作的，以及这一机制的结果是什么。</p>
+								<p>The definition of Domestic Arbitration or National Arbitration as against International Arbitration as provided for in Bernstein’s Handbook of Arbitration and Dispute Resolution Practice 4th Edition published by Sweet & Maxwell in conjunction with the Chartered Institute of Arbitrators at paragraph 2-010 page 15 as follows: 根据Sweet & Maxwell 与 英国特许仲裁员协会联合出版的Bernstein’s Handbook of Arbitration and Dispute Resolution Practice 4th Edition的第15页第2-010段，国内仲裁或国家仲裁与国际仲裁的定义如下：</p>
+                                <p><em>"In English law, arbitration is a mechanism for the resolution of disputes. The process takes place, usually in private and on a confidential basis, pursuant to an agreement between two or more parties. Under the agreement the parties agree to be bound by the decision to be given by the arbitrator according to law or, if so agreed, other considerations, after a fair hearing, such decisions being enforceable at law.  Sometimes the submission instead of being voluntary is imposed by statute."</em></p>
+								<p>在英国法律中，仲裁是解决纠纷的一种机制。根据双方或多方的协议，这一过程通常在私下和保密的基础上进行。根据该协议，双方同意受到仲裁员依照法律，或者根据其他考虑因素（如果双方同意下）作出的决定的约束，此类决定在法律上是可执行的。有时，服从不是自愿的，而是法律强加的。</p>
+								<!--<h3 style="color:red;">A mediator has no ‘decision-making power’. 调解员没有“决定权” </h3>-->
+								<p>Arbitration is a process by which parties obtain a resolution to a dispute by getting a decision from a neutral, impartial and independent third party. That decision is final and the parties must abide by it.仲裁是当事人通过中立，公正和独立的第三方处获得裁决来解决争议的过程。这一决定是最终决定，各方必须遵守。 </p>
+								<p>Unlike mediation, the parties to arbitration only consent to the process itself; the final decision is imposed upon them rather than being a resolution which they have agreed between themselves.与调解不同，仲裁当事人只同意仲裁程序本身；最后的决定是强加给他们的，而不是他们自己彼此相互同意的解决方案。</p>
+								<p>Most commonly, arbitration is used between two parties that have a pre-existing commercial relationship. The typical situation is where there was a contract for the supply of goods or services, and one party claims that the other failed to meet their obligations under the contract.最常见的是，仲裁是在已有商业关系的双方之间使用的。典型的情况是，有一份供应货物或服务的合同，一方声称另一方没有履行合同规定的义务。 </p>
+								<p>Arbitration is increasingly being used in non-commercial situations such as some family matters and personal injury matters. 商业越来越多地用于非商业情况，例如一些家庭事务和人身伤害事务。</p>
+
+<h3 style="color:red;"><strong>Arbitrators</strong></h3>
+								<p><1>The arbitrator(s) have a sole responsibility, to make the final decision on the dispute.  仲裁员对争议的最终裁决负有唯一责任。</p>
+<p><2>Their decision is binding on the parties. However, they have additional responsibilities to ensure that the proceedings run smoothly and efficiently and the arbitrator can order parties to undertake particular actions in furtherance of this. 他们的决定对各方都有约束力。然而，他们还有额外的责任来确保程序顺利有效地进行，仲裁员可以命令当事人采取特定的行动来促进这一点。</p>
+								<p><3>In domestic disputes there can be 1,2 (particularly in maritime arbitrations) or 3 arbitrators. 在国内纠纷中，可以有1，2名（特别是海事仲裁）或3名仲裁员。</p>
+
+								<h3 style="color:red;"><strong>Parties</strong></h3>
+								<p><1>Parties to a dispute can be ‘natural persons’ or corporate entities and public bodies. 争议的当事人可以是‘自然人’，或者是公司法人和公共机构
+Corporate entities法人实体： 指在法律上被视为一个单独的，独立的，具有法律地位的组织或机构，可以拥有财产，签订合同，起诉或被起诉等。</p>
+								<p><2>They are the individual bringing the claim, ‘the claimant’, or defending the claim, ‘the defendant’ or ‘the respondent’, and will not necessarily have any knowledge or experience of Alternative Dispute Resolution processes. 他们是提出索赔的个人，“原告/索赔人“，或为索赔辩护的个人，“被告”或“被诉人”，不一定具有任何替代性争议解决程序的知识或经验。 </p>
+								<p><3>They may not be bound by any specific professional codes of conduct…他们可能不受任何特定专业行为准则的约束。</p>
+
+									<h3 style="color:red;"><strong>Advocates:辩护人</strong></h3>
+								<p><1>These are lawyers or other specialist advocates who represent the parties in the dispute. 这些律师或其他专业辩护人代表争议各方</p>
+								<p><2>They will advise their clients, make submissions to the arbitrator, and communicate with the opposing advocate about the dispute. Advocates are likely to be qualified lawyers, and therefore will be governed by specific professional codes of conduct. 他们将为客户提供建议，向仲裁员提交建议书，并就争议与对方辩护人进行沟通。辩护人很有可能是职业律师，因此将受到具体的专业行为准则的约束。</p>
+
+						<h3 style="color:red;"><strong>Advisors:顾问</strong></h3>
+								<p><1>In addition to advocates, parties may instruct specialist advisors to help them construct or defend their claim. 除辩护人外，当事人还可以委托专业顾问帮助他们构建或辩护他们的索赔。</p>
+								<p><2>This is often true where a case involves particular issues such as taxation or technical engineering problems. 当案件涉及税收或技术工程问题等特殊问题时，这通常是正确的。</p>
+
+												<h3 style="color:red;"><strong>Witnesses：证人</strong></h3>
+								<p><1>A witness is an individual that presents evidence to the arbitrator. 证人是向仲裁员提供证据的个人</p>
+								<p><2>Their role is to provide the arbitrator with additional information that will assist them in making their decision. These witnesses may either be witnesses of fact, or expert witnesses, who are witnesses of opinion. 他们的作用是为仲裁员提供额外的信息，以帮助他们作出决定。这些证人可以是事实证人，也可以是专家证人，专家证人是意见证人。</p>
+
+												<h3 style="color:red;"><strong>The Public: 公众</strong></h3>
+								<p><1>Unlike court proceedings, arbitration proceedings are generally private and confidential. Privacy entails strangers being excluded from the hearing unless consented to by parties (hearing in camera) and confidentiality broadly entails the prevention of disclosure to persons not involved in the arbitration including the existence of the arbitration, the documents produced and the Award. 与法庭诉讼程序不同，仲裁程序通常是非公开和保密的。隐私指的是，除非当事人同意，否则不允许陌生人参加听证会（不公开听证会），而保密则广义上指的是防止向与仲裁无关的人披露，包括仲裁的存在，所出示的文件和裁决。 </p>
+								<p>This will frequently be governed by the terms of the arbitration agreement. 这将经常受仲裁协议条款的约束。</p>
+
+                            </div>
+                       	</div>
+                        
+                      
+					</div>
+ 				</div><!-- END of ATTACHMENT-->
+                
+			</div><!-- END of CONTAINER-2 -->
+            
+        </section><!-- END of CONTENT SECTION -->
+        
+        
+        
+        <!-- FOOTER SECTION -->
+		<footer>
+            <div class="image-divider fixed-height" style="background-image:url(static/image/footer-image-5.jpg); height:400px" data-stellar-background-ratio="0.5">
+                
+                <div class="divider-overlay"></div>
+                    
+                <!-- Use Center Middle Alignment to align middle the content for fixed-height parallax -->
+                <div class="alignment"> 
+                   	<div class="v-align center-middle">                  	
+                    
+                    	<!-- HEART DIVIDER & COUPLE NAME -->
+                    	<div class="container">                 	 
+                    		<div class="row">
+                        		<div class="col-md-12">
+                                        
+                        			<div class="heart-divider animation delay1 fadeInUp">
+                        				<span class="white-line"></span>
+                        				<i class="de-icon-heart pink-heart"></i>
+                        				<i class="de-icon-heart white-heart"></i>
+                        				<span class="white-line"></span>
+                        			</div>
+                                    
+									<div id="footer-couple-name" class="animation delay1 fadeInUp">
+                                		铭 & 贝
+                                	</div>
+                     
+                     			</div>
+                     		</div>
+                     	</div><!-- END of HEART DIVIDER & COUPLE NAME -->
+                     
+                    </div>
+				</div><!-- END of Center Middle Alignment -->
+                    
+			</div>
+		</footer><!-- END of FOOTER SECTION -->
+        
+		<!-- jQuery -->
+    	<script src="static/js/jquery-1.11.1.min.js"></script>
+        <!-- Pace -->
+        <script src="static/js/pace.min.js"></script> 
+    	<!-- Bootstrap -->
+    	<script src="static/js/bootstrap.js"></script>    
+        <!-- Modernizr -->
+        <script src="static/js/modernizr.js"></script>  
+        <!-- Device JS -->
+        <script src="static/js/device.js"></script>  
+        <!-- TinyNav -->
+        <script src="static/js/tinynav.min.js"></script>
+        <!-- SmoothScroll -->
+        <script src="static/js/jquery.smooth-scroll.js"></script>
+        <!-- Flexslider -->
+        <script src="static/js/jquery.flexslider.js"></script>  
+        <!-- Sticky -->
+        <script src="static/js/jquery.sticky.js"></script>  
+        <!-- Waypoint -->
+        <script src="static/js/jquery.waypoints.min.js"></script>
+        <!-- DoubleTapToGo -->
+        <script src="static/js/jquery.ui.widget.js"></script>
+        <script src="static/js/jquery.dcd.doubletaptogo.js"></script>
+        <!-- Vide -->
+        <script src="static/js/jquery.vide.js"></script>
+        <!-- Stellar -->
+        <script src="static/js/jquery.stellar.js"></script>
+        <!-- Masonry -->
+        <script src="static/js/masonry.pkgd.min.js"></script>
+        <!-- Countdown -->
+        <script src="static/js/jquery.plugin.js"></script>
+        <script src="static/js/jquery.countdown.js"></script>
+        <!-- Countdown Labels / Localisation -->
+        <script src="static/js/jquery.countdown-custom-label.js"></script>
+        <!-- Magnific Popup -->
+        <script src="static/js/jquery.magnific-popup.js"></script>
+        <!-- Owl Carousel -->
+        <script src="static/js/owl.carousel.js"></script>
+        
+        <!-- Custom Core Script -->
+        <script type="text/javascript" src="static/js/script.js"></script>        
+        <!-- Custom Additional Script -->
+        <script type="text/javascript" src="static/js/main-slider-fade.js"></script>
+        
+	</body>
+</html>
