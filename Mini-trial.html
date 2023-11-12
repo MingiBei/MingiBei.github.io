@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+     	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+     	<meta name="description" content="FOREVER - MingiBei">
+      	<meta name="author" content="zhuming">
+        <meta name="ROBOTS" content="NOINDEX">
+      	<title>FOREVER - MingiBei</title>
+        
+        
+        <!-- Bootstrap -->
+    	<link rel="stylesheet" href="static/css/bootstrap.min.css" type="text/css" media="screen">
+        <!-- Pace -->
+        <link rel="stylesheet" href="static/css/preloader.css" media="screen">
+        <link rel="stylesheet" href="static/css/preloader-default.css" media="screen">
+        <!-- Flexslider -->
+        <link rel="stylesheet" href="static/css/flexslider.css" type="text/css">
+        <!-- Animate -->
+        <link rel="stylesheet" href="static/css/animate.css" type="text/css">       
+        <!-- Countdown -->
+        <link rel="stylesheet" href="static/css/jquery.countdown.css" type="text/css">
+        <!-- Magnific Popup -->
+        <link rel="stylesheet" href="static/css/magnific-popup.css" type="text/css">
+        <!-- Owl Carousel -->
+        <link rel="stylesheet" href="static/css/owl.carousel.css" type="text/css">
+        <link rel="stylesheet" href="static/css/owl.theme.css" type="text/css">
+        <!-- Icon -->
+        <link rel="stylesheet" href="static/css/fontello.css" type="text/css" media="screen">
+        <!-- Font -->
+        <link href='static/css/css.css' rel='stylesheet' type='text/css'>
+        <link href='static/css/css1.css' rel='stylesheet' type='text/css'>
+        <link href='static/css/css2.css' rel='stylesheet' type='text/css'>
+        
+        <!-- Theme CSS -->
+    	<link href="static/css/style.css" rel="stylesheet" media="screen">
+        
+        <!-- Skin CSS -->
+    	<!-- <link href="css/skin/light-teal/light-teal.css" rel="stylesheet" media="screen"> -->
+        <!-- <link href="css/skin/light-teal/light-teal-reverse-navbar.css" rel="stylesheet" media="screen"> -->
+        <!-- <link href="css/skin/pattern/pattern-1.css" rel="stylesheet" media="screen"> -->
+        
+        <script>
+  			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  			ga('create', 'UA-50945301-2', 'dethemes.com');
+  			ga('send', 'pageview');
+
+		</script>
+	</head>
+
+	<body class="no-slider-page">
+    	<!--PRELOADER-->
+        <div id="preloader">
+        
+        	<div class="alignment">
+            	<div class="v-align center-middle"> 
+            		
+                    <!-- LEFT HEART -->
+            		<div class="heart-animation">                	
+            			<i class="de-icon-heart"></i>
+               	 	</div>
+                
+                	<!-- RIGHT HEART -->
+                	<div class="heart-animation-reverse">
+            			<i class="de-icon-heart"></i>
+                	</div>     
+                     
+                </div>
+            </div>
+            
+        </div> <!--END of PRELOADER-->
+        
+        <!--SETTING-->
+        <div id="options-setting"> 
+        	<div id="setting-button-wrapper">
+        		<a id="setting-button" href="#">
+        			<div class="de-icon square light small-size inline" style="border:1px solid #CCC;">
+         				<i class="de-icon-cog"></i>
+            		</div>
+            	</a>
+            </div>
+            <div>
+            	<h5>TEMPLATE COLOR</h5>
+                <div style="position:relative">
+                	<a href="#" id="coral"><span class="swatches">&nbsp;</span></a>
+                	<a href="#" id="coral-red"><span class="swatches">&nbsp;</span></a>
+                	<a href="#" id="lapis"><span class="swatches">&nbsp;</span></a>
+               	 	<a href="#" id="light-teal"><span class="swatches">&nbsp;</span></a>
+                	<a href="#" id="tan"><span class="swatches">&nbsp;</span></a>
+               	 	<a href="#" id="reset-color"><span>Reset</span></a>
+                </div>
+            </div>
+            <hr>
+            <div>
+            	<h5>BLOCK NAVBAR BACKGROUND</h5>
+                <div style="position:relative;">
+                	<a href="#" id="white-navbar"><span class="navbar-setting-button active">White</span></a>&nbsp;
+                	<a href="#" id="color-navbar"><span class="navbar-setting-button">Template Color</span></a>
+                </div>
+                <p class="setting-info"> For Transparent NavBar, this option will only works on sticky mode.</p>
+            </div>
+            <hr>
+            <div>
+            	<h5>PATTERN</h5>
+                <div style="position:relative;">
+                	<a href="#" id="pattern-1"><span class="pattern-setting-button">1</span></a>&nbsp;
+                	<a href="#" id="pattern-2"><span class="pattern-setting-button">2</span></a>&nbsp;
+                    <a href="#" id="pattern-3"><span class="pattern-setting-button">3</span></a>&nbsp;
+                    <a href="#" id="pattern-none"><span class="pattern-setting-button active">None</span></a>&nbsp;
+                </div>
+            </div>
+        </div>        
+       	<!--END of SETTING-->
+       
+        
+        <!-- NAVIGATION -->    
+    	<header id="nav-header">
+        	<nav id="nav-bar" class="top-bar fluid-width block-color nav-center sticky-nav animation fadeInDown">
+            	
+                <div id="nav-wrapper">
+            		
+                    <!-- LOGO -->
+            		<div class="logo-wrapper">
+                		<!-- CSS LOGO --> 
+                        <a href="index.html">
+                    		<div class="css-logo rounded">
+                   				<div class="css-logo-text">
+                        			<strong>铭</strong><i class="de-icon-heart-1"></i><strong>贝</strong>
+                    			</div>
+                    		</div>
+                        </a>
+                    
+                    	<!-- IMG LOGO 
+                    	<div class="img-logo">
+                    		<img src="images/slide1.jpg">
+                    	</div>-->
+                	</div>
+                	<!-- END of LOGO -->
+                    <!--
+                    <div id="mobile-nav">
+                    	<i class="de-icon-menu"></i>
+                    </div>
+                
+                	<ul id="nav-menu">
+                		<li class="first-child">
+                        	<a href="index.html">HOME</a>
+                            <ul>
+                            	<li>
+                                	<a href="#">MENU VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="index.html">TOP BAR - TRANSPARENT</a></li>
+                                        <li><a href="index-topbar-color.html">TOP BAR - COLOR</a></li>
+                                        <li><a href="index-bottombar-transparent.html">BOTTOM BAR - TRANSPARENT</a></li>
+                                        <li><a href="index-bottombar-color.html">BOTTOM BAR - COLOR</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                	<a href="#">SLIDER VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="index.html">IMAGE - FADE</a></li>
+                                        <li><a href="index-slide.html">IMAGE - SLIDE</a></li>
+                                        <li><a href="index-image-animation-v1.html">IMAGE - ANIMATION - MUSIC - V1</a></li>
+                                        <li><a href="index-image-animation-v2.html">IMAGE - ANIMATION - MUSIC - V2</a></li>
+                                        <li><a href="index-title-animation.html">TITLE - ANIMATION</a></li>
+                                        <li><a href="index-image-title-animation.html">TITLE &amp; IMAGE - ANIMATION</a></li>
+                                        <li><a href="index-video.html">VIDEO</a></li>
+                                    </ul>
+                                </li>    
+                                <li>
+                                	<a href="#">PRELOADER VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="index.html">PRELOADER - DEFAULT</a></li>
+                                        <li><a href="index-preloader-logo-spinner.html">PRELOADER - V1</a></li>
+                                        <li><a href="index-preloader-couple-name.html">PRELOADER - V2</a></li>
+                                    </ul>
+                                </li>                             
+                            </ul>
+                        </li>
+                   		<li>
+                        	<a href="#">ABOUT</a>
+                            <ul>
+                            	<li>
+                                	<a href="profile-him.html">ABOUT HIM</a>
+                                </li>
+                                <li>
+                                	<a href="profile-her.html">ABOUT HER</a>
+                                </li>
+                           	</ul> 	
+                        </li>
+                    	<li>
+                        	<a href="#">GALLERY</a>
+                            <ul>
+                            	<li><a href="gallery.html">GALLERY</a></li>
+                                <li><a href="gallery-slider.html">GALLERY WITH SLIDER</a></li>
+                                <li><a href="gallery-full-5col.html">FULL GALLERY - 5 COLUMN</a></li>
+                                <li><a href="gallery-full-4col.html">FULL GALLERY - 4 COLUMN</a></li>
+                                <li><a href="gallery-full-3col.html">FULL GALLERY - 3 COLUMN</a></li>
+                            </ul>
+                        </li>
+                    	<li><a href="the-story.html">THE STORY</a></li>
+                        <li class="first-child split-margin">
+                        	<a href="#">THE WEDDING</a>
+                             <ul>
+                             	<li><a href="location.html">LOCATION</a></li>
+                                <li><a href="accomodation.html">ACCOMODATION</a></li>
+                                <li>
+                                	<a href="#">BRIDESMAID</a>
+                                    <ul>
+                             			<li><a href="bridesmaid-gallery.html">BRIDESMAID GALLERY</a></li>
+                                		<li><a href="bridesmaid-parallax-image.html">BRIDESMAID - PARALLAX IMAGE</a></li>
+                           			</ul>
+                                </li>
+                                <li>
+                                	<a href="#">GROOMSMEN</a>
+                                    <ul>
+                             			<li><a href="groomsmen-gallery.html">GROOMSMEN GALLERY</a></li>
+                                		<li><a href="groomsmen-parallax-image.html">GROOMSMEN - PARALLAX IMAGE</a></li>
+                           			</ul>
+                                </li>
+                                <li><a href="gift.html">GIFT REGISTRY</a></li>
+                            </ul>
+                        </li>
+                    	
+                        <li>
+                        	<a href="#">BLOG</a>
+                            <ul>
+                            	<li><a href="blog.html">BLOG</a></li>
+                                <li><a href="blog-slider.html">BLOG SLIDER</a></li>
+                                <li><a href="blog-parallax-image.html">BLOG PARALLAX IMAGE</a></li>
+                                <li><a href="blog-parallax-sidebar.html">BLOG PARALLAX - SIDEBAR</a></li>
+                            </ul>
+                        </li>
+                    	<li>
+                       	 	<a href="page.html">PAGE</a>
+                        </li>
+                    	<li>
+                        	<a href="#">RSVP</a>
+                            <ul>
+                             	<li><a href="rsvp-1.html">RSVP - 1</a></li>
+                                <li><a href="rsvp-2.html">RSVP - 2</a></li>
+                                <li><a href="rsvp-3.html">RSVP - 3</a></li>
+                                <li><a href="rsvp-custom.html">CUSTOM</a></li>
+                           	</ul>
+                        </li>
+                	</ul>
+                    -->
+
+                    <div id="mobile-nav">
+                    	<i class="de-icon-menu"></i>
+                    </div>
+
+                	<ul id="nav-menu">
+                		<li class="first-child">
+                        	<a href="">HIM_BLOG</a>
+                            <!--
+                            <ul>
+                            	<li>
+                                	<a href="#">MENU VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="">TOP BAR - TRANSPARENT</a></li>
+                                        <li><a href="index-topbar-color.html">TOP BAR - COLOR</a></li>
+                                        <li><a href="index-bottombar-transparent.html">BOTTOM BAR - TRANSPARENT</a></li>
+                                        <li><a href="index-bottombar-color.html">BOTTOM BAR - COLOR</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                	<a href="#">SLIDER VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="">IMAGE - FADE</a></li>
+                                        <li><a href="index-slide.html">IMAGE - SLIDE</a></li>
+                                        <li><a href="index-image-animation-v1.html">IMAGE - ANIMATION - MUSIC - V1</a></li>
+                                        <li><a href="index-image-animation-v2.html">IMAGE - ANIMATION - MUSIC - V2</a></li>
+                                        <li><a href="index-title-animation.html">TITLE - ANIMATION</a></li>
+                                        <li><a href="index-image-title-animation.html">TITLE &amp; IMAGE - ANIMATION</a></li>
+                                        <li><a href="index-video.html">VIDEO</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                	<a href="#">PRELOADER VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="">PRELOADER - DEFAULT</a></li>
+                                        <li><a href="index-preloader-logo-spinner.html">PRELOADER - V1</a></li>
+                                        <li><a href="index-preloader-couple-name.html">PRELOADER - V2</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            -->
+                        </li>
+                   		<!--
+                        <li>
+                        	<a href="#">ABOUT</a>
+                            <ul>
+                            	<li>
+                                	<a href="profile-him.html">ABOUT HIM</a>
+                                </li>
+                                <li>
+                                	<a href="profile-her.html">ABOUT HER</a>
+                                </li>
+                           	</ul>
+                        </li>
+                    	<li>
+                        	<a href="#">GALLERY</a>
+                            <ul>
+                            	<li><a href="gallery.html">GALLERY</a></li>
+                                <li><a href="gallery-slider.html">GALLERY WITH SLIDER</a></li>
+                                <li><a href="gallery-full-5col.html">FULL GALLERY - 5 COLUMN</a></li>
+                                <li><a href="gallery-full-4col.html">FULL GALLERY - 4 COLUMN</a></li>
+                                <li><a href="gallery-full-3col.html">FULL GALLERY - 3 COLUMN</a></li>
+                            </ul>
+                        </li>
+                    	<li><a href="the-story.html">THE STORY</a></li>
+                        -->
+                        <li class="first-child split-margin">
+                        	<a href="#">HER_BLOG</a>
+                            <!--
+                             <ul>
+                             	<li><a href="location.html">LOCATION</a></li>
+                                <li><a href="accomodation.html">ACCOMODATION</a></li>
+                                <li>
+                                	<a href="#">BRIDESMAID</a>
+                                    <ul>
+                             			<li><a href="bridesmaid-gallery.html">BRIDESMAID GALLERY</a></li>
+                                		<li><a href="bridesmaid-parallax-image.html">BRIDESMAID - PARALLAX IMAGE</a></li>
+                           			</ul>
+                                </li>
+                                <li>
+                                	<a href="#">GROOMSMEN</a>
+                                    <ul>
+                             			<li><a href="groomsmen-gallery.html">GROOMSMEN GALLERY</a></li>
+                                		<li><a href="groomsmen-parallax-image.html">GROOMSMEN - PARALLAX IMAGE</a></li>
+                           			</ul>
+                                </li>
+                                <li><a href="gift.html">GIFT REGISTRY</a></li>
+                            </ul>
+                            -->
+                        </li>
+                    	<!--
+                        <li>
+                        	<a href="#">BLOG</a>
+                            <ul>
+                            	<li><a href="blog.html">BLOG</a></li>
+                                <li><a href="blog-slider.html">BLOG SLIDER</a></li>
+                                <li><a href="blog-parallax-image.html">BLOG PARALLAX IMAGE</a></li>
+                                <li><a href="blog-parallax-sidebar.html">BLOG PARALLAX - SIDEBAR</a></li>
+                            </ul>
+                        </li>
+                    	<li>
+                       	 	<a href="page.html">PAGE</a>
+                        </li>
+                    	<li>
+                        	<a href="#">RSVP</a>
+                            <ul>
+                             	<li><a href="rsvp-1.html">RSVP - 1</a></li>
+                                <li><a href="rsvp-2.html">RSVP - 2</a></li>
+                                <li><a href="rsvp-3.html">RSVP - 3</a></li>
+                                <li><a href="rsvp-custom.html">CUSTOM</a></li>
+                           	</ul>
+                        </li>
+                        -->
+                	</ul>
+
+
+
+
+
+
+
+                    <div class="clearboth"></div>
+                    
+                </div>
+                
+            </nav>
+        </header> <!-- END of NAVIGATION -->
+        
+        <!--CONTENT SECTION-->
+        <section id="content">
+        	
+            <!-- CONTAINER-1 -->
+        	<div class="container">            
+            	
+                <!-- TITLE -->
+                <div class="row">
+                    <div class="col-md-offset-3 col-md-6 text-center">
+                    
+                        <div class="page-title">
+                        	<h1>Mini-trial 微庭审/小型庭审</h1>
+                                                       
+                        	<div class="heart-divider">
+                            	<span class="grey-line"></span>
+                            	<i class="de-icon-heart pink-heart"></i>
+                            	<i class="de-icon-heart grey-heart"></i>
+                            	<span class="grey-line"></span>
+                        	</div>
+						</div>
+                        
+                	</div>
+				</div><!-- END of TITLE -->                
+                
+  			</div><!-- END of CONTAINER-1 -->
+           
+            
+            <!-- CONTAINER-2 -->
+            <div class="container">
+                
+                <!-- ATTACHMENT -->	
+ 				<div class="row">
+                    <div class="col-md-offset-1 col-md-10">
+                      
+                   		<div class="row">
+                        
+                        	<!--PHOTO-->
+                        	<div class="col-md-6">     
+<h3 style="color:green">ADR is a group of procedures, which includes negotiation, mediation, conciliation, Mini-trial and so on. (ADR的实质是一程序群，主要类型包括有协商、调解、调停、裁决、小型庭审等。)</h3>
+								<h3>Questions: select the answer you consider to be correct.</h3>
+								<p style="color:red;">Q1:which of the following is a key characteristic of the Mini-Trial? (以下哪项是小型庭审的关键特征？)</p>
+								<p>(1)The use of the same procedure as a full trial. （采用与完整审判相同的程序）</p>
+								<p>(2)The power of the neutral party to impose a binding decision on the parties. (中立方有对当事人有施加约束力的决定的权力)</p>
+								<p style="color:green">(3)The presentation of evidence is made to the parties with the power to settle the dispute. （向有权解决争议的各方提交证据）</p>
+								<p>(4)None of these. （以上都不是）</p>
+<p style="color:red;">A1: The correct answer is ‘the presentation of evidence is made to the parties with the power to settle the dispute.’</p>
+<p>(A key characteristic of the Mini-Trial is its ability to provide information directly to the parties so that they can evaluate relative strengths and weaknesses of each side and enter into well-informed, focused settlement discussions. The presence of the parties (senior executives) ‘with the power and desire to settle the dispute’ is therefore, by definition, essential to its success.) (小型庭审的一个关键特点是它能够直接向当事人提供资料，以便他们能够评判每一方的相对优势和劣势，并进入消息灵通的且注重解决方案的讨论。因此，根据定义，“有权力和愿望却解决争议”的双方（高级管理人员）的存在对小型庭审的成功至关重要。</p>
+
+	<p style="color:red;">Q2: which disputes are most suitable for the use of a Mini-Trial? (哪些争议最适合采用小型庭审？)</p>
+								<p>（1）Technical disputes which require the use of specialised experts. (需要聘请专门专家的技术争议)</p>
+
+								<p>（2）Personal disputes with a high degree of animosity between the parties. （当事人之间存在高度敌意的个人争议）</p>
+
+								<p style="color:green">（3）Complex legal or factual disputes which often lead to protracted litigation. （复杂的法律或事实纠纷，往往导致旷日持久的诉讼）</p>
+								<p>（4）None of these. （以上都不是）</p>
+			<p style="color:red;">A2: the correct answer is ‘Complex legal or factual disputes which often lead to protracted litigation.’</p>
+								<p>(The Mini-Trial has been shown to be an appropriate mechanism in cases involving complex questions of law and fact such as patent law, product liability, unfair competition, antitrust and contract cases which often lead to protracted and very costly litigation.)(小型庭审已被证明是涉及复杂法律和事实问题的案件的适当机制，例如专利法，产品责任，不公平竞争，反托拉斯和合同案件，这些案件往往导致旷日持久和代价高昂的诉讼。)</p>
+                <p style="color:red;">Q3: At what stage of a dispute are Mini-Trials typically conducted? (小型庭审通常在争议的哪个阶段进行？)</p>
+								<p>(1）Immediately after the dispute arises. （立即在争议发生之后）</p>
+
+								<p style="color:green">（2）After pre-trial discovery is under way. （审前证据开示进行中之后）</p>
+
+								<p>（3）Immediately before a court hearing. （紧接开庭审理前）</p>
+<p>（4）None of these. （以上都不是）</p>
+<p style="color:red;">A3:the correct answer is ‘after pre-trial discovery is under way.’</p>
+<p>(The Mini-Trial’s timing can often affect its chances of success. Mini-Trials are typically conducted after pre-trail discovery is under way because the issues need to be sufficiently developed in order for the hearing to be meaningful.) (小型庭审的时机往往会影响其成功的几率。小型庭审通常是在审前证据开示进行中之后进行的，因为问题需要得到充分的发展从而使听证会有意义)</p>
+								<h3 style="color:red"><strong>Congratulations!</strong></h3>
+								<p><strong>You have achieved a basic understanding of the Mini-Trial mechanism. (你已经对小型庭审机制有了基本的了解)</strong></p>
+								<p>You have learned the following:</p>
+								<p>[1]Mini-trial is a useful technique because the presentation of the evidence is not made to a person with the authority to issue a binding judgement, but to the parties themselves.
+(小型庭审是一种有用的技术，因为证据不是提交给有权作出有约束力判决的人，而是提交给当事人自己)</p>
+								<p>[2]The mini-trial has been successful in cases such as patent law, product liability, unfair competition, antitrust and contract cases which often lead to protracted and very costly litigation.
+（小型庭审在专利法，产品责任，不公平竞争，反托拉斯法和合同案件中取得了成功，这些案件往往导致旷日持久和代价高昂的诉讼） </p>
+								<p>[3]Mini-trials are usually conducted after pre-trial discovery has started;
+（小型庭审通常在审前证据开示开始之后进行）</p>
+								<p>[4]The ‘parties can resolve a dispute themselves in an informal proceeding’
+（当事人可以在非正式程序中自行解决争议）</p>
+								<p>[5]If the parties cannot reach an agreement the neutral advisor provides an incentive to settle by indicating what a likely trial outcome would be.
+（如果双方不能达成协议，中立顾问通过指出可能的审判结果来激励和解）</p>
+							</div>
+                            
+                            <!-- DESCRIPTION -->
+                            <div class="col-md-6">
+								<h2 style="color:red;"><strong>What is the aim of this module?</strong></h2>
+								<p>Understanding how the process of Mini-Trial works and what the outcomes of this mechanism are. </p>
+								<p>The ‘first Mini-Trial is said to have been conducted in the US in 1977. It was invoked after the instigation of litigation alleging patent infringements.’ (“据说第一个小型庭审是 1977 年在美国进行的。在指控专利侵权的诉讼发起后，它被援引。”)</p>
+								<p>During the Mini-Trial the parties reached a settlement which was structured on the basis of a future business relationship which would have been beyond the scope of a trial judge’. （在小型庭审期间，双方达成了一项解决方案，该方案是基于未来的业务关系，而这超出了初审法官的范围。)</p>
+								<p>Despite using the word trial, a Mini-Trial ‘is not really a trial at all but a carefully structured and refined method that enables the parties in a dispute to settle’ the core issues. This emphasis on identifying the dispute’s substance rather than being hindered by procedural issues is a defining attribute of the Mini-Trial. (尽管使用了“审判”一词，但“小型庭审”根本不是真正的审判，而是一种精心设计和完善的方法，使争议双方能够解决“核心问题”。它强调，确定争议的实质，而不是受到程序问题的阻碍，是小型庭审的一个决定性特征。)</p>
+								<p>Following a brief period of discovery, it ‘consists of a short hearing (not more two or three days) and a period of negotiation (not more than fifteen days). <strong>The procedures followed for the Mini-Trial hearing are devised by the parties.’</strong> (在一段短暂的发现期之后，它包括一个简短的听证会（不超过两三天）和一个谈判期（不超过十五天）。小型庭审遵循的程序由当事人各方制定。)</p>
+								<p style="color:purple">The key characteristic of the Mini-Trial is ‘its ability to provide information directly to the parties so that they can evaluate relative strengths and weaknesses of each side and enter into well-informed, focused settlement discussions. The presence of the parties (senior executives)’ with the power and desire to settle the dispute is therefore, by definition, essential to its success.’(小型庭审的关键特征是：“它能够直接向当事人提供信息，以便他们能够评估各方的相对优势和劣势，并进行知情，有针对性的和解讨论。因此，根据定义，各方当事人（高级管理人员）具有解决争议的权力和愿望的存在，对其成功至关重要。”)
+The Mini-Trial has been shown to be ‘an appropriate mechanism’ in cases involving complex questions of law and facts such as patent law, product liability, unfair competition, antitrust and contract cases which often lead to protracted and very costly litigation. (小型庭审已被证明是涉及复杂法律和事实问题的案件的“适当机制”，如专利法，产品责任，不公平竞争，反托拉斯和合同案件，这些案件往往导致旷日持久和非常昂贵的诉讼。)</p>
+								<p>While the underlying objective of the Mini-Trial is ‘to effect a speedy, cost-effective resolution of a dispute and promote dialogue on the relative strengths and weaknesses of each party’s case’, its timing can often affect its chances of success. (虽然小型庭审的根本目标是“迅速，经济高效地解决争议，并促进就各方案件的相对优缺点进行对话”，但其时机往往会影响其成功的机会。)</p>
+								<p>Mini-Trials are ‘typically conducted after pre-trial discovery is under way because the issues need to be sufficiently developed in order for the hearing to be meaningful. In determining when to propose a Mini-Trial parties should base their decision on a cost/benefit analysis of the value of obtaining additional information’. (小型庭审，“通常是在审前证据开示(pre-trial discovery)进行中（is under way）进行的，因为问题需要充分发展才能使听证会有意义。” （	在决定何时提出小型审判，各方应该基于对获得额外信息价值的成本/收益分析作出决定。）</p>
+								<p>Ultimately, in Mini-Trial the ‘parties can resolve a dispute themselves in an informal proceeding in which lawyers and experts for each side give summary presentations of their best cases to them and a jointly selected neutral advisor. If the parties cannot reach an agreement the neutral advisor provides an incentive to settle by indicating what a likely trial outcome would be’. (最终，在小型庭审中，当事人各方可以通过非正式程序自行解决争议，在非正式程序中，双方各方的律师和专家向他们和共同选择的中立顾问总结最好的案例。如果双方无法达成协议，中立顾问会通过表明可能的审判结果来提供和解的激励。)</p>
+								<p>The reason the Mini-Trial ‘is such a useful technique is that the presentation of the evidence is not made to a person with the authority to issue a binding judgment, but to the parties themselves’. (小型庭审之所以“是一种如此有用的技术，是因为证据不是向有权发布具有约束力的判决的人提出的，而是向当事人本身提出的”)</p>
+								<img src="static/picture/MT1.jpg" alt="" class="fullwidth" style="margin-bottom:30px;">
+								<P>In a Mini-Trial the parties can resolve a dispute themselves in an informal proceeding in which lawyers and experts for each side give summary presentations of their best cases to them and a jointly selected neutral advisor.
+(在小型庭审中，双方可以在非正式程序中自行解决争议，双方各自的律师和专家向他们和联合选出的中立顾问总结其最佳案例。)</P>
+								<P>The reason why Mini-Trial is a very successful procedure is because the presentation of the evidence is made to the parties themselves and not to a person with the authority to issue a binding award. (小型庭审之所以是一个非常成功的程序，是因为证据是向当事人自己提出的，而不是向有权作出有约束力裁决的人提出的)。</P>
+
+
+                            </div>
+                       	</div>
+                        
+                      
+					</div>
+ 				</div><!-- END of ATTACHMENT-->
+                
+			</div><!-- END of CONTAINER-2 -->
+            
+        </section><!-- END of CONTENT SECTION -->
+        
+        
+        
+        <!-- FOOTER SECTION -->
+		<footer>
+            <div class="image-divider fixed-height" style="background-image:url(static/image/footer-image-5.jpg); height:400px" data-stellar-background-ratio="0.5">
+                
+                <div class="divider-overlay"></div>
+                    
+                <!-- Use Center Middle Alignment to align middle the content for fixed-height parallax -->
+                <div class="alignment"> 
+                   	<div class="v-align center-middle">                  	
+                    
+                    	<!-- HEART DIVIDER & COUPLE NAME -->
+                    	<div class="container">                 	 
+                    		<div class="row">
+                        		<div class="col-md-12">
+                                        
+                        			<div class="heart-divider animation delay1 fadeInUp">
+                        				<span class="white-line"></span>
+                        				<i class="de-icon-heart pink-heart"></i>
+                        				<i class="de-icon-heart white-heart"></i>
+                        				<span class="white-line"></span>
+                        			</div>
+                                    
+									<div id="footer-couple-name" class="animation delay1 fadeInUp">
+                                		铭 & 贝
+                                	</div>
+                     
+                     			</div>
+                     		</div>
+                     	</div><!-- END of HEART DIVIDER & COUPLE NAME -->
+                     
+                    </div>
+				</div><!-- END of Center Middle Alignment -->
+                    
+			</div>
+		</footer><!-- END of FOOTER SECTION -->
+        
+		<!-- jQuery -->
+    	<script src="static/js/jquery-1.11.1.min.js"></script>
+        <!-- Pace -->
+        <script src="static/js/pace.min.js"></script> 
+    	<!-- Bootstrap -->
+    	<script src="static/js/bootstrap.js"></script>    
+        <!-- Modernizr -->
+        <script src="static/js/modernizr.js"></script>  
+        <!-- Device JS -->
+        <script src="static/js/device.js"></script>  
+        <!-- TinyNav -->
+        <script src="static/js/tinynav.min.js"></script>
+        <!-- SmoothScroll -->
+        <script src="static/js/jquery.smooth-scroll.js"></script>
+        <!-- Flexslider -->
+        <script src="static/js/jquery.flexslider.js"></script>  
+        <!-- Sticky -->
+        <script src="static/js/jquery.sticky.js"></script>  
+        <!-- Waypoint -->
+        <script src="static/js/jquery.waypoints.min.js"></script>
+        <!-- DoubleTapToGo -->
+        <script src="static/js/jquery.ui.widget.js"></script>
+        <script src="static/js/jquery.dcd.doubletaptogo.js"></script>
+        <!-- Vide -->
+        <script src="static/js/jquery.vide.js"></script>
+        <!-- Stellar -->
+        <script src="static/js/jquery.stellar.js"></script>
+        <!-- Masonry -->
+        <script src="static/js/masonry.pkgd.min.js"></script>
+        <!-- Countdown -->
+        <script src="static/js/jquery.plugin.js"></script>
+        <script src="static/js/jquery.countdown.js"></script>
+        <!-- Countdown Labels / Localisation -->
+        <script src="static/js/jquery.countdown-custom-label.js"></script>
+        <!-- Magnific Popup -->
+        <script src="static/js/jquery.magnific-popup.js"></script>
+        <!-- Owl Carousel -->
+        <script src="static/js/owl.carousel.js"></script>
+        
+        <!-- Custom Core Script -->
+        <script type="text/javascript" src="static/js/script.js"></script>        
+        <!-- Custom Additional Script -->
+        <script type="text/javascript" src="static/js/main-slider-fade.js"></script>
+        
+	</body>
+</html>

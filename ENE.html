@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+     	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+     	<meta name="description" content="FOREVER - MingiBei">
+      	<meta name="author" content="zhuming">
+        <meta name="ROBOTS" content="NOINDEX">
+      	<title>FOREVER - MingiBei</title>
+        
+        
+        <!-- Bootstrap -->
+    	<link rel="stylesheet" href="static/css/bootstrap.min.css" type="text/css" media="screen">
+        <!-- Pace -->
+        <link rel="stylesheet" href="static/css/preloader.css" media="screen">
+        <link rel="stylesheet" href="static/css/preloader-default.css" media="screen">
+        <!-- Flexslider -->
+        <link rel="stylesheet" href="static/css/flexslider.css" type="text/css">
+        <!-- Animate -->
+        <link rel="stylesheet" href="static/css/animate.css" type="text/css">       
+        <!-- Countdown -->
+        <link rel="stylesheet" href="static/css/jquery.countdown.css" type="text/css">
+        <!-- Magnific Popup -->
+        <link rel="stylesheet" href="static/css/magnific-popup.css" type="text/css">
+        <!-- Owl Carousel -->
+        <link rel="stylesheet" href="static/css/owl.carousel.css" type="text/css">
+        <link rel="stylesheet" href="static/css/owl.theme.css" type="text/css">
+        <!-- Icon -->
+        <link rel="stylesheet" href="static/css/fontello.css" type="text/css" media="screen">
+        <!-- Font -->
+        <link href='static/css/css.css' rel='stylesheet' type='text/css'>
+        <link href='static/css/css1.css' rel='stylesheet' type='text/css'>
+        <link href='static/css/css2.css' rel='stylesheet' type='text/css'>
+        
+        <!-- Theme CSS -->
+    	<link href="static/css/style.css" rel="stylesheet" media="screen">
+        
+        <!-- Skin CSS -->
+    	<!-- <link href="css/skin/light-teal/light-teal.css" rel="stylesheet" media="screen"> -->
+        <!-- <link href="css/skin/light-teal/light-teal-reverse-navbar.css" rel="stylesheet" media="screen"> -->
+        <!-- <link href="css/skin/pattern/pattern-1.css" rel="stylesheet" media="screen"> -->
+        
+        <script>
+  			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  			ga('create', 'UA-50945301-2', 'dethemes.com');
+  			ga('send', 'pageview');
+
+		</script>
+	</head>
+
+	<body class="no-slider-page">
+    	<!--PRELOADER-->
+        <div id="preloader">
+        
+        	<div class="alignment">
+            	<div class="v-align center-middle"> 
+            		
+                    <!-- LEFT HEART -->
+            		<div class="heart-animation">                	
+            			<i class="de-icon-heart"></i>
+               	 	</div>
+                
+                	<!-- RIGHT HEART -->
+                	<div class="heart-animation-reverse">
+            			<i class="de-icon-heart"></i>
+                	</div>     
+                     
+                </div>
+            </div>
+            
+        </div> <!--END of PRELOADER-->
+        
+        <!--SETTING-->
+        <div id="options-setting"> 
+        	<div id="setting-button-wrapper">
+        		<a id="setting-button" href="#">
+        			<div class="de-icon square light small-size inline" style="border:1px solid #CCC;">
+         				<i class="de-icon-cog"></i>
+            		</div>
+            	</a>
+            </div>
+            <div>
+            	<h5>TEMPLATE COLOR</h5>
+                <div style="position:relative">
+                	<a href="#" id="coral"><span class="swatches">&nbsp;</span></a>
+                	<a href="#" id="coral-red"><span class="swatches">&nbsp;</span></a>
+                	<a href="#" id="lapis"><span class="swatches">&nbsp;</span></a>
+               	 	<a href="#" id="light-teal"><span class="swatches">&nbsp;</span></a>
+                	<a href="#" id="tan"><span class="swatches">&nbsp;</span></a>
+               	 	<a href="#" id="reset-color"><span>Reset</span></a>
+                </div>
+            </div>
+            <hr>
+            <div>
+            	<h5>BLOCK NAVBAR BACKGROUND</h5>
+                <div style="position:relative;">
+                	<a href="#" id="white-navbar"><span class="navbar-setting-button active">White</span></a>&nbsp;
+                	<a href="#" id="color-navbar"><span class="navbar-setting-button">Template Color</span></a>
+                </div>
+                <p class="setting-info"> For Transparent NavBar, this option will only works on sticky mode.</p>
+            </div>
+            <hr>
+            <div>
+            	<h5>PATTERN</h5>
+                <div style="position:relative;">
+                	<a href="#" id="pattern-1"><span class="pattern-setting-button">1</span></a>&nbsp;
+                	<a href="#" id="pattern-2"><span class="pattern-setting-button">2</span></a>&nbsp;
+                    <a href="#" id="pattern-3"><span class="pattern-setting-button">3</span></a>&nbsp;
+                    <a href="#" id="pattern-none"><span class="pattern-setting-button active">None</span></a>&nbsp;
+                </div>
+            </div>
+        </div>        
+       	<!--END of SETTING-->
+       
+        
+        <!-- NAVIGATION -->    
+    	<header id="nav-header">
+        	<nav id="nav-bar" class="top-bar fluid-width block-color nav-center sticky-nav animation fadeInDown">
+            	
+                <div id="nav-wrapper">
+            		
+                    <!-- LOGO -->
+            		<div class="logo-wrapper">
+                		<!-- CSS LOGO --> 
+                        <a href="index.html">
+                    		<div class="css-logo rounded">
+                   				<div class="css-logo-text">
+                        			<strong>铭</strong><i class="de-icon-heart-1"></i><strong>贝</strong>
+                    			</div>
+                    		</div>
+                        </a>
+                    
+                    	<!-- IMG LOGO 
+                    	<div class="img-logo">
+                    		<img src="images/slide1.jpg">
+                    	</div>-->
+                	</div>
+                	<!-- END of LOGO -->
+                    <!--
+                    <div id="mobile-nav">
+                    	<i class="de-icon-menu"></i>
+                    </div>
+                
+                	<ul id="nav-menu">
+                		<li class="first-child">
+                        	<a href="index.html">HOME</a>
+                            <ul>
+                            	<li>
+                                	<a href="#">MENU VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="index.html">TOP BAR - TRANSPARENT</a></li>
+                                        <li><a href="index-topbar-color.html">TOP BAR - COLOR</a></li>
+                                        <li><a href="index-bottombar-transparent.html">BOTTOM BAR - TRANSPARENT</a></li>
+                                        <li><a href="index-bottombar-color.html">BOTTOM BAR - COLOR</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                	<a href="#">SLIDER VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="index.html">IMAGE - FADE</a></li>
+                                        <li><a href="index-slide.html">IMAGE - SLIDE</a></li>
+                                        <li><a href="index-image-animation-v1.html">IMAGE - ANIMATION - MUSIC - V1</a></li>
+                                        <li><a href="index-image-animation-v2.html">IMAGE - ANIMATION - MUSIC - V2</a></li>
+                                        <li><a href="index-title-animation.html">TITLE - ANIMATION</a></li>
+                                        <li><a href="index-image-title-animation.html">TITLE &amp; IMAGE - ANIMATION</a></li>
+                                        <li><a href="index-video.html">VIDEO</a></li>
+                                    </ul>
+                                </li>    
+                                <li>
+                                	<a href="#">PRELOADER VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="index.html">PRELOADER - DEFAULT</a></li>
+                                        <li><a href="index-preloader-logo-spinner.html">PRELOADER - V1</a></li>
+                                        <li><a href="index-preloader-couple-name.html">PRELOADER - V2</a></li>
+                                    </ul>
+                                </li>                             
+                            </ul>
+                        </li>
+                   		<li>
+                        	<a href="#">ABOUT</a>
+                            <ul>
+                            	<li>
+                                	<a href="profile-him.html">ABOUT HIM</a>
+                                </li>
+                                <li>
+                                	<a href="profile-her.html">ABOUT HER</a>
+                                </li>
+                           	</ul> 	
+                        </li>
+                    	<li>
+                        	<a href="#">GALLERY</a>
+                            <ul>
+                            	<li><a href="gallery.html">GALLERY</a></li>
+                                <li><a href="gallery-slider.html">GALLERY WITH SLIDER</a></li>
+                                <li><a href="gallery-full-5col.html">FULL GALLERY - 5 COLUMN</a></li>
+                                <li><a href="gallery-full-4col.html">FULL GALLERY - 4 COLUMN</a></li>
+                                <li><a href="gallery-full-3col.html">FULL GALLERY - 3 COLUMN</a></li>
+                            </ul>
+                        </li>
+                    	<li><a href="the-story.html">THE STORY</a></li>
+                        <li class="first-child split-margin">
+                        	<a href="#">THE WEDDING</a>
+                             <ul>
+                             	<li><a href="location.html">LOCATION</a></li>
+                                <li><a href="accomodation.html">ACCOMODATION</a></li>
+                                <li>
+                                	<a href="#">BRIDESMAID</a>
+                                    <ul>
+                             			<li><a href="bridesmaid-gallery.html">BRIDESMAID GALLERY</a></li>
+                                		<li><a href="bridesmaid-parallax-image.html">BRIDESMAID - PARALLAX IMAGE</a></li>
+                           			</ul>
+                                </li>
+                                <li>
+                                	<a href="#">GROOMSMEN</a>
+                                    <ul>
+                             			<li><a href="groomsmen-gallery.html">GROOMSMEN GALLERY</a></li>
+                                		<li><a href="groomsmen-parallax-image.html">GROOMSMEN - PARALLAX IMAGE</a></li>
+                           			</ul>
+                                </li>
+                                <li><a href="gift.html">GIFT REGISTRY</a></li>
+                            </ul>
+                        </li>
+                    	
+                        <li>
+                        	<a href="#">BLOG</a>
+                            <ul>
+                            	<li><a href="blog.html">BLOG</a></li>
+                                <li><a href="blog-slider.html">BLOG SLIDER</a></li>
+                                <li><a href="blog-parallax-image.html">BLOG PARALLAX IMAGE</a></li>
+                                <li><a href="blog-parallax-sidebar.html">BLOG PARALLAX - SIDEBAR</a></li>
+                            </ul>
+                        </li>
+                    	<li>
+                       	 	<a href="page.html">PAGE</a>
+                        </li>
+                    	<li>
+                        	<a href="#">RSVP</a>
+                            <ul>
+                             	<li><a href="rsvp-1.html">RSVP - 1</a></li>
+                                <li><a href="rsvp-2.html">RSVP - 2</a></li>
+                                <li><a href="rsvp-3.html">RSVP - 3</a></li>
+                                <li><a href="rsvp-custom.html">CUSTOM</a></li>
+                           	</ul>
+                        </li>
+                	</ul>
+                    -->
+
+                    <div id="mobile-nav">
+                    	<i class="de-icon-menu"></i>
+                    </div>
+
+                	<ul id="nav-menu">
+                		<li class="first-child">
+                        	<a href="">HIM_BLOG</a>
+                            <!--
+                            <ul>
+                            	<li>
+                                	<a href="#">MENU VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="">TOP BAR - TRANSPARENT</a></li>
+                                        <li><a href="index-topbar-color.html">TOP BAR - COLOR</a></li>
+                                        <li><a href="index-bottombar-transparent.html">BOTTOM BAR - TRANSPARENT</a></li>
+                                        <li><a href="index-bottombar-color.html">BOTTOM BAR - COLOR</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                	<a href="#">SLIDER VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="">IMAGE - FADE</a></li>
+                                        <li><a href="index-slide.html">IMAGE - SLIDE</a></li>
+                                        <li><a href="index-image-animation-v1.html">IMAGE - ANIMATION - MUSIC - V1</a></li>
+                                        <li><a href="index-image-animation-v2.html">IMAGE - ANIMATION - MUSIC - V2</a></li>
+                                        <li><a href="index-title-animation.html">TITLE - ANIMATION</a></li>
+                                        <li><a href="index-image-title-animation.html">TITLE &amp; IMAGE - ANIMATION</a></li>
+                                        <li><a href="index-video.html">VIDEO</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                	<a href="#">PRELOADER VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="">PRELOADER - DEFAULT</a></li>
+                                        <li><a href="index-preloader-logo-spinner.html">PRELOADER - V1</a></li>
+                                        <li><a href="index-preloader-couple-name.html">PRELOADER - V2</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            -->
+                        </li>
+                   		<!--
+                        <li>
+                        	<a href="#">ABOUT</a>
+                            <ul>
+                            	<li>
+                                	<a href="profile-him.html">ABOUT HIM</a>
+                                </li>
+                                <li>
+                                	<a href="profile-her.html">ABOUT HER</a>
+                                </li>
+                           	</ul>
+                        </li>
+                    	<li>
+                        	<a href="#">GALLERY</a>
+                            <ul>
+                            	<li><a href="gallery.html">GALLERY</a></li>
+                                <li><a href="gallery-slider.html">GALLERY WITH SLIDER</a></li>
+                                <li><a href="gallery-full-5col.html">FULL GALLERY - 5 COLUMN</a></li>
+                                <li><a href="gallery-full-4col.html">FULL GALLERY - 4 COLUMN</a></li>
+                                <li><a href="gallery-full-3col.html">FULL GALLERY - 3 COLUMN</a></li>
+                            </ul>
+                        </li>
+                    	<li><a href="the-story.html">THE STORY</a></li>
+                        -->
+                        <li class="first-child split-margin">
+                        	<a href="#">HER_BLOG</a>
+                            <!--
+                             <ul>
+                             	<li><a href="location.html">LOCATION</a></li>
+                                <li><a href="accomodation.html">ACCOMODATION</a></li>
+                                <li>
+                                	<a href="#">BRIDESMAID</a>
+                                    <ul>
+                             			<li><a href="bridesmaid-gallery.html">BRIDESMAID GALLERY</a></li>
+                                		<li><a href="bridesmaid-parallax-image.html">BRIDESMAID - PARALLAX IMAGE</a></li>
+                           			</ul>
+                                </li>
+                                <li>
+                                	<a href="#">GROOMSMEN</a>
+                                    <ul>
+                             			<li><a href="groomsmen-gallery.html">GROOMSMEN GALLERY</a></li>
+                                		<li><a href="groomsmen-parallax-image.html">GROOMSMEN - PARALLAX IMAGE</a></li>
+                           			</ul>
+                                </li>
+                                <li><a href="gift.html">GIFT REGISTRY</a></li>
+                            </ul>
+                            -->
+                        </li>
+                    	<!--
+                        <li>
+                        	<a href="#">BLOG</a>
+                            <ul>
+                            	<li><a href="blog.html">BLOG</a></li>
+                                <li><a href="blog-slider.html">BLOG SLIDER</a></li>
+                                <li><a href="blog-parallax-image.html">BLOG PARALLAX IMAGE</a></li>
+                                <li><a href="blog-parallax-sidebar.html">BLOG PARALLAX - SIDEBAR</a></li>
+                            </ul>
+                        </li>
+                    	<li>
+                       	 	<a href="page.html">PAGE</a>
+                        </li>
+                    	<li>
+                        	<a href="#">RSVP</a>
+                            <ul>
+                             	<li><a href="rsvp-1.html">RSVP - 1</a></li>
+                                <li><a href="rsvp-2.html">RSVP - 2</a></li>
+                                <li><a href="rsvp-3.html">RSVP - 3</a></li>
+                                <li><a href="rsvp-custom.html">CUSTOM</a></li>
+                           	</ul>
+                        </li>
+                        -->
+                	</ul>
+
+
+
+
+
+
+
+                    <div class="clearboth"></div>
+                    
+                </div>
+                
+            </nav>
+        </header> <!-- END of NAVIGATION -->
+        
+        <!--CONTENT SECTION-->
+        <section id="content">
+        	
+            <!-- CONTAINER-1 -->
+        	<div class="container">            
+            	
+                <!-- TITLE -->
+                <div class="row">
+                    <div class="col-md-offset-3 col-md-6 text-center">
+                    
+                        <div class="page-title">
+                        	<h1>Early Neutral Evaluation (早期中立评估)</h1>
+                                                       
+                        	<div class="heart-divider">
+                            	<span class="grey-line"></span>
+                            	<i class="de-icon-heart pink-heart"></i>
+                            	<i class="de-icon-heart grey-heart"></i>
+                            	<span class="grey-line"></span>
+                        	</div>
+						</div>
+                        
+                	</div>
+				</div><!-- END of TITLE -->                
+                
+  			</div><!-- END of CONTAINER-1 -->
+           
+            
+            <!-- CONTAINER-2 -->
+            <div class="container">
+                
+                <!-- ATTACHMENT -->	
+ 				<div class="row">
+                    <div class="col-md-offset-1 col-md-10">
+                      
+                   		<div class="row">
+                        
+                        	<!--PHOTO-->
+                        	<div class="col-md-6">     
+<h3>Questions: select the answer you consider to be correct.</h3>
+								<p style="color:red;">Q1:Which of the following is a core purpose of an ENE? (以下哪一项是早期中立评估(ENE)的核心目的?)</p>
+								<p>(1)To identify the legal and evidentiary centre of the case. 确定案件的法律中心和证据中心</p>
+								<p>(2)To develop a reliable evaluation of the merits of the case. 对案件的法律理据作出可靠的评价</p>
+								<p>(3)To craft an efficient plan for developing the information about what a litigated outcome would most likely be. 制定一个有效的计划，以获取有关最有可能的诉讼结果的信息。</p>
+								<P style="color:green">(4)All of these. 所有这些</p>
+<p style="color:red;">A1:  the correct answer is ‘All of these’.</p>
+<p>The core purposes of an ENE are to (1) identify the legal and evidentiary centre of the case, (2) develop as reliable an evaluation of the merits as the circumstances permit, and, when needed, (3) craft an efficient plan for developing the information [ ... ] about what a litigated outcome would most likely be.</p>
+
+	<p style="color:red;">Q2: which of the following statements is characteristic of an ENE? 下列哪一项陈述是早期中立评估的特征?</p>
+								<p>(1)Sessions normally last several days. (会议通常持续数天)</p>
+
+								<p>(2)The evaluator meets with each party separately and privately. (评估人员单独和每一方私下会面。)</p>
+
+								<p style="color:green">(3)The evaluator identifies the issues on which the parties agree and also identifies the important issues in dispute. (评估者确定双方同意的问题，并确定争议的重要问题。)</p>
+			<p style="color:red;">A2: the correct answer is ‘All of these’.</p>
+<P>(4)All of these.  (所有这些)</P>
+							<p style="color:red;">A2:the correct answer is ‘The evaluator identifies the issues on which the parties agree and also identifies the important issues in dispute.’ </p>
+                <P>(Every party is present for the substantive presentations and every party hears the evaluator’s questions and the answers that are given.  Sessions normally last approximately two hours, during which time the evaluator identifies the issues on which the parties agree and also identifies the important issues in dispute.) (各方均出席实质性陈述，并听取评估员提出的问题和给出的答案。会议通常持续约两个小时，在此期间，评估员确定双方同意的问题，并确定争议的重要问题。)</P>
+								<p style="color:red;">Q3:Why was ENE developed?</p>
+								<p>(1)To save time and money by limiting the scope of the dispute. 通过限制争议范围来节省时间和金钱</p>
+
+								<p>(2)To enhance prospects of a successful negotiation by offering a realistic view of what might happen at trial.
+对审判中可能发生的情况提出现实的看法，提高谈判成功的可能性。</p>
+
+								<p>(3)To serve as both an early planning and settlement device. 作为早期规划和安置工具</p>
+<p style="color:green">(4)All of these.  所有这些</p>
+<p style="color:red;">A3: the correct answer is ‘All of these’.</p>
+<p>(The Court had become ‘convinced that the place where the most time and money could be saved was in the formative stages of litigation since an infusion of intellectual discipline, common sense, and more direct communication would have the most beneficial effects’ in limiting the scope of the dispute. As a result of the Court’s efforts, the practice of Early Neutral Evaluation (ENE) was developed.) ((法院已经确信，在诉讼的形成阶段可以节省最多的时间和金钱，因为在限制争议范围方面，注入知识纪律、常识和更直接的沟通将产生最有利的效果。由于法院的努力，早期中立评估的做法得以发展。)</p>
+								<h3 style="color:red"><strong>Congratulations!</strong></h3>
+								<p><strong>You have completed our view about the Early Neutral Evaluation mechanism. </strong></p>
+								<p>We have looked at the following key areas:</p>
+								<p>[1]ENE was developed in 1980s, as a result of the US District Court for the Northern District of California’s efforts. 早期中立评估是在20世纪80年代发展起来的，是美国加州北区地区法院努力的结果。</p>
+								<p>[2]ENE can be defined as ‘an early, frank and thoughtful’ evaluation of the relative positions of the parties in dispute, as well as an evaluation of the overall value of the case. 早期中立评估可以定义为对争议各方相对立场的“早期、坦率和深思熟虑的”评估，以及对案件整体价值的评估。 </p>
+								<p>[3]The evaluation delivered is entirely confidential and is based on a reaction to the parties’ written evaluation statements and oral presentations. 所提供的评估是完全保密的，并基于对双方书面评估声明和口头陈述的反应。</p>
+								<p>[4]The core purposes of an ENE are to:
+(1) identify the legal and evidentiary centre of the case确定案件的法律中心和证据中心
+(2) develop as reliable an evaluation of the merits as the circumstances permit, and, when needed
+对案件的法律理据作出可靠的评价, 在情况允许的情况下，以及在需要的情况下
+(3) produce an efficient plan for developing the information about what a litigated outcome would most likely be. 制定一个有效的计划，以获取有关最有可能的诉讼结果的信息。</p>
+
+							</div>
+                            
+                            <!-- DESCRIPTION -->
+                            <div class="col-md-6">
+								<h2 style="color:red;"><strong>What is the aim of this module?</strong></h2>
+								<p>To help you to understand how the process of Early Neutral Evaluation works and what the outcomes of this mechanism are. (理解早期中立评估的过程是如何工作的，以及这种机制的结果是什么。) </p>
+								<p>In the early 1980s, the US District Court for the Northern District of California became concerned about improving its attorneys’ pre-trial practices and case management.
+(20世纪80年代初，美国加州北区地方法院开始关注改善其律师的预审实践和案件管理)</p>
+								<p>The Court argued that it was at the formative stages of litigation where the most time and money could be saved, and that more direct communication would have the most beneficial effects in limiting the scope of many disputes.
+(法院认为，在诉讼的形成阶段可以节省最多的时间和金钱, 更直接的沟通对于许多争议限制的范围具有最有益的效果。)</p>
+								<p style="COLOR:RED">As a result of the Court’s efforts, the practice of Early Neutral Evaluation (ENE) was developed.
+(由于法院的努力，早期中立评估（ENE）实践得以发展。)</p>
+								<img src="static/picture/ENE1.jpg" alt="" class="fullwidth" style="margin-bottom:30px;">
+								<P style="COLOR:PURPLE"><strong>Early Neutral Evaluation (ENE) can be defined as ‘an early, frank and thoughtful’ evaluation of the relative positions of the parties, as well as an evaluation of the overall value of the case.  (早期中立评估(ENE)可以定义为对当事人的相对立场进行“早期、坦率和深思熟虑的”评估，以及对案件整体价值的评估。)</strong></P>
+								<img src="static/picture/ENE2.jpg" alt="" class="Fixed Width" style="margin-bottom:30px;">
+<p>The evaluator is a neutral, very experienced and specialist private practitioner (a neutral expert). (评估员是一位中立、经验丰富的专业私人执业者（中立专家）)</p>
+								<img src="static/picture/ENE3.jpg" alt="" class="Fixed Width" style="margin-bottom:30px;">
+								<p>The evaluation delivered is entirely confidential and is based on a consideration of the parties’ written evaluation statements and oral presentations. It is delivered verbally to the parties and their legal representative, and aims to offer a realistic view of what might happen if a case is fully prepared and tried. By doing so, it is hoped that the parties will wish to avoid the complexities and costs of a trial, and engage in successful negotiation. (所提供的评估是完全保密的，并基于对双方书面评估声明和口头陈述的考虑。它以口头形式送达当事人及其法律代表，目的是对充分准备和审判案件可能发生的情况提出现实的看法。通过这样做，希望当事各方希望避免审判的复杂性和费用，并进行成功的谈判。) </p>
+<img src="static/picture/ENE4.jpg" alt="" class="Fixed Width" style="margin-bottom:30px;">
+								<p>Even if the dispute is about to go to trial, ENE can still be attempted as a means to prevent the trail going ahead. (即使争端即将进入审判阶段，ENE仍然可以作为阻止审判进行的一种手段)</p>
+								<h3 style="color:red"><strong>Confidential meetings机密会议</strong></h3>
+								<p>In an ENE, disputing parties meet confidentially with a neutral expert to identify the issues in a dispute, assess the merits of the claims, and explore any options for settlement of the dispute. Sessions normally last around two hours. The evaluator identifies the issues on which the parties agree and also identifies the issues in dispute. (在调解中，争议各方与中立专家秘密会面，以确定争议中的问题，评估索赔的法律理据，并探讨解决争议的任何选择。会议通常持续两个小时左右。评估者确定双方同意的问题，也确定争议的问题。)</p>
+								<h3 style="color:red"><strong>Core purposes核心目的</strong></h3>
+								<p>The core purposes of an ENE are to: (早期中立评估)</p>
+								<p>[1]Identify the legal and evidence bases of the case. (确定案件的法律和证据基础)</p>
+								<p>[2]Develop as reliable an evaluation of the case as the circumstances permit. (在情况允许的情况下，对案件进行尽可能可靠的评估。)</p>
+								<p>[3]Produce a plan for devising what a litigated outcome would most likely be. (制定一个计划，设想最有可能出现的诉讼结果。)</p>
+								<h3 style="color:red"><strong>Communication沟通</strong></h3>
+								<p>All participants have access to the information and communications that the neutral expert receives before he or she prepares the evaluation, to any questions they have asked and answers they have received, and every part is present for substantive presentations. (所有参与者都可以使用中立专家在准备评估之前收到的信息和沟通，以及他们提出的任何问题和收到的答案，并且每个部分都出席了实质性的介绍。)</p>
+								<h3 style="color:red"><strong>Patent Litigation专利诉讼</strong></h3>
+								<p>It is thought that ENE has had a significant impact upon cases involving patent litigation and that, by involving a neutral third party, it serves as both an early planning and settlement device. (人们认为，ENE对涉及专利诉讼的案件产生了重大影响, 而且，通过一个中立的第三方参与，它既是一种早期规划，也是解决手段)</p>
+<img src="static/picture/ENE5.jpg" alt="" class="fullwidth" style="margin-bottom:30px;">
+<P>Roles in the process of Early Neutral Evaluation (早期中立评估过程中的角色)</P>
+								<P>In an ENE, disputing parties have a ‘confidential meeting with a neutral expert to identify the issues in a dispute, explore options, and assess the merits of the claims’. (在调解中，争议各方“与中立专家举行保密会议，以确定争议中的问题，探讨各种选择，并评估索赔的是非对错”。)</P>
+								<P>Sessions normally last approximately two hours, during which the evaluator identifies the issues on which the parties agree and also identifies the important issues in dispute. (会议通常持续大约两个小时，在此期间评估员确定双方同意的问题，并确定有争议的重要问题。)</P>
+
+
+                            </div>
+                       	</div>
+                        
+                      
+					</div>
+ 				</div><!-- END of ATTACHMENT-->
+                
+			</div><!-- END of CONTAINER-2 -->
+            
+        </section><!-- END of CONTENT SECTION -->
+        
+        
+        
+        <!-- FOOTER SECTION -->
+		<footer>
+            <div class="image-divider fixed-height" style="background-image:url(static/image/footer-image-5.jpg); height:400px" data-stellar-background-ratio="0.5">
+                
+                <div class="divider-overlay"></div>
+                    
+                <!-- Use Center Middle Alignment to align middle the content for fixed-height parallax -->
+                <div class="alignment"> 
+                   	<div class="v-align center-middle">                  	
+                    
+                    	<!-- HEART DIVIDER & COUPLE NAME -->
+                    	<div class="container">                 	 
+                    		<div class="row">
+                        		<div class="col-md-12">
+                                        
+                        			<div class="heart-divider animation delay1 fadeInUp">
+                        				<span class="white-line"></span>
+                        				<i class="de-icon-heart pink-heart"></i>
+                        				<i class="de-icon-heart white-heart"></i>
+                        				<span class="white-line"></span>
+                        			</div>
+                                    
+									<div id="footer-couple-name" class="animation delay1 fadeInUp">
+                                		铭 & 贝
+                                	</div>
+                     
+                     			</div>
+                     		</div>
+                     	</div><!-- END of HEART DIVIDER & COUPLE NAME -->
+                     
+                    </div>
+				</div><!-- END of Center Middle Alignment -->
+                    
+			</div>
+		</footer><!-- END of FOOTER SECTION -->
+        
+		<!-- jQuery -->
+    	<script src="static/js/jquery-1.11.1.min.js"></script>
+        <!-- Pace -->
+        <script src="static/js/pace.min.js"></script> 
+    	<!-- Bootstrap -->
+    	<script src="static/js/bootstrap.js"></script>    
+        <!-- Modernizr -->
+        <script src="static/js/modernizr.js"></script>  
+        <!-- Device JS -->
+        <script src="static/js/device.js"></script>  
+        <!-- TinyNav -->
+        <script src="static/js/tinynav.min.js"></script>
+        <!-- SmoothScroll -->
+        <script src="static/js/jquery.smooth-scroll.js"></script>
+        <!-- Flexslider -->
+        <script src="static/js/jquery.flexslider.js"></script>  
+        <!-- Sticky -->
+        <script src="static/js/jquery.sticky.js"></script>  
+        <!-- Waypoint -->
+        <script src="static/js/jquery.waypoints.min.js"></script>
+        <!-- DoubleTapToGo -->
+        <script src="static/js/jquery.ui.widget.js"></script>
+        <script src="static/js/jquery.dcd.doubletaptogo.js"></script>
+        <!-- Vide -->
+        <script src="static/js/jquery.vide.js"></script>
+        <!-- Stellar -->
+        <script src="static/js/jquery.stellar.js"></script>
+        <!-- Masonry -->
+        <script src="static/js/masonry.pkgd.min.js"></script>
+        <!-- Countdown -->
+        <script src="static/js/jquery.plugin.js"></script>
+        <script src="static/js/jquery.countdown.js"></script>
+        <!-- Countdown Labels / Localisation -->
+        <script src="static/js/jquery.countdown-custom-label.js"></script>
+        <!-- Magnific Popup -->
+        <script src="static/js/jquery.magnific-popup.js"></script>
+        <!-- Owl Carousel -->
+        <script src="static/js/owl.carousel.js"></script>
+        
+        <!-- Custom Core Script -->
+        <script type="text/javascript" src="static/js/script.js"></script>        
+        <!-- Custom Additional Script -->
+        <script type="text/javascript" src="static/js/main-slider-fade.js"></script>
+        
+	</body>
+</html>
