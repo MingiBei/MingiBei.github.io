@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+     	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+     	<meta name="description" content="FOREVER - MingiBei">
+      	<meta name="author" content="zhuming">
+        <meta name="ROBOTS" content="NOINDEX">
+      	<title>FOREVER - MingiBei</title>
+        
+        
+        <!-- Bootstrap -->
+    	<link rel="stylesheet" href="static/css/bootstrap.min.css" type="text/css" media="screen">
+        <!-- Pace -->
+        <link rel="stylesheet" href="static/css/preloader.css" media="screen">
+        <link rel="stylesheet" href="static/css/preloader-default.css" media="screen">
+        <!-- Flexslider -->
+        <link rel="stylesheet" href="static/css/flexslider.css" type="text/css">
+        <!-- Animate -->
+        <link rel="stylesheet" href="static/css/animate.css" type="text/css">       
+        <!-- Countdown -->
+        <link rel="stylesheet" href="static/css/jquery.countdown.css" type="text/css">
+        <!-- Magnific Popup -->
+        <link rel="stylesheet" href="static/css/magnific-popup.css" type="text/css">
+        <!-- Owl Carousel -->
+        <link rel="stylesheet" href="static/css/owl.carousel.css" type="text/css">
+        <link rel="stylesheet" href="static/css/owl.theme.css" type="text/css">
+        <!-- Icon -->
+        <link rel="stylesheet" href="static/css/fontello.css" type="text/css" media="screen">
+        <!-- Font -->
+        <link href='static/css/css.css' rel='stylesheet' type='text/css'>
+        <link href='static/css/css1.css' rel='stylesheet' type='text/css'>
+        <link href='static/css/css2.css' rel='stylesheet' type='text/css'>
+        
+        <!-- Theme CSS -->
+    	<link href="static/css/style.css" rel="stylesheet" media="screen">
+        
+        <!-- Skin CSS -->
+    	<!-- <link href="css/skin/light-teal/light-teal.css" rel="stylesheet" media="screen"> -->
+        <!-- <link href="css/skin/light-teal/light-teal-reverse-navbar.css" rel="stylesheet" media="screen"> -->
+        <!-- <link href="css/skin/pattern/pattern-1.css" rel="stylesheet" media="screen"> -->
+        
+        <script>
+  			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  			ga('create', 'UA-50945301-2', 'dethemes.com');
+  			ga('send', 'pageview');
+
+		</script>
+	</head>
+
+	<body class="no-slider-page">
+    	<!--PRELOADER-->
+        <div id="preloader">
+        
+        	<div class="alignment">
+            	<div class="v-align center-middle"> 
+            		
+                    <!-- LEFT HEART -->
+            		<div class="heart-animation">                	
+            			<i class="de-icon-heart"></i>
+               	 	</div>
+                
+                	<!-- RIGHT HEART -->
+                	<div class="heart-animation-reverse">
+            			<i class="de-icon-heart"></i>
+                	</div>     
+                     
+                </div>
+            </div>
+            
+        </div> <!--END of PRELOADER-->
+        
+        <!--SETTING-->
+        <div id="options-setting"> 
+        	<div id="setting-button-wrapper">
+        		<a id="setting-button" href="#">
+        			<div class="de-icon square light small-size inline" style="border:1px solid #CCC;">
+         				<i class="de-icon-cog"></i>
+            		</div>
+            	</a>
+            </div>
+            <div>
+            	<h5>TEMPLATE COLOR</h5>
+                <div style="position:relative">
+                	<a href="#" id="coral"><span class="swatches">&nbsp;</span></a>
+                	<a href="#" id="coral-red"><span class="swatches">&nbsp;</span></a>
+                	<a href="#" id="lapis"><span class="swatches">&nbsp;</span></a>
+               	 	<a href="#" id="light-teal"><span class="swatches">&nbsp;</span></a>
+                	<a href="#" id="tan"><span class="swatches">&nbsp;</span></a>
+               	 	<a href="#" id="reset-color"><span>Reset</span></a>
+                </div>
+            </div>
+            <hr>
+            <div>
+            	<h5>BLOCK NAVBAR BACKGROUND</h5>
+                <div style="position:relative;">
+                	<a href="#" id="white-navbar"><span class="navbar-setting-button active">White</span></a>&nbsp;
+                	<a href="#" id="color-navbar"><span class="navbar-setting-button">Template Color</span></a>
+                </div>
+                <p class="setting-info"> For Transparent NavBar, this option will only works on sticky mode.</p>
+            </div>
+            <hr>
+            <div>
+            	<h5>PATTERN</h5>
+                <div style="position:relative;">
+                	<a href="#" id="pattern-1"><span class="pattern-setting-button">1</span></a>&nbsp;
+                	<a href="#" id="pattern-2"><span class="pattern-setting-button">2</span></a>&nbsp;
+                    <a href="#" id="pattern-3"><span class="pattern-setting-button">3</span></a>&nbsp;
+                    <a href="#" id="pattern-none"><span class="pattern-setting-button active">None</span></a>&nbsp;
+                </div>
+            </div>
+        </div>        
+       	<!--END of SETTING-->
+       
+        
+        <!-- NAVIGATION -->    
+    	<header id="nav-header">
+        	<nav id="nav-bar" class="top-bar fluid-width block-color nav-center sticky-nav animation fadeInDown">
+            	
+                <div id="nav-wrapper">
+            		
+                    <!-- LOGO -->
+            		<div class="logo-wrapper">
+                		<!-- CSS LOGO --> 
+                        <a href="index.html">
+                    		<div class="css-logo rounded">
+                   				<div class="css-logo-text">
+                        			<strong>铭</strong><i class="de-icon-heart-1"></i><strong>贝</strong>
+                    			</div>
+                    		</div>
+                        </a>
+                    
+                    	<!-- IMG LOGO 
+                    	<div class="img-logo">
+                    		<img src="images/slide1.jpg">
+                    	</div>-->
+                	</div>
+                	<!-- END of LOGO -->
+                    <!--
+                    <div id="mobile-nav">
+                    	<i class="de-icon-menu"></i>
+                    </div>
+                
+                	<ul id="nav-menu">
+                		<li class="first-child">
+                        	<a href="index.html">HOME</a>
+                            <ul>
+                            	<li>
+                                	<a href="#">MENU VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="index.html">TOP BAR - TRANSPARENT</a></li>
+                                        <li><a href="index-topbar-color.html">TOP BAR - COLOR</a></li>
+                                        <li><a href="index-bottombar-transparent.html">BOTTOM BAR - TRANSPARENT</a></li>
+                                        <li><a href="index-bottombar-color.html">BOTTOM BAR - COLOR</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                	<a href="#">SLIDER VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="index.html">IMAGE - FADE</a></li>
+                                        <li><a href="index-slide.html">IMAGE - SLIDE</a></li>
+                                        <li><a href="index-image-animation-v1.html">IMAGE - ANIMATION - MUSIC - V1</a></li>
+                                        <li><a href="index-image-animation-v2.html">IMAGE - ANIMATION - MUSIC - V2</a></li>
+                                        <li><a href="index-title-animation.html">TITLE - ANIMATION</a></li>
+                                        <li><a href="index-image-title-animation.html">TITLE &amp; IMAGE - ANIMATION</a></li>
+                                        <li><a href="index-video.html">VIDEO</a></li>
+                                    </ul>
+                                </li>    
+                                <li>
+                                	<a href="#">PRELOADER VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="index.html">PRELOADER - DEFAULT</a></li>
+                                        <li><a href="index-preloader-logo-spinner.html">PRELOADER - V1</a></li>
+                                        <li><a href="index-preloader-couple-name.html">PRELOADER - V2</a></li>
+                                    </ul>
+                                </li>                             
+                            </ul>
+                        </li>
+                   		<li>
+                        	<a href="#">ABOUT</a>
+                            <ul>
+                            	<li>
+                                	<a href="profile-him.html">ABOUT HIM</a>
+                                </li>
+                                <li>
+                                	<a href="profile-her.html">ABOUT HER</a>
+                                </li>
+                           	</ul> 	
+                        </li>
+                    	<li>
+                        	<a href="#">GALLERY</a>
+                            <ul>
+                            	<li><a href="gallery.html">GALLERY</a></li>
+                                <li><a href="gallery-slider.html">GALLERY WITH SLIDER</a></li>
+                                <li><a href="gallery-full-5col.html">FULL GALLERY - 5 COLUMN</a></li>
+                                <li><a href="gallery-full-4col.html">FULL GALLERY - 4 COLUMN</a></li>
+                                <li><a href="gallery-full-3col.html">FULL GALLERY - 3 COLUMN</a></li>
+                            </ul>
+                        </li>
+                    	<li><a href="the-story.html">THE STORY</a></li>
+                        <li class="first-child split-margin">
+                        	<a href="#">THE WEDDING</a>
+                             <ul>
+                             	<li><a href="location.html">LOCATION</a></li>
+                                <li><a href="accomodation.html">ACCOMODATION</a></li>
+                                <li>
+                                	<a href="#">BRIDESMAID</a>
+                                    <ul>
+                             			<li><a href="bridesmaid-gallery.html">BRIDESMAID GALLERY</a></li>
+                                		<li><a href="bridesmaid-parallax-image.html">BRIDESMAID - PARALLAX IMAGE</a></li>
+                           			</ul>
+                                </li>
+                                <li>
+                                	<a href="#">GROOMSMEN</a>
+                                    <ul>
+                             			<li><a href="groomsmen-gallery.html">GROOMSMEN GALLERY</a></li>
+                                		<li><a href="groomsmen-parallax-image.html">GROOMSMEN - PARALLAX IMAGE</a></li>
+                           			</ul>
+                                </li>
+                                <li><a href="gift.html">GIFT REGISTRY</a></li>
+                            </ul>
+                        </li>
+                    	
+                        <li>
+                        	<a href="#">BLOG</a>
+                            <ul>
+                            	<li><a href="blog.html">BLOG</a></li>
+                                <li><a href="blog-slider.html">BLOG SLIDER</a></li>
+                                <li><a href="blog-parallax-image.html">BLOG PARALLAX IMAGE</a></li>
+                                <li><a href="blog-parallax-sidebar.html">BLOG PARALLAX - SIDEBAR</a></li>
+                            </ul>
+                        </li>
+                    	<li>
+                       	 	<a href="page.html">PAGE</a>
+                        </li>
+                    	<li>
+                        	<a href="#">RSVP</a>
+                            <ul>
+                             	<li><a href="rsvp-1.html">RSVP - 1</a></li>
+                                <li><a href="rsvp-2.html">RSVP - 2</a></li>
+                                <li><a href="rsvp-3.html">RSVP - 3</a></li>
+                                <li><a href="rsvp-custom.html">CUSTOM</a></li>
+                           	</ul>
+                        </li>
+                	</ul>
+                    -->
+
+                    <div id="mobile-nav">
+                    	<i class="de-icon-menu"></i>
+                    </div>
+
+                	<ul id="nav-menu">
+                		<li class="first-child">
+                        	<a href="">HIM_BLOG</a>
+                            <!--
+                            <ul>
+                            	<li>
+                                	<a href="#">MENU VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="">TOP BAR - TRANSPARENT</a></li>
+                                        <li><a href="index-topbar-color.html">TOP BAR - COLOR</a></li>
+                                        <li><a href="index-bottombar-transparent.html">BOTTOM BAR - TRANSPARENT</a></li>
+                                        <li><a href="index-bottombar-color.html">BOTTOM BAR - COLOR</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                	<a href="#">SLIDER VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="">IMAGE - FADE</a></li>
+                                        <li><a href="index-slide.html">IMAGE - SLIDE</a></li>
+                                        <li><a href="index-image-animation-v1.html">IMAGE - ANIMATION - MUSIC - V1</a></li>
+                                        <li><a href="index-image-animation-v2.html">IMAGE - ANIMATION - MUSIC - V2</a></li>
+                                        <li><a href="index-title-animation.html">TITLE - ANIMATION</a></li>
+                                        <li><a href="index-image-title-animation.html">TITLE &amp; IMAGE - ANIMATION</a></li>
+                                        <li><a href="index-video.html">VIDEO</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                	<a href="#">PRELOADER VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="">PRELOADER - DEFAULT</a></li>
+                                        <li><a href="index-preloader-logo-spinner.html">PRELOADER - V1</a></li>
+                                        <li><a href="index-preloader-couple-name.html">PRELOADER - V2</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            -->
+                        </li>
+                   		<!--
+                        <li>
+                        	<a href="#">ABOUT</a>
+                            <ul>
+                            	<li>
+                                	<a href="profile-him.html">ABOUT HIM</a>
+                                </li>
+                                <li>
+                                	<a href="profile-her.html">ABOUT HER</a>
+                                </li>
+                           	</ul>
+                        </li>
+                    	<li>
+                        	<a href="#">GALLERY</a>
+                            <ul>
+                            	<li><a href="gallery.html">GALLERY</a></li>
+                                <li><a href="gallery-slider.html">GALLERY WITH SLIDER</a></li>
+                                <li><a href="gallery-full-5col.html">FULL GALLERY - 5 COLUMN</a></li>
+                                <li><a href="gallery-full-4col.html">FULL GALLERY - 4 COLUMN</a></li>
+                                <li><a href="gallery-full-3col.html">FULL GALLERY - 3 COLUMN</a></li>
+                            </ul>
+                        </li>
+                    	<li><a href="the-story.html">THE STORY</a></li>
+                        -->
+                        <li class="first-child split-margin">
+                        	<a href="#">HER_BLOG</a>
+                            <!--
+                             <ul>
+                             	<li><a href="location.html">LOCATION</a></li>
+                                <li><a href="accomodation.html">ACCOMODATION</a></li>
+                                <li>
+                                	<a href="#">BRIDESMAID</a>
+                                    <ul>
+                             			<li><a href="bridesmaid-gallery.html">BRIDESMAID GALLERY</a></li>
+                                		<li><a href="bridesmaid-parallax-image.html">BRIDESMAID - PARALLAX IMAGE</a></li>
+                           			</ul>
+                                </li>
+                                <li>
+                                	<a href="#">GROOMSMEN</a>
+                                    <ul>
+                             			<li><a href="groomsmen-gallery.html">GROOMSMEN GALLERY</a></li>
+                                		<li><a href="groomsmen-parallax-image.html">GROOMSMEN - PARALLAX IMAGE</a></li>
+                           			</ul>
+                                </li>
+                                <li><a href="gift.html">GIFT REGISTRY</a></li>
+                            </ul>
+                            -->
+                        </li>
+                    	<!--
+                        <li>
+                        	<a href="#">BLOG</a>
+                            <ul>
+                            	<li><a href="blog.html">BLOG</a></li>
+                                <li><a href="blog-slider.html">BLOG SLIDER</a></li>
+                                <li><a href="blog-parallax-image.html">BLOG PARALLAX IMAGE</a></li>
+                                <li><a href="blog-parallax-sidebar.html">BLOG PARALLAX - SIDEBAR</a></li>
+                            </ul>
+                        </li>
+                    	<li>
+                       	 	<a href="page.html">PAGE</a>
+                        </li>
+                    	<li>
+                        	<a href="#">RSVP</a>
+                            <ul>
+                             	<li><a href="rsvp-1.html">RSVP - 1</a></li>
+                                <li><a href="rsvp-2.html">RSVP - 2</a></li>
+                                <li><a href="rsvp-3.html">RSVP - 3</a></li>
+                                <li><a href="rsvp-custom.html">CUSTOM</a></li>
+                           	</ul>
+                        </li>
+                        -->
+                	</ul>
+
+
+
+
+
+
+
+                    <div class="clearboth"></div>
+                    
+                </div>
+                
+            </nav>
+        </header> <!-- END of NAVIGATION -->
+        
+        <!--CONTENT SECTION-->
+        <section id="content">
+        	
+            <!-- CONTAINER-1 -->
+        	<div class="container">            
+            	
+                <!-- TITLE -->
+                <div class="row">
+                    <div class="col-md-offset-3 col-md-6 text-center">
+                    
+                        <div class="page-title">
+                            <h1>Expert determination</h1>
+                                                       
+                        	<div class="heart-divider">
+                            	<span class="grey-line"></span>
+                            	<i class="de-icon-heart pink-heart"></i>
+                            	<i class="de-icon-heart grey-heart"></i>
+                            	<span class="grey-line"></span>
+                        	</div>
+						</div>
+                        
+                	</div>
+				</div><!-- END of TITLE -->                
+                
+  			</div><!-- END of CONTAINER-1 -->
+           
+            
+            <!-- CONTAINER-2 -->
+            <div class="container">
+                
+                <!-- ATTACHMENT -->	
+ 				<div class="row">
+                    <div class="col-md-offset-1 col-md-10">
+                      
+                   		<div class="row">
+                        
+                        	<!--PHOTO-->
+                                <div class="col-md-6">
+
+                                    <h3>Questions: Select the answer you consider to be correct and then to check your response at the end of this chapter.  </h3>
+                                    <p style="color:red;">Q1:What is arguably the crucial distinction between expert and judicial/quasi-judicial determination? 专家裁决和司法/准司法裁决之间的关键区别是什么？</p>
+                                    <p>A.Expert determination is more expensive.专家裁决更贵</p>
+                                    <p>B.In expert determination, the decision is not binding.在专家裁决中，决定没有约束力</p>
+                                    <p style="color:green">C.In expert determination, the scope of the dispute is limited to questions of fact.在专家裁决中，争议的范围限制于事实问题</p>
+                                    <p>D.None of these.以上都不是</p>
+                                    <p style="color:red;">A1: The correct answer is C</p>
+                                    <p>
+                                        It can be argued that the crucial distinction between expert and judicial/quasi-judicial determination lies in the fact that the scope of the dispute is limited to questions of fact and does not extend to questions of law or involve mixed questions of law and fact. Thus, once the question of fact is determined, the expert’s role ends immediately. However, it can be further argued that experts may well determine issues of law and fact.
+                                        (可以这样认为，专家和司法/准司法裁决之间的关键区别在于，争议的范围限于事实问题，而不扩张到法律问题，也不涉及法律和事实的混合问题。因此，一旦事实问题被裁定，专家的作用立即结束。然而，可以进一步认为，专家可以很好地确定法律和事实问题。)
+                                    </p>
+
+                                    <p style="color:red;">Q2:What of the following is most likely to be decided by Expert Determination? 下列哪项最有可能由专家裁决决定？</p>
+                                    <p>
+                                        A.	A dispute involving a high level of animosity between the parties.
+                                        涉及当事人之间高度敌意的争端
+                                    </p>
+
+                                    <p style="color:green">
+                                        B.	A dispute of a highly technical nature
+                                        技术性很强的争论
+                                    </p>
+
+                                    <p>
+                                        C.	A dispute between a business and a consumer
+                                        企业和消费者之间的纠纷
+                                    </p>
+                                    <p>
+                                        D.	A complex legal dispute
+                                        复杂的法律纠纷
+                                    </p>
+                                    <p>style="color:red;">A2:The correct answer is B （正确答案：B） </p>
+                                    <p>
+                                        Expert determination is used primarily in disputes of a “technical nature” which require an “opinion” on a specific issue or issues. Expert determination can often be used in cases where it would be much more efficient to address these issues before experts in the field than in a legal battle in front of judges or arbitrators.
+                                        (专家裁决主要用于“技术性”争端，需要对一个或多个具体问题发表“意见”。在一些案件中，在一些案件中，如果在专家面前解决这些问题比在法官或仲裁员面前进行法律斗争要有效率得多，通常可以使用专家裁决。)
+                                    </p>
+                                    <p style="color:red;">
+                                        Q3:How is the appointment of an expert decided?
+                                        专家的任命是如何被决定的？
+                                    </p>
+                                    <p>
+                                        A.	By appointment by the court.
+                                        被法院任命
+                                    </p>
+
+                                    <p style="color:green">
+                                        B.	By appointment by the parties.
+                                        被当事人任命
+                                    </p>
+
+                                    <p>
+                                        C.	By appointment by an independent statutory body.
+                                        由独立法定机构委任
+                                    </p>
+                                    <p>
+                                        D.  None of these.
+                                        以上都不是
+                                    </p>
+                                    <p style="color:red;">The correct answer is B （正确答案：B）</p>
+                                    <p>
+                                        The appointment of an expert is generally in the hands of the parties, and it is up to them to ensure a suitable expert is appointed. It is a matter of private contract between the parties, and the criterion for determining the suitability of an expert to decide issues depends on the wording of the contract and discussion between the parties.
+                                        (专家的任命通常掌握在当事人手上，并由他们确保任命合适的专家。这是当事人之间的私人合同问题，确定专家是否适合决定问题的标准取决于合同的措辞和当事人之间的讨论。)
+                                    </p>
+                                    <h3 style="color:red;"><strong>Congratulations!</strong></h3>
+                                    <p>
+                                        You have completed our overview about the Expert Determination mechanism.
+                                        （你已完成了我们对专家裁决机制的概述）
+                                        We have looked at the following key areas: （我们研究了以下主要领域）
+                                    </p>
+                                    <p>
+                                        •	ED is a process whereby two parties agree to submit an issue for the determination of a third party.
+                                        （专家裁决是指双方同意将一个问题提交给第三方裁定的程序）
+                                    </p>
+                                    <p>
+                                        •	It is used primarily in disputes of a “technical” nature which require an “opinion” on a specific issue or issues.
+                                        （它主要用于“技术”性质的争议，需要对一个或多个特定问题发表“意见”）
+                                    </p>
+                                    <p>
+                                        •	The scope of the dispute is limited to questions of fact and does not extend to questions of law or involve mixed questions of law and fact.
+                                        （争议的范围限于事实问题，不涉及法律问题，也不涉及法律与事实的混合问题）
+                                    </p>
+                                    <p>
+                                        •	The appointment of an expert is generally in the hands of the parties, and it is up to them to ensure a suitable expert is appointed.
+                                        （专家的任命通常掌握在各方手中，并由他们确保任命合适的专家）
+                                    </p>
+                                </div>
+                            
+                            <!-- DESCRIPTION -->
+                                <div class="col-md-6">
+                                    <h2 style="color:red;"><strong>What is the aim of this module?</strong></h2>
+                                    <p>To help you understand how Expert Determination works and what are the outcomes of this mechanism. 了解专家裁决是如何工作的，以及这种机制的结果是什么。</p>
+                                    <p>
+                                        Note: Expert Determination is a radically different role to Expert Witness in dispute resolution proceedings.
+                                        在争议解决程序中，专家裁决与专家证人是完全不同的角色。Expert Witness专家证人：具有专家资格，并被允许帮助陪审团或者法庭理解某些普通人难以理解的复杂的专业性的问题。
+                                    </p>
+                                    <p>
+                                        Using experts to determine the outcome in a dispute has a lengthy history. Traditionally, the role of an expert is that of assessment, valuation, and certification.
+                                        利用专家来决定争端的结果已经有很长的历史了。传统上，一个专家的作用是评估，评价和认证。
+                                        For example, an expert may be asked: (例如，可能会问专家：)
+                                    </p>
+                                    <p>
+                                        (1)to value a house or a block of flats
+                                        （给一栋房子或一栋公寓估价）
+                                    </p>
+                                    <p>
+                                        (2)to assess the price of shares in a private company or a professional partnership
+                                        （评估私人公司或专业合伙企业的股票价格）
+                                    </p>
+                                    <p>
+                                        	to certify the sum payable for work done by a building or engineering contractor.
+                                        （认证建筑或工程承包商所完成的工作的应付款项）
+                                    </p>
+                                    <p>
+                                        However, the work of the expert extends beyond this traditional role into that of a ‘decision-maker’，not just bringing expert evidence and opinion to a dispute, but going further and providing a determination of the dispute.
+                                        （然而，专家的工作超越了这一传统角色，成为“决策者”，不仅为争议提供专家证据和意见，并且更进一步，提供争议的裁决。）
+                                    </p>
+                                    <h3 style="color:red;">Expert determination 专家裁决</h3>
+                                    <p>
+                                        Expert determination is a historically accepted form of dispute resolution invoked when there is not a formulated dispute in which the parties have defined positions that need to be subjected to arbitration, but rather both parties are in agreement that there is a need for an evaluation.
+                                        专家裁决是一种历史上公认的争议解决形式，当双方没有明确的立场需要进行仲裁，而是双方都同意有必要进行评估时，就会调用专家裁决。
+                                    </p>
+                                    <p>
+                                        Expert Determination (ED) is a process whereby two parties agree to submit an issue to a third party for determination. It is mainly used in disputes which revolve around a technical area which require an expert to give an opinion on a specific issue or issues.
+                                        专家裁决（ED）是双方同意将问题提交给第三方进行裁决的过程。它主要用于围绕技术领域的争议，需要专家就一个或多个特定问题发表意见。
+                                    </p>
+                                    <h3>Expert in his field专家在他的领域</h3>
+                                    <p>
+                                        It can be expensive and time-consuming to bring technical disputes to court, and so ED can often bring disputes to a close much more efficiently. The expert could be a lawyer, accountant or person from another appropriate professional discipline who is required to resolve the dispute.
+                                        将技术纠纷诉诸法庭既昂贵又耗时，因此专家裁决可以更有效地解决纠纷。专家可以是律师，会计或其他需要解决争议的适当专业领域的人员。
+                                    </p>
+                                    <h3>Final decision 最终决定 </h3>
+                                    <p>
+                                        The parties agree that the decision of the expert is to be final and binding.
+                                        双方同意专家的决定是最终的并具有约束力。
+                                    </p>
+                                    <p>
+                                        One of the defining aspects of ED is that the scope of the dispute is limited to questions of fact and does not extend to questions of law or involve mixed questions of law and fact.
+                                        专家裁决的一个决定性方面是，争议的范围限于事实问题，而不扩展到法律问题，也不涉及法律和事实的混合问题。
+                                    </p>
+                                    <p>
+                                        Thus once the question of fact is determined, the expert’s role ends immediately. However, it is sometimes the case that experts may well determine issues of law and fact.
+                                        因此，一旦事实问题确定了，专家的角色就立即结束了。然而，有时专家可以很好地确定法律和事实问题。
+                                    </p>
+                                    <h3>Expert determination 专家裁决</h3>
+                                    <p>
+                                        As with other third parties involved in ADR, experts must act with impartiality, must have no vested interest in the outcome of the dispute and must not be biased in any way towards or against either party. If the expert becomes aware of any circumstance which might reasonably be considered to affect his ability to act impartially and disinterestedly, he must inform the parties’ immediately.
+                                        与参与ADR的其他第三方一样，专家必须公正行事，在争议结果中不得有既得利益，不得以任何方式偏袒或反对任何一方。如果专家意识到可能被合理地认为会影响其公正和无私行事的能力的任何情况，他必须立即通知当事各方。
+                                    </p>
+                                    <h3>Appointment of an expert专家的任命</h3>
+                                    <p>
+                                        The appointment of an expert is generally in the hands of the parties, and it is up to them to ensure a suitable expert is appointed. It is a matter of private contract between the parties, and the criterion for determining the suitability of an expert to decide issues depends on the wording of the contract and discussions between the parties.
+                                        专家的任命通常掌握在各方手中，并由他们确保任命合适的专家。这是当事人之间的私人合同问题，确定专家是否适合裁决问题的标准取决于合同的措辞和当事人之间的讨论。
+                                    </p>
+                                    <h3 style="color:red;">Legislative framework法律框架</h3>
+                                    <p>
+                                        Expert determination is not subject to a legislative framework, and the authority of the independent expert is dependent on the parties. The expert can consider any information which he decides is relevant to the determination of the issue since the rules of law on admissibility of evidence do not apply.
+                                        专家的决定不接受法律框架的约束，独立专家的权威取决于当事人。专家可以考虑他认为与确定问题有关的任何资料，因为关于证据可接受性的法律规则不适用。
+                                    </p>
+                                    <img src="static/picture/ED1.png" alt="" class="fullwidth" style="margin-bottom:30px;">
+
+                                    <P>
+                                        Expert Determination is a form of alternative dispute resolution in which an independent expert in the subject of the dispute is appointed by the parties to decide on their issue based on his technical expertise.
+                                        （专家裁决是一种替代性争议解决方式，由当事人任命一名独立的争议主题专家，根据其技术专长对争议问题作出裁决。）
+                                    </P>
+                                    <p>
+                                        The parties will provide the expert with the necessary evidence and documents that will help him in taking a decision, although he might consider it appropriate to request further clarifications. This process is entirely confidential and is controlled by the parties, not court or arbitration rules.
+                                        （当事人将会向专家提供可帮助他作出决定的重要证据和文件，虽然他可能考虑适当要求进一步的澄清。这个过程是完全保密的，并由双方控制，而不是法院或仲裁规则。）
+                                    </p>
+
+                                </div>
+                       	</div>
+                        
+                      
+					</div>
+ 				</div><!-- END of ATTACHMENT-->
+                
+			</div><!-- END of CONTAINER-2 -->
+            
+        </section><!-- END of CONTENT SECTION -->
+        
+        
+        
+        <!-- FOOTER SECTION -->
+		<footer>
+            <div class="image-divider fixed-height" style="background-image:url(static/image/footer-image-5.jpg); height:400px" data-stellar-background-ratio="0.5">
+                
+                <div class="divider-overlay"></div>
+                    
+                <!-- Use Center Middle Alignment to align middle the content for fixed-height parallax -->
+                <div class="alignment"> 
+                   	<div class="v-align center-middle">                  	
+                    
+                    	<!-- HEART DIVIDER & COUPLE NAME -->
+                    	<div class="container">                 	 
+                    		<div class="row">
+                        		<div class="col-md-12">
+                                        
+                        			<div class="heart-divider animation delay1 fadeInUp">
+                        				<span class="white-line"></span>
+                        				<i class="de-icon-heart pink-heart"></i>
+                        				<i class="de-icon-heart white-heart"></i>
+                        				<span class="white-line"></span>
+                        			</div>
+                                    
+									<div id="footer-couple-name" class="animation delay1 fadeInUp">
+                                		铭 & 贝
+                                	</div>
+                     
+                     			</div>
+                     		</div>
+                     	</div><!-- END of HEART DIVIDER & COUPLE NAME -->
+                     
+                    </div>
+				</div><!-- END of Center Middle Alignment -->
+                    
+			</div>
+		</footer><!-- END of FOOTER SECTION -->
+        
+		<!-- jQuery -->
+    	<script src="static/js/jquery-1.11.1.min.js"></script>
+        <!-- Pace -->
+        <script src="static/js/pace.min.js"></script> 
+    	<!-- Bootstrap -->
+    	<script src="static/js/bootstrap.js"></script>    
+        <!-- Modernizr -->
+        <script src="static/js/modernizr.js"></script>  
+        <!-- Device JS -->
+        <script src="static/js/device.js"></script>  
+        <!-- TinyNav -->
+        <script src="static/js/tinynav.min.js"></script>
+        <!-- SmoothScroll -->
+        <script src="static/js/jquery.smooth-scroll.js"></script>
+        <!-- Flexslider -->
+        <script src="static/js/jquery.flexslider.js"></script>  
+        <!-- Sticky -->
+        <script src="static/js/jquery.sticky.js"></script>  
+        <!-- Waypoint -->
+        <script src="static/js/jquery.waypoints.min.js"></script>
+        <!-- DoubleTapToGo -->
+        <script src="static/js/jquery.ui.widget.js"></script>
+        <script src="static/js/jquery.dcd.doubletaptogo.js"></script>
+        <!-- Vide -->
+        <script src="static/js/jquery.vide.js"></script>
+        <!-- Stellar -->
+        <script src="static/js/jquery.stellar.js"></script>
+        <!-- Masonry -->
+        <script src="static/js/masonry.pkgd.min.js"></script>
+        <!-- Countdown -->
+        <script src="static/js/jquery.plugin.js"></script>
+        <script src="static/js/jquery.countdown.js"></script>
+        <!-- Countdown Labels / Localisation -->
+        <script src="static/js/jquery.countdown-custom-label.js"></script>
+        <!-- Magnific Popup -->
+        <script src="static/js/jquery.magnific-popup.js"></script>
+        <!-- Owl Carousel -->
+        <script src="static/js/owl.carousel.js"></script>
+        
+        <!-- Custom Core Script -->
+        <script type="text/javascript" src="static/js/script.js"></script>        
+        <!-- Custom Additional Script -->
+        <script type="text/javascript" src="static/js/main-slider-fade.js"></script>
+        
+	</body>
+</html>
