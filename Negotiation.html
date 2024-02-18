@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+     	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+     	<meta name="description" content="FOREVER - MingiBei">
+      	<meta name="author" content="zhuming">
+        <meta name="ROBOTS" content="NOINDEX">
+      	<title>FOREVER - MingiBei</title>
+        
+        
+        <!-- Bootstrap -->
+    	<link rel="stylesheet" href="static/css/bootstrap.min.css" type="text/css" media="screen">
+        <!-- Pace -->
+        <link rel="stylesheet" href="static/css/preloader.css" media="screen">
+        <link rel="stylesheet" href="static/css/preloader-default.css" media="screen">
+        <!-- Flexslider -->
+        <link rel="stylesheet" href="static/css/flexslider.css" type="text/css">
+        <!-- Animate -->
+        <link rel="stylesheet" href="static/css/animate.css" type="text/css">       
+        <!-- Countdown -->
+        <link rel="stylesheet" href="static/css/jquery.countdown.css" type="text/css">
+        <!-- Magnific Popup -->
+        <link rel="stylesheet" href="static/css/magnific-popup.css" type="text/css">
+        <!-- Owl Carousel -->
+        <link rel="stylesheet" href="static/css/owl.carousel.css" type="text/css">
+        <link rel="stylesheet" href="static/css/owl.theme.css" type="text/css">
+        <!-- Icon -->
+        <link rel="stylesheet" href="static/css/fontello.css" type="text/css" media="screen">
+        <!-- Font -->
+        <link href='static/css/css.css' rel='stylesheet' type='text/css'>
+        <link href='static/css/css1.css' rel='stylesheet' type='text/css'>
+        <link href='static/css/css2.css' rel='stylesheet' type='text/css'>
+        
+        <!-- Theme CSS -->
+    	<link href="static/css/style.css" rel="stylesheet" media="screen">
+        
+        <!-- Skin CSS -->
+    	<!-- <link href="css/skin/light-teal/light-teal.css" rel="stylesheet" media="screen"> -->
+        <!-- <link href="css/skin/light-teal/light-teal-reverse-navbar.css" rel="stylesheet" media="screen"> -->
+        <!-- <link href="css/skin/pattern/pattern-1.css" rel="stylesheet" media="screen"> -->
+        
+        <script>
+  			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  			ga('create', 'UA-50945301-2', 'dethemes.com');
+  			ga('send', 'pageview');
+
+		</script>
+	</head>
+
+	<body class="no-slider-page">
+    	<!--PRELOADER-->
+        <div id="preloader">
+        
+        	<div class="alignment">
+            	<div class="v-align center-middle"> 
+            		
+                    <!-- LEFT HEART -->
+            		<div class="heart-animation">                	
+            			<i class="de-icon-heart"></i>
+               	 	</div>
+                
+                	<!-- RIGHT HEART -->
+                	<div class="heart-animation-reverse">
+            			<i class="de-icon-heart"></i>
+                	</div>     
+                     
+                </div>
+            </div>
+            
+        </div> <!--END of PRELOADER-->
+        
+        <!--SETTING-->
+        <div id="options-setting"> 
+        	<div id="setting-button-wrapper">
+        		<a id="setting-button" href="#">
+        			<div class="de-icon square light small-size inline" style="border:1px solid #CCC;">
+         				<i class="de-icon-cog"></i>
+            		</div>
+            	</a>
+            </div>
+            <div>
+            	<h5>TEMPLATE COLOR</h5>
+                <div style="position:relative">
+                	<a href="#" id="coral"><span class="swatches">&nbsp;</span></a>
+                	<a href="#" id="coral-red"><span class="swatches">&nbsp;</span></a>
+                	<a href="#" id="lapis"><span class="swatches">&nbsp;</span></a>
+               	 	<a href="#" id="light-teal"><span class="swatches">&nbsp;</span></a>
+                	<a href="#" id="tan"><span class="swatches">&nbsp;</span></a>
+               	 	<a href="#" id="reset-color"><span>Reset</span></a>
+                </div>
+            </div>
+            <hr>
+            <div>
+            	<h5>BLOCK NAVBAR BACKGROUND</h5>
+                <div style="position:relative;">
+                	<a href="#" id="white-navbar"><span class="navbar-setting-button active">White</span></a>&nbsp;
+                	<a href="#" id="color-navbar"><span class="navbar-setting-button">Template Color</span></a>
+                </div>
+                <p class="setting-info"> For Transparent NavBar, this option will only works on sticky mode.</p>
+            </div>
+            <hr>
+            <div>
+            	<h5>PATTERN</h5>
+                <div style="position:relative;">
+                	<a href="#" id="pattern-1"><span class="pattern-setting-button">1</span></a>&nbsp;
+                	<a href="#" id="pattern-2"><span class="pattern-setting-button">2</span></a>&nbsp;
+                    <a href="#" id="pattern-3"><span class="pattern-setting-button">3</span></a>&nbsp;
+                    <a href="#" id="pattern-none"><span class="pattern-setting-button active">None</span></a>&nbsp;
+                </div>
+            </div>
+        </div>        
+       	<!--END of SETTING-->
+       
+        
+        <!-- NAVIGATION -->    
+    	<header id="nav-header">
+        	<nav id="nav-bar" class="top-bar fluid-width block-color nav-center sticky-nav animation fadeInDown">
+            	
+                <div id="nav-wrapper">
+            		
+                    <!-- LOGO -->
+            		<div class="logo-wrapper">
+                		<!-- CSS LOGO --> 
+                        <a href="index.html">
+                    		<div class="css-logo rounded">
+                   				<div class="css-logo-text">
+                        			<strong>铭</strong><i class="de-icon-heart-1"></i><strong>贝</strong>
+                    			</div>
+                    		</div>
+                        </a>
+                    
+                    	<!-- IMG LOGO 
+                    	<div class="img-logo">
+                    		<img src="images/slide1.jpg">
+                    	</div>-->
+                	</div>
+                	<!-- END of LOGO -->
+                    <!--
+                    <div id="mobile-nav">
+                    	<i class="de-icon-menu"></i>
+                    </div>
+                
+                	<ul id="nav-menu">
+                		<li class="first-child">
+                        	<a href="index.html">HOME</a>
+                            <ul>
+                            	<li>
+                                	<a href="#">MENU VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="index.html">TOP BAR - TRANSPARENT</a></li>
+                                        <li><a href="index-topbar-color.html">TOP BAR - COLOR</a></li>
+                                        <li><a href="index-bottombar-transparent.html">BOTTOM BAR - TRANSPARENT</a></li>
+                                        <li><a href="index-bottombar-color.html">BOTTOM BAR - COLOR</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                	<a href="#">SLIDER VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="index.html">IMAGE - FADE</a></li>
+                                        <li><a href="index-slide.html">IMAGE - SLIDE</a></li>
+                                        <li><a href="index-image-animation-v1.html">IMAGE - ANIMATION - MUSIC - V1</a></li>
+                                        <li><a href="index-image-animation-v2.html">IMAGE - ANIMATION - MUSIC - V2</a></li>
+                                        <li><a href="index-title-animation.html">TITLE - ANIMATION</a></li>
+                                        <li><a href="index-image-title-animation.html">TITLE &amp; IMAGE - ANIMATION</a></li>
+                                        <li><a href="index-video.html">VIDEO</a></li>
+                                    </ul>
+                                </li>    
+                                <li>
+                                	<a href="#">PRELOADER VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="index.html">PRELOADER - DEFAULT</a></li>
+                                        <li><a href="index-preloader-logo-spinner.html">PRELOADER - V1</a></li>
+                                        <li><a href="index-preloader-couple-name.html">PRELOADER - V2</a></li>
+                                    </ul>
+                                </li>                             
+                            </ul>
+                        </li>
+                   		<li>
+                        	<a href="#">ABOUT</a>
+                            <ul>
+                            	<li>
+                                	<a href="profile-him.html">ABOUT HIM</a>
+                                </li>
+                                <li>
+                                	<a href="profile-her.html">ABOUT HER</a>
+                                </li>
+                           	</ul> 	
+                        </li>
+                    	<li>
+                        	<a href="#">GALLERY</a>
+                            <ul>
+                            	<li><a href="gallery.html">GALLERY</a></li>
+                                <li><a href="gallery-slider.html">GALLERY WITH SLIDER</a></li>
+                                <li><a href="gallery-full-5col.html">FULL GALLERY - 5 COLUMN</a></li>
+                                <li><a href="gallery-full-4col.html">FULL GALLERY - 4 COLUMN</a></li>
+                                <li><a href="gallery-full-3col.html">FULL GALLERY - 3 COLUMN</a></li>
+                            </ul>
+                        </li>
+                    	<li><a href="the-story.html">THE STORY</a></li>
+                        <li class="first-child split-margin">
+                        	<a href="#">THE WEDDING</a>
+                             <ul>
+                             	<li><a href="location.html">LOCATION</a></li>
+                                <li><a href="accomodation.html">ACCOMODATION</a></li>
+                                <li>
+                                	<a href="#">BRIDESMAID</a>
+                                    <ul>
+                             			<li><a href="bridesmaid-gallery.html">BRIDESMAID GALLERY</a></li>
+                                		<li><a href="bridesmaid-parallax-image.html">BRIDESMAID - PARALLAX IMAGE</a></li>
+                           			</ul>
+                                </li>
+                                <li>
+                                	<a href="#">GROOMSMEN</a>
+                                    <ul>
+                             			<li><a href="groomsmen-gallery.html">GROOMSMEN GALLERY</a></li>
+                                		<li><a href="groomsmen-parallax-image.html">GROOMSMEN - PARALLAX IMAGE</a></li>
+                           			</ul>
+                                </li>
+                                <li><a href="gift.html">GIFT REGISTRY</a></li>
+                            </ul>
+                        </li>
+                    	
+                        <li>
+                        	<a href="#">BLOG</a>
+                            <ul>
+                            	<li><a href="blog.html">BLOG</a></li>
+                                <li><a href="blog-slider.html">BLOG SLIDER</a></li>
+                                <li><a href="blog-parallax-image.html">BLOG PARALLAX IMAGE</a></li>
+                                <li><a href="blog-parallax-sidebar.html">BLOG PARALLAX - SIDEBAR</a></li>
+                            </ul>
+                        </li>
+                    	<li>
+                       	 	<a href="page.html">PAGE</a>
+                        </li>
+                    	<li>
+                        	<a href="#">RSVP</a>
+                            <ul>
+                             	<li><a href="rsvp-1.html">RSVP - 1</a></li>
+                                <li><a href="rsvp-2.html">RSVP - 2</a></li>
+                                <li><a href="rsvp-3.html">RSVP - 3</a></li>
+                                <li><a href="rsvp-custom.html">CUSTOM</a></li>
+                           	</ul>
+                        </li>
+                	</ul>
+                    -->
+
+                    <div id="mobile-nav">
+                    	<i class="de-icon-menu"></i>
+                    </div>
+
+                	<ul id="nav-menu">
+                		<li class="first-child">
+                        	<a href="">HIM_BLOG</a>
+                            <!--
+                            <ul>
+                            	<li>
+                                	<a href="#">MENU VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="">TOP BAR - TRANSPARENT</a></li>
+                                        <li><a href="index-topbar-color.html">TOP BAR - COLOR</a></li>
+                                        <li><a href="index-bottombar-transparent.html">BOTTOM BAR - TRANSPARENT</a></li>
+                                        <li><a href="index-bottombar-color.html">BOTTOM BAR - COLOR</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                	<a href="#">SLIDER VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="">IMAGE - FADE</a></li>
+                                        <li><a href="index-slide.html">IMAGE - SLIDE</a></li>
+                                        <li><a href="index-image-animation-v1.html">IMAGE - ANIMATION - MUSIC - V1</a></li>
+                                        <li><a href="index-image-animation-v2.html">IMAGE - ANIMATION - MUSIC - V2</a></li>
+                                        <li><a href="index-title-animation.html">TITLE - ANIMATION</a></li>
+                                        <li><a href="index-image-title-animation.html">TITLE &amp; IMAGE - ANIMATION</a></li>
+                                        <li><a href="index-video.html">VIDEO</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                	<a href="#">PRELOADER VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="">PRELOADER - DEFAULT</a></li>
+                                        <li><a href="index-preloader-logo-spinner.html">PRELOADER - V1</a></li>
+                                        <li><a href="index-preloader-couple-name.html">PRELOADER - V2</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            -->
+                        </li>
+                   		<!--
+                        <li>
+                        	<a href="#">ABOUT</a>
+                            <ul>
+                            	<li>
+                                	<a href="profile-him.html">ABOUT HIM</a>
+                                </li>
+                                <li>
+                                	<a href="profile-her.html">ABOUT HER</a>
+                                </li>
+                           	</ul>
+                        </li>
+                    	<li>
+                        	<a href="#">GALLERY</a>
+                            <ul>
+                            	<li><a href="gallery.html">GALLERY</a></li>
+                                <li><a href="gallery-slider.html">GALLERY WITH SLIDER</a></li>
+                                <li><a href="gallery-full-5col.html">FULL GALLERY - 5 COLUMN</a></li>
+                                <li><a href="gallery-full-4col.html">FULL GALLERY - 4 COLUMN</a></li>
+                                <li><a href="gallery-full-3col.html">FULL GALLERY - 3 COLUMN</a></li>
+                            </ul>
+                        </li>
+                    	<li><a href="the-story.html">THE STORY</a></li>
+                        -->
+                        <li class="first-child split-margin">
+                        	<a href="#">HER_BLOG</a>
+                            <!--
+                             <ul>
+                             	<li><a href="location.html">LOCATION</a></li>
+                                <li><a href="accomodation.html">ACCOMODATION</a></li>
+                                <li>
+                                	<a href="#">BRIDESMAID</a>
+                                    <ul>
+                             			<li><a href="bridesmaid-gallery.html">BRIDESMAID GALLERY</a></li>
+                                		<li><a href="bridesmaid-parallax-image.html">BRIDESMAID - PARALLAX IMAGE</a></li>
+                           			</ul>
+                                </li>
+                                <li>
+                                	<a href="#">GROOMSMEN</a>
+                                    <ul>
+                             			<li><a href="groomsmen-gallery.html">GROOMSMEN GALLERY</a></li>
+                                		<li><a href="groomsmen-parallax-image.html">GROOMSMEN - PARALLAX IMAGE</a></li>
+                           			</ul>
+                                </li>
+                                <li><a href="gift.html">GIFT REGISTRY</a></li>
+                            </ul>
+                            -->
+                        </li>
+                    	<!--
+                        <li>
+                        	<a href="#">BLOG</a>
+                            <ul>
+                            	<li><a href="blog.html">BLOG</a></li>
+                                <li><a href="blog-slider.html">BLOG SLIDER</a></li>
+                                <li><a href="blog-parallax-image.html">BLOG PARALLAX IMAGE</a></li>
+                                <li><a href="blog-parallax-sidebar.html">BLOG PARALLAX - SIDEBAR</a></li>
+                            </ul>
+                        </li>
+                    	<li>
+                       	 	<a href="page.html">PAGE</a>
+                        </li>
+                    	<li>
+                        	<a href="#">RSVP</a>
+                            <ul>
+                             	<li><a href="rsvp-1.html">RSVP - 1</a></li>
+                                <li><a href="rsvp-2.html">RSVP - 2</a></li>
+                                <li><a href="rsvp-3.html">RSVP - 3</a></li>
+                                <li><a href="rsvp-custom.html">CUSTOM</a></li>
+                           	</ul>
+                        </li>
+                        -->
+                	</ul>
+
+
+
+
+
+
+
+                    <div class="clearboth"></div>
+                    
+                </div>
+                
+            </nav>
+        </header> <!-- END of NAVIGATION -->
+        
+        <!--CONTENT SECTION-->
+        <section id="content">
+        	
+            <!-- CONTAINER-1 -->
+        	<div class="container">            
+            	
+                <!-- TITLE -->
+                <div class="row">
+                    <div class="col-md-offset-3 col-md-6 text-center">
+                    
+                        <div class="page-title">
+                            <h1>Negotiation谈判</h1>
+                                                       
+                        	<div class="heart-divider">
+                            	<span class="grey-line"></span>
+                            	<i class="de-icon-heart pink-heart"></i>
+                            	<i class="de-icon-heart grey-heart"></i>
+                            	<span class="grey-line"></span>
+                        	</div>
+						</div>
+                        
+                	</div>
+				</div><!-- END of TITLE -->                
+                
+  			</div><!-- END of CONTAINER-1 -->
+           
+            
+            <!-- CONTAINER-2 -->
+            <div class="container">
+                
+                <!-- ATTACHMENT -->	
+ 				<div class="row">
+                    <div class="col-md-offset-1 col-md-10">
+                      
+                   		<div class="row">
+                        
+                        	<!--PHOTO-->
+                        	<div class="col-md-6">     
+<h3>Questions: select the answer you consider to be correct.</h3>
+<p style="color:red;">Q1:According to research conducted by the Harvard Negotiation Project, which of the following must the parties do in order for negotiation to be successful? 根据哈佛谈判项目的研究，为了谈判成功，各方必须做到以下哪一点？</p>
+<p>
+    A.Consider the problem rather than the people
+    考虑问题而不是人
+</p>
+<p>
+    B.Focus on positions rather than interests.
+    关注立场而不是兴趣
+</p>
+<p style="color:green">
+    C.Generate a variety of possibilities before deciding what to do?
+    在决定做什么之前产生各种可能性
+</p>
+<P>
+    D.All of these.
+    以上都是
+</P>
+<p style="color:red;">A1:  the correct answer is C.</p>
+<p>
+    It is suggested that, for a negotiation to be successful, the parties must:
+    为使谈判取得成功，各方必须：
+    (1)	Separate the people from the problem.
+    将人与问题分开。（需要同时考虑到人和问题）
+    (2)	Focus on interests, not positions.
+    关注利益，而不是立场
+    (3)	Generate a variety of possibilities before deciding what to do.
+    在决定做什么之前产生各种可能性
+    (4)	Insist that the result be based on some objective standard.
+    坚持结果以客观标准为依据
+</p>
+
+<p style="color:red;">Q2:How does negotiation differ from bargaining? 谈判与协商有何不同？</p>
+<p style="color:green">
+    A.In negotiation, the parties endeavor to come to an independent, joint decision concerning the terms of the agreement between them.
+    在谈判中，双方努力就他们之间的协议条款作出独立的、共同的决定。
+</p>
+
+<p>
+    B.Negotiation only takes place when resolving a dispute that Is legal in nature.
+    谈判只有在解决具有法律性质的争议时才进行谈判。
+</p>
+
+<p>
+    C.Negotiation necessarily involves the use of a third-party adjudicator.
+    谈判必然涉及使用第三方评判员
+</p>		
+<P>
+    D.All of these.
+    以上都是
+</P>
+							<p style="color:red;">A2:the correct answer is A </p>
+                            <P>
+                                Unlike the more specific process of bargaining which ‘consists of the presentation and exchange of […] proposals for the terms of agreement on particular issues […] relating to the settlement point on items in the dispute’, negotiation is a form of ‘interaction between disputing parties whereby, without compulsion by a third-party adjudicator, they endeavor to come to an independent, joint decision concerning the terms of agreement on issues between them.’
+                                (与更具体的协商过程不同的是，谈判是一种“争议各方之间的互动，在没有第三方裁决者的强迫下，他们努力就双方之间的问题达成独立的，共同的决定”，而协商是“就特定问题的协议条款提出和交换[…]建议”。)
+                            </P>
+
+                            <p style="color:red;">Q3:Which of the following often prevents negotiation from resolving disputes? 以下哪项经常阻碍谈判解决争议？</p>
+                            <p>
+                                A.Negotiation creates high cost and delays.
+                                谈判造成高成本和延迟
+                            </p>
+
+                            <p style="color:green">
+                                B.Parties fear that suggesting negotiation might indicate weakness.
+                                当事人担心提议谈判可能会展现弱点
+                            </p>
+
+                            <p>
+                                C.National legal systems often preclude settlement outside the courts.
+                                国家法律制度往往排除法院以外的解决办法
+                            </p>
+                            <p>
+                                D.All of these.
+                                以上都是
+                            </p>
+<p style="color:red;">A3: the correct answer is B.</p>
+<p>
+    In the context of dispute resolution, ‘both sides may be reluctant to suggest negotiation first because that might indicate weakness. There is additional hesitation over what the first proposal should be in money damage cases since parties believe it will affect what they may ultimately get or pay out.’
+    在解决争端的过程中，“双方可能都不愿意先提出谈判，因为这可能会暗示弱点。在金钱赔偿案件中，由于当事人认为这将影响他们最终可能得到或支付的金额，因此对于第一个提议应该是什么，他们还存在额外的犹豫。”
+</p>
+								<h3 style="color:red"><strong>Congratulations!</strong></h3>
+								<p><strong>You have achieved a basic understanding of the Negotiation process. 你已经对谈判过程有了基本的了解。 </strong></p>
+                                <p>You have learned the following: 你学到了以下内容：</p>
+                                <p>
+                                    [1]Negotiation is the most common dispute resolution technique
+                                    谈判是最常见的争议解决方法
+                                </p>
+                                <p>
+                                    [2]Negotiation is a form of interaction between disputing parties where they can reach a solution to the issues between them without the involvement of a third party
+                                    谈判是有争议的双方之间的一种互动形式，在没有第三方参与的情况下，他们可以就他们之间的问题达成解决方案
+                                </p>
+                                <p>
+                                    [3]One of the most remarkable methods of negotiation is the so-called principled negotiation or negotiation on the merits, which was developed at the Harvard Negotiation Project.
+                                    最有名的谈判方式是所谓的原则式谈判或叫是非曲直谈判，在哈发谈判项目中发展出来的
+                                </p>
+                                <p>
+                                    [4]Negotiation consists of a sequence of proposals (P) and counterproposals (CP) that continue until agreement is reached or negotiations break down.
+                                    谈判包括一系列建议（P）和反建议（CP），直到达成协议或协议破裂。
+                                </p>
+
+							</div>
+                            
+                            <!-- DESCRIPTION -->
+                            <div class="col-md-6">
+                                <h2 style="color:red;"><strong>What is the aim of this module?</strong></h2>
+                                <p>Understanding how the process of Negotiation works and what the outcomes of this mechanism are. 了解谈判的过程是如何运作的，以及这种机制的结果是什么。</p>
+                                <p>
+                                    Negotiation is as old as human society itself. It is ‘the most common dispute resolution technique’. Whether taking place in the dusty streets of a village market or in the polished executive suites of an urban tower, it typically consists of ‘a sequence of proposals (P) and counterproposals (CP) that continue until agreement is reached or negotiations break down’.
+                                    谈判和人类社会本身一样古老。这是“最常见的争议解决技术”。无论是在乡村市场尘土飞扬的街道上，还是在城市高楼的豪华行政套房里，谈判通常都由“一系列提案（P）和反提案（CP）组成，直到达成协议或谈判破裂”。
+                                </p>
+                                <p>
+                                    Negotiation allows the parties 'to do better than they could otherwise' accomplish on their own terms.
+                                    谈判可以让各方“做得更好”，而不是按照他们自己的条件“完成”
+                                </p>
+                                <img src="static/picture/NEG1.png" alt="" class="fullwidth" style="margin-bottom:30px;">
+                                <p>
+                                    Unlike the more specific process of bargaining which ‘consists of the presentation and exchange of […] proposals for the terms of agreement on particular issues […] relating to the settlement point on items in the dispute, negotiation is a form of ‘interaction between disputing parties whereby, without compulsion by a third-party adjudicator, they endeavor to come to an independent, joint decision concerning the terms of agreement on the issues between them.’
+                                    (与更具体的协商过程不同的是，谈判是一种“争议各方之间的互动，在没有第三方裁决者的强迫下，他们努力就双方之间的问题达成独立的，共同的决定”，而协商是“就特定问题的协议条款提出和交换[…]建议”。)
+                                </p>
+
+                                <p style="COLOR:RED">
+                                    <strong>Negotiation谈判：</strong>competitive （竞争的）
+                                </p>
+                                <p>
+                                    1)Describes a competitive win-lose situation
+                                    描述了一个竞争的输赢局面
+                                </p>
+                                <p>
+                                    2)One party leaves with a clear advantage
+                                    一方当事人以明显的优势离开
+                                </p>
+                                <p>
+                                    3)Focusing on “WHO” is right
+                                    关注“谁”是对的
+                                </p>
+                                <p style="COLOR:RED">
+                                    <strong>Bargaining 协商：</strong>cooperative (合作的)
+                                </p>
+                                <p>
+                                    1)Describes a cooperative win-win situation
+                                    描述一个合作双赢的局面
+                                </p>
+                                <p>
+                                    2)Both parties are satisfied with the mutually agreed outcome
+                                    双方都对双方商定的结果感到满意
+                                </p>
+                                <p>
+                                    3)Focusing on “WHAT” is right
+                                    关注“什么”是对的
+                                </p>
+                                <h3 style="color:red"><strong>Negotiation: 谈判</strong></h3>
+                                <p>
+                                    In recent years, a considerable body of scientific literature has been developed in an attempt to model the negotiation process. One of the most remarkable methods of negotiation is the so-called principled negotiation or negotiation of merits, which was developed at the Harvard Negotiation Project.
+                                    近年来，大量的科学文献试图对谈判过程进行模拟。最引人注目的谈判方法之一是所谓的原则式谈判或是非曲直谈判，这是在哈佛谈判项目中发展起来的。
+                                </p>
+                                <p>
+                                    Principled negotiation: 原则式谈判/Negotiation of merits: 是非曲直谈判
+                                    The method called principled negotiation or negotiation on the merits was developed by the leaders of the Harvard Negotiation Project.
+                                    这种方式，被称为原则式谈判或叫是非曲直谈判，由哈佛谈判项目的领导发展起来的
+                                </p>
+                                <p>
+                                    It suggested that, for a negotiation to be successful, the parties must:
+                                    为使谈判取得成功，建议各方必须：
+                                </p>
+                                <p style="color:darkgreen">(1)Separate the people from the problem 将人与问题分开</p>
+                                <p style="color:blue">(2)Focus on interests, not positions 关注利益，而不是立场</p>
+                                <p style="color:purple">(3)Generate a variety of possibilities before deciding what to do 在决定做什么之前产生各种可能性</p>
+                                <p style="color:red">(4)Insist that the result be based on some objective standard. 坚持结果以客观标准为依据</p>
+                                <p>Negotiation will ideally produce an outcome which will be better ‘than the best available alternative that could be reached without negotiating. The parties’ interests should be well-satisfied and joint gains and mutually advantageous trade-offs should be diligently sought, explored and put to use’. 理想情况下，谈判产生的结果比 “不谈判就能达成的最佳替代方案更好。要充分满足各方利益，努力寻求、探索和利用共同收益和权衡。”</p>
+                                <p>
+                                    The negotiated outcome normally ‘represents a compromise between the parties’ initial demands and expectations, although there may be, in part or whole, the joint creation of some new terms not originally conceived of by either party’.
+                                    谈判结果通常“代表了双方最初的要求和期望之间的妥协，尽管可能部分或全部地共同制定了一些双方最初都没有想到的新条款”。
+                                </p>
+                                <p>
+                                    If parties are unwilling or unable to reach a compromise on a critical point the negotiation will typically fail.
+                                    如果双方不愿意或无法在关键问题上达成妥协，谈判通常会失败。
+                                </p>
+                                <p>
+                                    In the context of dispute resolution, ‘both sides may be reluctant to suggest negotiation first because that might indicate weakness. There is additional hesitation over what the first proposal should be in money damage cases since parties believe it will affect what they may ultimately get or pay out’.
+                                    在解决争端的过程中，“双方可能都不愿意先提出谈判，因为这可能会暗示弱点。在金钱赔偿案件中，由于当事人认为这将影响他们最终可能得到或支付的金额，因此对于第一个提议应该是什么，他们还存在额外的犹豫。”
+                                </p>
+                                <p style="color:red">
+                                    Nevertheless, by negotiating (either formally or informally, directly or indirectly), parties can routinely resolve conflicts without having to resort to using the traditional legal system.
+                                    然而，通过谈判（正式或非正式，直接或间接），当事人可以常规地解决冲突，而不必诉诸于传统的法律制度。
+                                </p>
+                                <img src="static/picture/NEG2.png" alt="" class="fullwidth" style="margin-bottom:30px;">
+                                <p>
+                                    Negotiation consists of a sequence of proposals (P) and counterproposals (CP) that continue until agreement is reached or negotiations break down.
+                                    谈判包括一系列建议（P）和反建议（CP），直到达成协议或谈判破裂
+                                </p>
+                                <p>
+                                    This mechanism involves an interaction between disputing parties whereby, without compulsion by a third-party adjudicator, they endeavor to come to an independent, joint decision concerning the terms of agreement on the issue between them.
+                                    这一机制涉及争端各方之间的相互作用，在没有第三方评判员强迫的情况下，他们努力就他们之间的问题的协议条款作出独立，共同的决定。
+                                </p>
+
+
+                            </div>
+                       	</div>
+                        
+                      
+					</div>
+ 				</div><!-- END of ATTACHMENT-->
+                
+			</div><!-- END of CONTAINER-2 -->
+            
+        </section><!-- END of CONTENT SECTION -->
+        
+        
+        
+        <!-- FOOTER SECTION -->
+		<footer>
+            <div class="image-divider fixed-height" style="background-image:url(static/image/footer-image-5.jpg); height:400px" data-stellar-background-ratio="0.5">
+                
+                <div class="divider-overlay"></div>
+                    
+                <!-- Use Center Middle Alignment to align middle the content for fixed-height parallax -->
+                <div class="alignment"> 
+                   	<div class="v-align center-middle">                  	
+                    
+                    	<!-- HEART DIVIDER & COUPLE NAME -->
+                    	<div class="container">                 	 
+                    		<div class="row">
+                        		<div class="col-md-12">
+                                        
+                        			<div class="heart-divider animation delay1 fadeInUp">
+                        				<span class="white-line"></span>
+                        				<i class="de-icon-heart pink-heart"></i>
+                        				<i class="de-icon-heart white-heart"></i>
+                        				<span class="white-line"></span>
+                        			</div>
+                                    
+									<div id="footer-couple-name" class="animation delay1 fadeInUp">
+                                		铭 & 贝
+                                	</div>
+                     
+                     			</div>
+                     		</div>
+                     	</div><!-- END of HEART DIVIDER & COUPLE NAME -->
+                     
+                    </div>
+				</div><!-- END of Center Middle Alignment -->
+                    
+			</div>
+		</footer><!-- END of FOOTER SECTION -->
+        
+		<!-- jQuery -->
+    	<script src="static/js/jquery-1.11.1.min.js"></script>
+        <!-- Pace -->
+        <script src="static/js/pace.min.js"></script> 
+    	<!-- Bootstrap -->
+    	<script src="static/js/bootstrap.js"></script>    
+        <!-- Modernizr -->
+        <script src="static/js/modernizr.js"></script>  
+        <!-- Device JS -->
+        <script src="static/js/device.js"></script>  
+        <!-- TinyNav -->
+        <script src="static/js/tinynav.min.js"></script>
+        <!-- SmoothScroll -->
+        <script src="static/js/jquery.smooth-scroll.js"></script>
+        <!-- Flexslider -->
+        <script src="static/js/jquery.flexslider.js"></script>  
+        <!-- Sticky -->
+        <script src="static/js/jquery.sticky.js"></script>  
+        <!-- Waypoint -->
+        <script src="static/js/jquery.waypoints.min.js"></script>
+        <!-- DoubleTapToGo -->
+        <script src="static/js/jquery.ui.widget.js"></script>
+        <script src="static/js/jquery.dcd.doubletaptogo.js"></script>
+        <!-- Vide -->
+        <script src="static/js/jquery.vide.js"></script>
+        <!-- Stellar -->
+        <script src="static/js/jquery.stellar.js"></script>
+        <!-- Masonry -->
+        <script src="static/js/masonry.pkgd.min.js"></script>
+        <!-- Countdown -->
+        <script src="static/js/jquery.plugin.js"></script>
+        <script src="static/js/jquery.countdown.js"></script>
+        <!-- Countdown Labels / Localisation -->
+        <script src="static/js/jquery.countdown-custom-label.js"></script>
+        <!-- Magnific Popup -->
+        <script src="static/js/jquery.magnific-popup.js"></script>
+        <!-- Owl Carousel -->
+        <script src="static/js/owl.carousel.js"></script>
+        
+        <!-- Custom Core Script -->
+        <script type="text/javascript" src="static/js/script.js"></script>        
+        <!-- Custom Additional Script -->
+        <script type="text/javascript" src="static/js/main-slider-fade.js"></script>
+        
+	</body>
+</html>

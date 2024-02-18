@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+     	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+     	<meta name="description" content="FOREVER - MingiBei">
+      	<meta name="author" content="zhuming">
+        <meta name="ROBOTS" content="NOINDEX">
+      	<title>FOREVER - MingiBei</title>
+        
+        
+        <!-- Bootstrap -->
+    	<link rel="stylesheet" href="static/css/bootstrap.min.css" type="text/css" media="screen">
+        <!-- Pace -->
+        <link rel="stylesheet" href="static/css/preloader.css" media="screen">
+        <link rel="stylesheet" href="static/css/preloader-default.css" media="screen">
+        <!-- Flexslider -->
+        <link rel="stylesheet" href="static/css/flexslider.css" type="text/css">
+        <!-- Animate -->
+        <link rel="stylesheet" href="static/css/animate.css" type="text/css">       
+        <!-- Countdown -->
+        <link rel="stylesheet" href="static/css/jquery.countdown.css" type="text/css">
+        <!-- Magnific Popup -->
+        <link rel="stylesheet" href="static/css/magnific-popup.css" type="text/css">
+        <!-- Owl Carousel -->
+        <link rel="stylesheet" href="static/css/owl.carousel.css" type="text/css">
+        <link rel="stylesheet" href="static/css/owl.theme.css" type="text/css">
+        <!-- Icon -->
+        <link rel="stylesheet" href="static/css/fontello.css" type="text/css" media="screen">
+        <!-- Font -->
+        <link href='static/css/css.css' rel='stylesheet' type='text/css'>
+        <link href='static/css/css1.css' rel='stylesheet' type='text/css'>
+        <link href='static/css/css2.css' rel='stylesheet' type='text/css'>
+        
+        <!-- Theme CSS -->
+    	<link href="static/css/style.css" rel="stylesheet" media="screen">
+        
+        <!-- Skin CSS -->
+    	<!-- <link href="css/skin/light-teal/light-teal.css" rel="stylesheet" media="screen"> -->
+        <!-- <link href="css/skin/light-teal/light-teal-reverse-navbar.css" rel="stylesheet" media="screen"> -->
+        <!-- <link href="css/skin/pattern/pattern-1.css" rel="stylesheet" media="screen"> -->
+        
+        <script>
+  			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  			ga('create', 'UA-50945301-2', 'dethemes.com');
+  			ga('send', 'pageview');
+
+		</script>
+	</head>
+
+	<body class="no-slider-page">
+    	<!--PRELOADER-->
+        <div id="preloader">
+        
+        	<div class="alignment">
+            	<div class="v-align center-middle"> 
+            		
+                    <!-- LEFT HEART -->
+            		<div class="heart-animation">                	
+            			<i class="de-icon-heart"></i>
+               	 	</div>
+                
+                	<!-- RIGHT HEART -->
+                	<div class="heart-animation-reverse">
+            			<i class="de-icon-heart"></i>
+                	</div>     
+                     
+                </div>
+            </div>
+            
+        </div> <!--END of PRELOADER-->
+        
+        <!--SETTING-->
+        <div id="options-setting"> 
+        	<div id="setting-button-wrapper">
+        		<a id="setting-button" href="#">
+        			<div class="de-icon square light small-size inline" style="border:1px solid #CCC;">
+         				<i class="de-icon-cog"></i>
+            		</div>
+            	</a>
+            </div>
+            <div>
+            	<h5>TEMPLATE COLOR</h5>
+                <div style="position:relative">
+                	<a href="#" id="coral"><span class="swatches">&nbsp;</span></a>
+                	<a href="#" id="coral-red"><span class="swatches">&nbsp;</span></a>
+                	<a href="#" id="lapis"><span class="swatches">&nbsp;</span></a>
+               	 	<a href="#" id="light-teal"><span class="swatches">&nbsp;</span></a>
+                	<a href="#" id="tan"><span class="swatches">&nbsp;</span></a>
+               	 	<a href="#" id="reset-color"><span>Reset</span></a>
+                </div>
+            </div>
+            <hr>
+            <div>
+            	<h5>BLOCK NAVBAR BACKGROUND</h5>
+                <div style="position:relative;">
+                	<a href="#" id="white-navbar"><span class="navbar-setting-button active">White</span></a>&nbsp;
+                	<a href="#" id="color-navbar"><span class="navbar-setting-button">Template Color</span></a>
+                </div>
+                <p class="setting-info"> For Transparent NavBar, this option will only works on sticky mode.</p>
+            </div>
+            <hr>
+            <div>
+            	<h5>PATTERN</h5>
+                <div style="position:relative;">
+                	<a href="#" id="pattern-1"><span class="pattern-setting-button">1</span></a>&nbsp;
+                	<a href="#" id="pattern-2"><span class="pattern-setting-button">2</span></a>&nbsp;
+                    <a href="#" id="pattern-3"><span class="pattern-setting-button">3</span></a>&nbsp;
+                    <a href="#" id="pattern-none"><span class="pattern-setting-button active">None</span></a>&nbsp;
+                </div>
+            </div>
+        </div>        
+       	<!--END of SETTING-->
+       
+        
+        <!-- NAVIGATION -->    
+    	<header id="nav-header">
+        	<nav id="nav-bar" class="top-bar fluid-width block-color nav-center sticky-nav animation fadeInDown">
+            	
+                <div id="nav-wrapper">
+            		
+                    <!-- LOGO -->
+            		<div class="logo-wrapper">
+                		<!-- CSS LOGO --> 
+                        <a href="index.html">
+                    		<div class="css-logo rounded">
+                   				<div class="css-logo-text">
+                        			<strong>铭</strong><i class="de-icon-heart-1"></i><strong>贝</strong>
+                    			</div>
+                    		</div>
+                        </a>
+                    
+                    	<!-- IMG LOGO 
+                    	<div class="img-logo">
+                    		<img src="images/slide1.jpg">
+                    	</div>-->
+                	</div>
+                	<!-- END of LOGO -->
+                    <!--
+                    <div id="mobile-nav">
+                    	<i class="de-icon-menu"></i>
+                    </div>
+                
+                	<ul id="nav-menu">
+                		<li class="first-child">
+                        	<a href="index.html">HOME</a>
+                            <ul>
+                            	<li>
+                                	<a href="#">MENU VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="index.html">TOP BAR - TRANSPARENT</a></li>
+                                        <li><a href="index-topbar-color.html">TOP BAR - COLOR</a></li>
+                                        <li><a href="index-bottombar-transparent.html">BOTTOM BAR - TRANSPARENT</a></li>
+                                        <li><a href="index-bottombar-color.html">BOTTOM BAR - COLOR</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                	<a href="#">SLIDER VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="index.html">IMAGE - FADE</a></li>
+                                        <li><a href="index-slide.html">IMAGE - SLIDE</a></li>
+                                        <li><a href="index-image-animation-v1.html">IMAGE - ANIMATION - MUSIC - V1</a></li>
+                                        <li><a href="index-image-animation-v2.html">IMAGE - ANIMATION - MUSIC - V2</a></li>
+                                        <li><a href="index-title-animation.html">TITLE - ANIMATION</a></li>
+                                        <li><a href="index-image-title-animation.html">TITLE &amp; IMAGE - ANIMATION</a></li>
+                                        <li><a href="index-video.html">VIDEO</a></li>
+                                    </ul>
+                                </li>    
+                                <li>
+                                	<a href="#">PRELOADER VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="index.html">PRELOADER - DEFAULT</a></li>
+                                        <li><a href="index-preloader-logo-spinner.html">PRELOADER - V1</a></li>
+                                        <li><a href="index-preloader-couple-name.html">PRELOADER - V2</a></li>
+                                    </ul>
+                                </li>                             
+                            </ul>
+                        </li>
+                   		<li>
+                        	<a href="#">ABOUT</a>
+                            <ul>
+                            	<li>
+                                	<a href="profile-him.html">ABOUT HIM</a>
+                                </li>
+                                <li>
+                                	<a href="profile-her.html">ABOUT HER</a>
+                                </li>
+                           	</ul> 	
+                        </li>
+                    	<li>
+                        	<a href="#">GALLERY</a>
+                            <ul>
+                            	<li><a href="gallery.html">GALLERY</a></li>
+                                <li><a href="gallery-slider.html">GALLERY WITH SLIDER</a></li>
+                                <li><a href="gallery-full-5col.html">FULL GALLERY - 5 COLUMN</a></li>
+                                <li><a href="gallery-full-4col.html">FULL GALLERY - 4 COLUMN</a></li>
+                                <li><a href="gallery-full-3col.html">FULL GALLERY - 3 COLUMN</a></li>
+                            </ul>
+                        </li>
+                    	<li><a href="the-story.html">THE STORY</a></li>
+                        <li class="first-child split-margin">
+                        	<a href="#">THE WEDDING</a>
+                             <ul>
+                             	<li><a href="location.html">LOCATION</a></li>
+                                <li><a href="accomodation.html">ACCOMODATION</a></li>
+                                <li>
+                                	<a href="#">BRIDESMAID</a>
+                                    <ul>
+                             			<li><a href="bridesmaid-gallery.html">BRIDESMAID GALLERY</a></li>
+                                		<li><a href="bridesmaid-parallax-image.html">BRIDESMAID - PARALLAX IMAGE</a></li>
+                           			</ul>
+                                </li>
+                                <li>
+                                	<a href="#">GROOMSMEN</a>
+                                    <ul>
+                             			<li><a href="groomsmen-gallery.html">GROOMSMEN GALLERY</a></li>
+                                		<li><a href="groomsmen-parallax-image.html">GROOMSMEN - PARALLAX IMAGE</a></li>
+                           			</ul>
+                                </li>
+                                <li><a href="gift.html">GIFT REGISTRY</a></li>
+                            </ul>
+                        </li>
+                    	
+                        <li>
+                        	<a href="#">BLOG</a>
+                            <ul>
+                            	<li><a href="blog.html">BLOG</a></li>
+                                <li><a href="blog-slider.html">BLOG SLIDER</a></li>
+                                <li><a href="blog-parallax-image.html">BLOG PARALLAX IMAGE</a></li>
+                                <li><a href="blog-parallax-sidebar.html">BLOG PARALLAX - SIDEBAR</a></li>
+                            </ul>
+                        </li>
+                    	<li>
+                       	 	<a href="page.html">PAGE</a>
+                        </li>
+                    	<li>
+                        	<a href="#">RSVP</a>
+                            <ul>
+                             	<li><a href="rsvp-1.html">RSVP - 1</a></li>
+                                <li><a href="rsvp-2.html">RSVP - 2</a></li>
+                                <li><a href="rsvp-3.html">RSVP - 3</a></li>
+                                <li><a href="rsvp-custom.html">CUSTOM</a></li>
+                           	</ul>
+                        </li>
+                	</ul>
+                    -->
+
+                    <div id="mobile-nav">
+                    	<i class="de-icon-menu"></i>
+                    </div>
+
+                	<ul id="nav-menu">
+                		<li class="first-child">
+                        	<a href="">HIM_BLOG</a>
+                            <!--
+                            <ul>
+                            	<li>
+                                	<a href="#">MENU VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="">TOP BAR - TRANSPARENT</a></li>
+                                        <li><a href="index-topbar-color.html">TOP BAR - COLOR</a></li>
+                                        <li><a href="index-bottombar-transparent.html">BOTTOM BAR - TRANSPARENT</a></li>
+                                        <li><a href="index-bottombar-color.html">BOTTOM BAR - COLOR</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                	<a href="#">SLIDER VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="">IMAGE - FADE</a></li>
+                                        <li><a href="index-slide.html">IMAGE - SLIDE</a></li>
+                                        <li><a href="index-image-animation-v1.html">IMAGE - ANIMATION - MUSIC - V1</a></li>
+                                        <li><a href="index-image-animation-v2.html">IMAGE - ANIMATION - MUSIC - V2</a></li>
+                                        <li><a href="index-title-animation.html">TITLE - ANIMATION</a></li>
+                                        <li><a href="index-image-title-animation.html">TITLE &amp; IMAGE - ANIMATION</a></li>
+                                        <li><a href="index-video.html">VIDEO</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                	<a href="#">PRELOADER VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="">PRELOADER - DEFAULT</a></li>
+                                        <li><a href="index-preloader-logo-spinner.html">PRELOADER - V1</a></li>
+                                        <li><a href="index-preloader-couple-name.html">PRELOADER - V2</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            -->
+                        </li>
+                   		<!--
+                        <li>
+                        	<a href="#">ABOUT</a>
+                            <ul>
+                            	<li>
+                                	<a href="profile-him.html">ABOUT HIM</a>
+                                </li>
+                                <li>
+                                	<a href="profile-her.html">ABOUT HER</a>
+                                </li>
+                           	</ul>
+                        </li>
+                    	<li>
+                        	<a href="#">GALLERY</a>
+                            <ul>
+                            	<li><a href="gallery.html">GALLERY</a></li>
+                                <li><a href="gallery-slider.html">GALLERY WITH SLIDER</a></li>
+                                <li><a href="gallery-full-5col.html">FULL GALLERY - 5 COLUMN</a></li>
+                                <li><a href="gallery-full-4col.html">FULL GALLERY - 4 COLUMN</a></li>
+                                <li><a href="gallery-full-3col.html">FULL GALLERY - 3 COLUMN</a></li>
+                            </ul>
+                        </li>
+                    	<li><a href="the-story.html">THE STORY</a></li>
+                        -->
+                        <li class="first-child split-margin">
+                        	<a href="#">HER_BLOG</a>
+                            <!--
+                             <ul>
+                             	<li><a href="location.html">LOCATION</a></li>
+                                <li><a href="accomodation.html">ACCOMODATION</a></li>
+                                <li>
+                                	<a href="#">BRIDESMAID</a>
+                                    <ul>
+                             			<li><a href="bridesmaid-gallery.html">BRIDESMAID GALLERY</a></li>
+                                		<li><a href="bridesmaid-parallax-image.html">BRIDESMAID - PARALLAX IMAGE</a></li>
+                           			</ul>
+                                </li>
+                                <li>
+                                	<a href="#">GROOMSMEN</a>
+                                    <ul>
+                             			<li><a href="groomsmen-gallery.html">GROOMSMEN GALLERY</a></li>
+                                		<li><a href="groomsmen-parallax-image.html">GROOMSMEN - PARALLAX IMAGE</a></li>
+                           			</ul>
+                                </li>
+                                <li><a href="gift.html">GIFT REGISTRY</a></li>
+                            </ul>
+                            -->
+                        </li>
+                    	<!--
+                        <li>
+                        	<a href="#">BLOG</a>
+                            <ul>
+                            	<li><a href="blog.html">BLOG</a></li>
+                                <li><a href="blog-slider.html">BLOG SLIDER</a></li>
+                                <li><a href="blog-parallax-image.html">BLOG PARALLAX IMAGE</a></li>
+                                <li><a href="blog-parallax-sidebar.html">BLOG PARALLAX - SIDEBAR</a></li>
+                            </ul>
+                        </li>
+                    	<li>
+                       	 	<a href="page.html">PAGE</a>
+                        </li>
+                    	<li>
+                        	<a href="#">RSVP</a>
+                            <ul>
+                             	<li><a href="rsvp-1.html">RSVP - 1</a></li>
+                                <li><a href="rsvp-2.html">RSVP - 2</a></li>
+                                <li><a href="rsvp-3.html">RSVP - 3</a></li>
+                                <li><a href="rsvp-custom.html">CUSTOM</a></li>
+                           	</ul>
+                        </li>
+                        -->
+                	</ul>
+
+
+
+
+
+
+
+                    <div class="clearboth"></div>
+                    
+                </div>
+                
+            </nav>
+        </header> <!-- END of NAVIGATION -->
+        
+        <!--CONTENT SECTION-->
+        <section id="content">
+        	
+            <!-- CONTAINER-1 -->
+        	<div class="container">            
+            	
+                <!-- TITLE -->
+                <div class="row">
+                    <div class="col-md-offset-3 col-md-6 text-center">
+                    
+                        <div class="page-title">
+                            <h1>Neutral Expert Fact-Finding 中立专家事实调查</h1>
+                                                       
+                        	<div class="heart-divider">
+                            	<span class="grey-line"></span>
+                            	<i class="de-icon-heart pink-heart"></i>
+                            	<i class="de-icon-heart grey-heart"></i>
+                            	<span class="grey-line"></span>
+                        	</div>
+						</div>
+                        
+                	</div>
+				</div><!-- END of TITLE -->                
+                
+  			</div><!-- END of CONTAINER-1 -->
+           
+            
+            <!-- CONTAINER-2 -->
+            <div class="container">
+                
+                <!-- ATTACHMENT -->	
+ 				<div class="row">
+                    <div class="col-md-offset-1 col-md-10">
+                      
+                   		<div class="row">
+                        
+                        	<!--PHOTO-->
+                        	<div class="col-md-6">     
+<h3>Questions: select the answer you consider to be correct.</h3>
+<p style="color:red;">Q1:Which of the following disputes is most likely to be resolved by NEFF? 下列哪项争议最有可能由中立专家事实调查（NEFF）解决？</p>
+<p>
+    A.highly personal dispute where each party is very entrenched in their position.
+    一场高度个人化的纠纷，双方都非常坚持自己的立场
+</p>
+<p style="color:green">
+    B.A highly technical dispute where each party’s expert disagrees on the facts.
+    双方专家对事实持有不同意见的高度技术性的争议
+</p>
+<p>
+    C.A complex legal dispute which requires a neutral with significant legal experience.
+    复杂的法律纠纷，需要具有丰富法律经验的中立方
+</p>
+<P>
+    D.A dispute between a business and a consumer where there is unequal bargaining power.
+</P>
+<p style="color:red;">A1:The correct answer is B. (正确答案：B)</p>
+<p>
+    NEFF ‘is based on the problem that arises […] when each side has an expert holding firmly to a view that is diametrically opposed to that of the opponent’s expert […] The idea behind NEFF is for the neutral to re-evaluate the technical evidence and encourage the parties to look critically at their own expert’s assessment’.
+    “基于问题产生[…], 即双方都有一名专家坚定地持有与对方专家截然相反的观点时[…] NEFF背后的理念是让中立方重新评估技术证据，并鼓励双方批判性地看待自己自己专家的评估”。
+</p>
+
+<p style="color:red;">Q2:Which of the following statements best describes NEFF? 下列哪个陈述最好地描述了中立专家事实调查？</p>
+<p style="color:green">
+    A.A neutral third party reviews the case and submits a report that identifies those facts which are in dispute.
+    中立的第三方审查案件，并提交一份报告，确定有争议的事实
+</p>
+
+<p>
+    B.A neutral third party helps to facilitate dialogue between the parties and serves as a catalyst for successful negotiation.
+    中立的第三方有助于促进双方之间的对话，并作为成功谈判的催化剂
+</p>
+
+<p>
+    C.A neutral third party hears questions of fact or law and issues a binding decision on the parties.
+    中立的第三方听取事实或法律问题，并对当事人作出有约束力的决定
+</p>		
+<P>
+    D.A neutral third party offers an informed opinion on the merits each party’s legal position.
+    中立的第三方就双方法律立场的是非曲直提供知情意见。
+</P>
+							<p style="color:red;">A2:the correct answer is A </p>
+                            <P>
+                                Neutral Expert Fact-Finding (NEFF) is 'an informal process in which a neutral third party [...] reviews the case and submits a report that identifies those facts which are in dispute'. By involving 'an investigation and report of what the facts [...] must have been in the view of an independent third party' the 'inquiry of a neutral fact-finder can provide [an] objective evaluation necessary to negotiate a settlement or give a binding, semi-binding or non-binding assessment of certain factual issues'.
+                                中立专家事实调查（NEFF）是“一个非正式的过程，由中立的第三方审查案件，并提交一份报告，确定有争议的事实。”通过参与到“一份独立第三方对事实（…）的调查和报告，中立事实调查员的调查可以提供谈判解决所必需的客观评估，或对某些事实问题给出具有约束力，半约束力或非约束力的评估”。
+                            </P>
+
+                            <p style="color:red;">Q3:In what contexts has NEFF proved most useful?</p>
+                            <p>
+                                A.Public sector collective bargaining problems.
+                                公共部门集体协商问题
+                            </p>
+
+                            <p>
+                                B.Complex scientific and technical issues.
+                                复杂的科学和技术问题
+                            </p>
+
+                            <p>
+                                C.Complex business or economic issues.
+                                复杂的商业或经济问题
+                            </p>
+                            <p style="color:green">
+                                D.All of these.
+                                以上都是
+                            </p>
+<p style="color:red;">A3: the correct answer is D.</p>
+<p>
+    NEFF is perhaps most useful 'in reporting public sector collective bargaining problems and complex scientific, technical, business or economic issues where the presentation or proof of such issues is extremely difficult, expensive, and time-consuming'.
+    NEFF可能在“报告公共部门集体协商问题和复杂的科学、技术、商业或经济问题时最有用，因为这些问题的提出或证明极其困难、昂贵和耗时”。
+</p>
+								<h3 style="color:red"><strong>Congratulations!</strong></h3>
+								<p><strong>You have achieved a basic understanding of the Neutral Expert Fact-Finding process. 你已经对中立专家事实调查过程有了基本的了解。</strong></p>
+                                <p>You have learned the following: 你学到了以下内容：</p>
+                                <p>
+                                    [1]Neutral Expert Fact-Finding (NEFF) is an informal process in which a neutral third party reviews the case and submits a report that identifies the facts in dispute.
+                                    中立专家事实调查（NEFF）是一个非正式的过程，由中立的第三方审查案件，并提交一份报告，确定有争议的事实。
+                                </p>
+                                <p>
+                                    [2]NEFF is based on the problem that arises when each side has an expert holding firmly to a view that is diametrically opposed to that of the opponent’s expert.
+                                    中立专家事实调查（NEFF）基于问题产生，即双方都有一名专家坚定地持有与对方专家截然相反的观点
+                                </p>
+                                <p>
+                                    [3]NEFF is useful in reasoning public sector collective bargaining problems and complex scientific, technical, business or economic issues.
+                                    中立专家事实调查（NEFF）在公共部门集体协商问题和复杂的科学，技术，商业或经济问题的推理中很有用
+                                </p>
+                                <p>
+                                    [4]NEFF can arise either through appointment by the court or by agreement between the parties.
+                                    中立专家事实调查（NEFF）既可以通过法院的任命产生，也可以通过双方的协议产生
+                                </p>
+
+							</div>
+                            
+                            <!-- DESCRIPTION -->
+                            <div class="col-md-6">
+                                <h2 style="color:red;"><strong>What is the aim of this module?</strong></h2>
+                                <p>Understanding how the process of Neutral Expert Fact-Finding works and what the outcomes of this mechanism are. 了解中立专家事实调查的过程是如何工作的，以及这种机制的结果是什么。</p>
+                                <p>
+                                    Neutral Expert Fact-Finding (NEFF) is ‘an informal process in which a neutral third party […] reviews the case and submits a report that identifies those facts which are in dispute.’
+                                    中立专家事实调查（NEFF）是“一个非正式的过程，由中立的第三方审查案件，并提交一份报告，确定有争议的事实。”
+                                </p>
+                                <p>By involving‘an investigation and report of what the facts […] must have been in the view of an independent third party, the inquiry of a neutral fact-finder can provide an objective evaluation necessary to negotiate a settlement or give a binding, semi-binding or non-binding assessment of certain factual issues’. 通过参与到“一份独立第三方对事实（…）的调查和报告，中立事实调查员的调查可以提供谈判解决所必需的客观评估，或对某些事实问题给出具有约束力，半约束力或非约束力的评估”。</p>
+
+                                <p>Neutral Expert Fact-Finding (NEFF) ‘is based on the problem that arises […] when each side has an expert holding firmly to a view that is diametrically opposed to that of the opponent’s expert’.中立专家事实调查 （NEFF）“基于问题产生[…], 即双方都有一名专家坚定地持有与对方专家截然相反的观点”。  </p>
+                                <p>
+                                    Neutral Expert Fact-Finding（NEFF） can arise either through appointment by the court […] or by agreement between the parties […]. The idea behind NEFF is for the neutral to re-evaluate the technical evidence and encourage the parties to look critically at their own expert’s assessment’.
+                                    中立专家事实调查（NEFF）既可以通过法院[…]的任命产生，也可以通过双方[…]的协议产生。中立专家事实调查（NEFF）背后的想法是让中立的人重新评估技术证据，并鼓励各方批评性地看待他们自己的专家评估。
+                                </p>
+                                <p>
+                                    Unlike other forms of dispute resolution, NEFF ‘usually requires appraisal of data and analysis of information outside the scope of most people’s everyday experience. Indeed, in many cases the dispute turns on an issue that only a person with highly specialized and advanced training or experience can understand […]’
+                                    与其他形式的争议解决不同，中立专家事实调查(NEFF)“通常需要对大多数人日常经验范围之外的数据和信息进行评估和分析。事实上，在很多情况下，争论的焦点是一个只有经过高度专业化和高级培训或经验的人才能理解的问题[…]”。
+                                </p>
+                                <p>
+                                    The neutral expert can promote accurate fact-finding by providing an objective and impartial assessment of the facts, often from a person of higher caliber than is available on a partisan basis to the parties.
+                                    中立的专家可以通过对事实提供客观公正的评估来促进准确的事实调查，通常是来自一个比党派人士更有才干的人。
+                                </p>
+                                <img src="static/picture/NEFF1.png" alt="" class="fullwidth" style="margin-bottom:30px;">
+                                <p style="COLOR:RED">
+                                    <strong>Selecting a Neutral Expert: 选择中立专家</strong>
+                                </p>
+                                <p>
+                                    A ‘common way of selecting a neutral expert is for each party to put together a list of possible experts, allow the other party to strike those to whom they object, and submit the final list to the judge for the final selection’.
+                                    “选择中立专家的一种常见方式是，双方各自列出可能的专家名单，让对方打击他们反对的人，并将最终名单提交给法官进行最终选择”。
+                                </p>
+                                <img src="static/picture/NEFF2.png" alt="" class="fullwidth" style="margin-bottom:30px;">
+                                <p style="COLOR:RED">
+                                    <strong>Joint Interviews: 联合采访</strong>
+                                </p>
+                                <p>
+                                    After the selection of an expert, each party then ‘identifies the persons, the dispute, and the fact-finder conducts joint interviews with these individuals. Parties are expected to cooperate fully during the interview process, and the fact-finder is given access to all relevant information and documents.’
+                                    在选择了专家之后，每一方都要确定人，争议，并且事实调查人对这些人进行联合采访。
+                                    当事人应当在面谈过程中充分合作，事实调查人有权查阅所有相关信息和文件。
+                                </p>
+                                <img src="static/picture/NEFF3.png" alt="" class="fullwidth" style="margin-bottom:30px;">
+                                <p style="COLOR:RED">
+                                    <strong>Role of the expert: 专家的角色</strong>
+                                </p>
+                                <p>
+                                    The expert ‘will normally permit the parties and their lawyers to speak, to ask questions and even to demonstrate the difficulties and inconsistencies in statements made by other participants’.
+                                    专家“通常会允许当事人和他们的律师发言，提出问题，甚至展示其他参与者陈述中的困难和不同之处”。
+                                </p>
+                                <p>
+                                    NEFF is perhaps most useful ‘in reporting public sector collective bargaining problems and complex scientific, technical, business or economic issues where the presentation or proof of such issues is extremely difficult, expensive, and time-consuming’.
+                                    中立专家事实调查可能在“报告公共部门集体协商问题和复杂的科学，技术，商业或经济问题时最有用，因为这些问题的提出或证明极其困难，昂贵和耗时”。
+                                </p>
+                                <img src="static/picture/NEFF4.png" alt="" class="fullwidth" style="margin-bottom:30px;">
+                                <p>
+                                    NEFF is a process in which a neutral third party reviews the case and identifies those facts which are in dispute. The process takes place after each party has identified the people who have information concerning the dispute and the fact-finder conducts joint interviews with them. The expert will normally permit the parties and their lawyers to speak, to ask questions and even to demonstrate the difficulties and inconsistencies in statements made by other participants.
+                                    中立专家事实调查是一个由中立的第三方审查案件并确定有争议的事实的过程。这一过程发生在双方确定了掌握有关争议信息的人，并且事实调查员对他们进行联合采访之后。专家通常允许当事各方及其律师发言，提问，甚至展示其他参与者陈述中的困难和不同之处。
+                                </p>
+ 
+
+
+                            </div>
+                       	</div>
+                        
+                      
+					</div>
+ 				</div><!-- END of ATTACHMENT-->
+                
+			</div><!-- END of CONTAINER-2 -->
+            
+        </section><!-- END of CONTENT SECTION -->
+        
+        
+        
+        <!-- FOOTER SECTION -->
+		<footer>
+            <div class="image-divider fixed-height" style="background-image:url(static/image/footer-image-5.jpg); height:400px" data-stellar-background-ratio="0.5">
+                
+                <div class="divider-overlay"></div>
+                    
+                <!-- Use Center Middle Alignment to align middle the content for fixed-height parallax -->
+                <div class="alignment"> 
+                   	<div class="v-align center-middle">                  	
+                    
+                    	<!-- HEART DIVIDER & COUPLE NAME -->
+                    	<div class="container">                 	 
+                    		<div class="row">
+                        		<div class="col-md-12">
+                                        
+                        			<div class="heart-divider animation delay1 fadeInUp">
+                        				<span class="white-line"></span>
+                        				<i class="de-icon-heart pink-heart"></i>
+                        				<i class="de-icon-heart white-heart"></i>
+                        				<span class="white-line"></span>
+                        			</div>
+                                    
+									<div id="footer-couple-name" class="animation delay1 fadeInUp">
+                                		铭 & 贝
+                                	</div>
+                     
+                     			</div>
+                     		</div>
+                     	</div><!-- END of HEART DIVIDER & COUPLE NAME -->
+                     
+                    </div>
+				</div><!-- END of Center Middle Alignment -->
+                    
+			</div>
+		</footer><!-- END of FOOTER SECTION -->
+        
+		<!-- jQuery -->
+    	<script src="static/js/jquery-1.11.1.min.js"></script>
+        <!-- Pace -->
+        <script src="static/js/pace.min.js"></script> 
+    	<!-- Bootstrap -->
+    	<script src="static/js/bootstrap.js"></script>    
+        <!-- Modernizr -->
+        <script src="static/js/modernizr.js"></script>  
+        <!-- Device JS -->
+        <script src="static/js/device.js"></script>  
+        <!-- TinyNav -->
+        <script src="static/js/tinynav.min.js"></script>
+        <!-- SmoothScroll -->
+        <script src="static/js/jquery.smooth-scroll.js"></script>
+        <!-- Flexslider -->
+        <script src="static/js/jquery.flexslider.js"></script>  
+        <!-- Sticky -->
+        <script src="static/js/jquery.sticky.js"></script>  
+        <!-- Waypoint -->
+        <script src="static/js/jquery.waypoints.min.js"></script>
+        <!-- DoubleTapToGo -->
+        <script src="static/js/jquery.ui.widget.js"></script>
+        <script src="static/js/jquery.dcd.doubletaptogo.js"></script>
+        <!-- Vide -->
+        <script src="static/js/jquery.vide.js"></script>
+        <!-- Stellar -->
+        <script src="static/js/jquery.stellar.js"></script>
+        <!-- Masonry -->
+        <script src="static/js/masonry.pkgd.min.js"></script>
+        <!-- Countdown -->
+        <script src="static/js/jquery.plugin.js"></script>
+        <script src="static/js/jquery.countdown.js"></script>
+        <!-- Countdown Labels / Localisation -->
+        <script src="static/js/jquery.countdown-custom-label.js"></script>
+        <!-- Magnific Popup -->
+        <script src="static/js/jquery.magnific-popup.js"></script>
+        <!-- Owl Carousel -->
+        <script src="static/js/owl.carousel.js"></script>
+        
+        <!-- Custom Core Script -->
+        <script type="text/javascript" src="static/js/script.js"></script>        
+        <!-- Custom Additional Script -->
+        <script type="text/javascript" src="static/js/main-slider-fade.js"></script>
+        
+	</body>
+</html>

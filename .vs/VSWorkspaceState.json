@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\static"
+    "\\static",
+    "\\static\\picture"
   ],
-  "SelectedNode": "\\Expert-determination.html",
+  "SelectedNode": "\\index.html",
   "PreviewInSolutionExplorer": false
 }
