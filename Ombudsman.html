@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+     	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+     	<meta name="description" content="FOREVER - MingiBei">
+      	<meta name="author" content="zhuming">
+        <meta name="ROBOTS" content="NOINDEX">
+      	<title>FOREVER - MingiBei</title>
+        
+        
+        <!-- Bootstrap -->
+    	<link rel="stylesheet" href="static/css/bootstrap.min.css" type="text/css" media="screen">
+        <!-- Pace -->
+        <link rel="stylesheet" href="static/css/preloader.css" media="screen">
+        <link rel="stylesheet" href="static/css/preloader-default.css" media="screen">
+        <!-- Flexslider -->
+        <link rel="stylesheet" href="static/css/flexslider.css" type="text/css">
+        <!-- Animate -->
+        <link rel="stylesheet" href="static/css/animate.css" type="text/css">       
+        <!-- Countdown -->
+        <link rel="stylesheet" href="static/css/jquery.countdown.css" type="text/css">
+        <!-- Magnific Popup -->
+        <link rel="stylesheet" href="static/css/magnific-popup.css" type="text/css">
+        <!-- Owl Carousel -->
+        <link rel="stylesheet" href="static/css/owl.carousel.css" type="text/css">
+        <link rel="stylesheet" href="static/css/owl.theme.css" type="text/css">
+        <!-- Icon -->
+        <link rel="stylesheet" href="static/css/fontello.css" type="text/css" media="screen">
+        <!-- Font -->
+        <link href='static/css/css.css' rel='stylesheet' type='text/css'>
+        <link href='static/css/css1.css' rel='stylesheet' type='text/css'>
+        <link href='static/css/css2.css' rel='stylesheet' type='text/css'>
+        
+        <!-- Theme CSS -->
+    	<link href="static/css/style.css" rel="stylesheet" media="screen">
+        
+        <!-- Skin CSS -->
+    	<!-- <link href="css/skin/light-teal/light-teal.css" rel="stylesheet" media="screen"> -->
+        <!-- <link href="css/skin/light-teal/light-teal-reverse-navbar.css" rel="stylesheet" media="screen"> -->
+        <!-- <link href="css/skin/pattern/pattern-1.css" rel="stylesheet" media="screen"> -->
+        
+        <script>
+  			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  			ga('create', 'UA-50945301-2', 'dethemes.com');
+  			ga('send', 'pageview');
+
+		</script>
+	</head>
+
+	<body class="no-slider-page">
+    	<!--PRELOADER-->
+        <div id="preloader">
+        
+        	<div class="alignment">
+            	<div class="v-align center-middle"> 
+            		
+                    <!-- LEFT HEART -->
+            		<div class="heart-animation">                	
+            			<i class="de-icon-heart"></i>
+               	 	</div>
+                
+                	<!-- RIGHT HEART -->
+                	<div class="heart-animation-reverse">
+            			<i class="de-icon-heart"></i>
+                	</div>     
+                     
+                </div>
+            </div>
+            
+        </div> <!--END of PRELOADER-->
+        
+        <!--SETTING-->
+        <div id="options-setting"> 
+        	<div id="setting-button-wrapper">
+        		<a id="setting-button" href="#">
+        			<div class="de-icon square light small-size inline" style="border:1px solid #CCC;">
+         				<i class="de-icon-cog"></i>
+            		</div>
+            	</a>
+            </div>
+            <div>
+            	<h5>TEMPLATE COLOR</h5>
+                <div style="position:relative">
+                	<a href="#" id="coral"><span class="swatches">&nbsp;</span></a>
+                	<a href="#" id="coral-red"><span class="swatches">&nbsp;</span></a>
+                	<a href="#" id="lapis"><span class="swatches">&nbsp;</span></a>
+               	 	<a href="#" id="light-teal"><span class="swatches">&nbsp;</span></a>
+                	<a href="#" id="tan"><span class="swatches">&nbsp;</span></a>
+               	 	<a href="#" id="reset-color"><span>Reset</span></a>
+                </div>
+            </div>
+            <hr>
+            <div>
+            	<h5>BLOCK NAVBAR BACKGROUND</h5>
+                <div style="position:relative;">
+                	<a href="#" id="white-navbar"><span class="navbar-setting-button active">White</span></a>&nbsp;
+                	<a href="#" id="color-navbar"><span class="navbar-setting-button">Template Color</span></a>
+                </div>
+                <p class="setting-info"> For Transparent NavBar, this option will only works on sticky mode.</p>
+            </div>
+            <hr>
+            <div>
+            	<h5>PATTERN</h5>
+                <div style="position:relative;">
+                	<a href="#" id="pattern-1"><span class="pattern-setting-button">1</span></a>&nbsp;
+                	<a href="#" id="pattern-2"><span class="pattern-setting-button">2</span></a>&nbsp;
+                    <a href="#" id="pattern-3"><span class="pattern-setting-button">3</span></a>&nbsp;
+                    <a href="#" id="pattern-none"><span class="pattern-setting-button active">None</span></a>&nbsp;
+                </div>
+            </div>
+        </div>        
+       	<!--END of SETTING-->
+       
+        
+        <!-- NAVIGATION -->    
+    	<header id="nav-header">
+        	<nav id="nav-bar" class="top-bar fluid-width block-color nav-center sticky-nav animation fadeInDown">
+            	
+                <div id="nav-wrapper">
+            		
+                    <!-- LOGO -->
+            		<div class="logo-wrapper">
+                		<!-- CSS LOGO --> 
+                        <a href="index.html">
+                    		<div class="css-logo rounded">
+                   				<div class="css-logo-text">
+                        			<strong>铭</strong><i class="de-icon-heart-1"></i><strong>贝</strong>
+                    			</div>
+                    		</div>
+                        </a>
+                    
+                    	<!-- IMG LOGO 
+                    	<div class="img-logo">
+                    		<img src="images/slide1.jpg">
+                    	</div>-->
+                	</div>
+                	<!-- END of LOGO -->
+                    <!--
+                    <div id="mobile-nav">
+                    	<i class="de-icon-menu"></i>
+                    </div>
+                
+                	<ul id="nav-menu">
+                		<li class="first-child">
+                        	<a href="index.html">HOME</a>
+                            <ul>
+                            	<li>
+                                	<a href="#">MENU VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="index.html">TOP BAR - TRANSPARENT</a></li>
+                                        <li><a href="index-topbar-color.html">TOP BAR - COLOR</a></li>
+                                        <li><a href="index-bottombar-transparent.html">BOTTOM BAR - TRANSPARENT</a></li>
+                                        <li><a href="index-bottombar-color.html">BOTTOM BAR - COLOR</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                	<a href="#">SLIDER VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="index.html">IMAGE - FADE</a></li>
+                                        <li><a href="index-slide.html">IMAGE - SLIDE</a></li>
+                                        <li><a href="index-image-animation-v1.html">IMAGE - ANIMATION - MUSIC - V1</a></li>
+                                        <li><a href="index-image-animation-v2.html">IMAGE - ANIMATION - MUSIC - V2</a></li>
+                                        <li><a href="index-title-animation.html">TITLE - ANIMATION</a></li>
+                                        <li><a href="index-image-title-animation.html">TITLE &amp; IMAGE - ANIMATION</a></li>
+                                        <li><a href="index-video.html">VIDEO</a></li>
+                                    </ul>
+                                </li>    
+                                <li>
+                                	<a href="#">PRELOADER VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="index.html">PRELOADER - DEFAULT</a></li>
+                                        <li><a href="index-preloader-logo-spinner.html">PRELOADER - V1</a></li>
+                                        <li><a href="index-preloader-couple-name.html">PRELOADER - V2</a></li>
+                                    </ul>
+                                </li>                             
+                            </ul>
+                        </li>
+                   		<li>
+                        	<a href="#">ABOUT</a>
+                            <ul>
+                            	<li>
+                                	<a href="profile-him.html">ABOUT HIM</a>
+                                </li>
+                                <li>
+                                	<a href="profile-her.html">ABOUT HER</a>
+                                </li>
+                           	</ul> 	
+                        </li>
+                    	<li>
+                        	<a href="#">GALLERY</a>
+                            <ul>
+                            	<li><a href="gallery.html">GALLERY</a></li>
+                                <li><a href="gallery-slider.html">GALLERY WITH SLIDER</a></li>
+                                <li><a href="gallery-full-5col.html">FULL GALLERY - 5 COLUMN</a></li>
+                                <li><a href="gallery-full-4col.html">FULL GALLERY - 4 COLUMN</a></li>
+                                <li><a href="gallery-full-3col.html">FULL GALLERY - 3 COLUMN</a></li>
+                            </ul>
+                        </li>
+                    	<li><a href="the-story.html">THE STORY</a></li>
+                        <li class="first-child split-margin">
+                        	<a href="#">THE WEDDING</a>
+                             <ul>
+                             	<li><a href="location.html">LOCATION</a></li>
+                                <li><a href="accomodation.html">ACCOMODATION</a></li>
+                                <li>
+                                	<a href="#">BRIDESMAID</a>
+                                    <ul>
+                             			<li><a href="bridesmaid-gallery.html">BRIDESMAID GALLERY</a></li>
+                                		<li><a href="bridesmaid-parallax-image.html">BRIDESMAID - PARALLAX IMAGE</a></li>
+                           			</ul>
+                                </li>
+                                <li>
+                                	<a href="#">GROOMSMEN</a>
+                                    <ul>
+                             			<li><a href="groomsmen-gallery.html">GROOMSMEN GALLERY</a></li>
+                                		<li><a href="groomsmen-parallax-image.html">GROOMSMEN - PARALLAX IMAGE</a></li>
+                           			</ul>
+                                </li>
+                                <li><a href="gift.html">GIFT REGISTRY</a></li>
+                            </ul>
+                        </li>
+                    	
+                        <li>
+                        	<a href="#">BLOG</a>
+                            <ul>
+                            	<li><a href="blog.html">BLOG</a></li>
+                                <li><a href="blog-slider.html">BLOG SLIDER</a></li>
+                                <li><a href="blog-parallax-image.html">BLOG PARALLAX IMAGE</a></li>
+                                <li><a href="blog-parallax-sidebar.html">BLOG PARALLAX - SIDEBAR</a></li>
+                            </ul>
+                        </li>
+                    	<li>
+                       	 	<a href="page.html">PAGE</a>
+                        </li>
+                    	<li>
+                        	<a href="#">RSVP</a>
+                            <ul>
+                             	<li><a href="rsvp-1.html">RSVP - 1</a></li>
+                                <li><a href="rsvp-2.html">RSVP - 2</a></li>
+                                <li><a href="rsvp-3.html">RSVP - 3</a></li>
+                                <li><a href="rsvp-custom.html">CUSTOM</a></li>
+                           	</ul>
+                        </li>
+                	</ul>
+                    -->
+
+                    <div id="mobile-nav">
+                    	<i class="de-icon-menu"></i>
+                    </div>
+
+                	<ul id="nav-menu">
+                		<li class="first-child">
+                        	<a href="">HIM_BLOG</a>
+                            <!--
+                            <ul>
+                            	<li>
+                                	<a href="#">MENU VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="">TOP BAR - TRANSPARENT</a></li>
+                                        <li><a href="index-topbar-color.html">TOP BAR - COLOR</a></li>
+                                        <li><a href="index-bottombar-transparent.html">BOTTOM BAR - TRANSPARENT</a></li>
+                                        <li><a href="index-bottombar-color.html">BOTTOM BAR - COLOR</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                	<a href="#">SLIDER VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="">IMAGE - FADE</a></li>
+                                        <li><a href="index-slide.html">IMAGE - SLIDE</a></li>
+                                        <li><a href="index-image-animation-v1.html">IMAGE - ANIMATION - MUSIC - V1</a></li>
+                                        <li><a href="index-image-animation-v2.html">IMAGE - ANIMATION - MUSIC - V2</a></li>
+                                        <li><a href="index-title-animation.html">TITLE - ANIMATION</a></li>
+                                        <li><a href="index-image-title-animation.html">TITLE &amp; IMAGE - ANIMATION</a></li>
+                                        <li><a href="index-video.html">VIDEO</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                	<a href="#">PRELOADER VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="">PRELOADER - DEFAULT</a></li>
+                                        <li><a href="index-preloader-logo-spinner.html">PRELOADER - V1</a></li>
+                                        <li><a href="index-preloader-couple-name.html">PRELOADER - V2</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            -->
+                        </li>
+                   		<!--
+                        <li>
+                        	<a href="#">ABOUT</a>
+                            <ul>
+                            	<li>
+                                	<a href="profile-him.html">ABOUT HIM</a>
+                                </li>
+                                <li>
+                                	<a href="profile-her.html">ABOUT HER</a>
+                                </li>
+                           	</ul>
+                        </li>
+                    	<li>
+                        	<a href="#">GALLERY</a>
+                            <ul>
+                            	<li><a href="gallery.html">GALLERY</a></li>
+                                <li><a href="gallery-slider.html">GALLERY WITH SLIDER</a></li>
+                                <li><a href="gallery-full-5col.html">FULL GALLERY - 5 COLUMN</a></li>
+                                <li><a href="gallery-full-4col.html">FULL GALLERY - 4 COLUMN</a></li>
+                                <li><a href="gallery-full-3col.html">FULL GALLERY - 3 COLUMN</a></li>
+                            </ul>
+                        </li>
+                    	<li><a href="the-story.html">THE STORY</a></li>
+                        -->
+                        <li class="first-child split-margin">
+                        	<a href="#">HER_BLOG</a>
+                            <!--
+                             <ul>
+                             	<li><a href="location.html">LOCATION</a></li>
+                                <li><a href="accomodation.html">ACCOMODATION</a></li>
+                                <li>
+                                	<a href="#">BRIDESMAID</a>
+                                    <ul>
+                             			<li><a href="bridesmaid-gallery.html">BRIDESMAID GALLERY</a></li>
+                                		<li><a href="bridesmaid-parallax-image.html">BRIDESMAID - PARALLAX IMAGE</a></li>
+                           			</ul>
+                                </li>
+                                <li>
+                                	<a href="#">GROOMSMEN</a>
+                                    <ul>
+                             			<li><a href="groomsmen-gallery.html">GROOMSMEN GALLERY</a></li>
+                                		<li><a href="groomsmen-parallax-image.html">GROOMSMEN - PARALLAX IMAGE</a></li>
+                           			</ul>
+                                </li>
+                                <li><a href="gift.html">GIFT REGISTRY</a></li>
+                            </ul>
+                            -->
+                        </li>
+                    	<!--
+                        <li>
+                        	<a href="#">BLOG</a>
+                            <ul>
+                            	<li><a href="blog.html">BLOG</a></li>
+                                <li><a href="blog-slider.html">BLOG SLIDER</a></li>
+                                <li><a href="blog-parallax-image.html">BLOG PARALLAX IMAGE</a></li>
+                                <li><a href="blog-parallax-sidebar.html">BLOG PARALLAX - SIDEBAR</a></li>
+                            </ul>
+                        </li>
+                    	<li>
+                       	 	<a href="page.html">PAGE</a>
+                        </li>
+                    	<li>
+                        	<a href="#">RSVP</a>
+                            <ul>
+                             	<li><a href="rsvp-1.html">RSVP - 1</a></li>
+                                <li><a href="rsvp-2.html">RSVP - 2</a></li>
+                                <li><a href="rsvp-3.html">RSVP - 3</a></li>
+                                <li><a href="rsvp-custom.html">CUSTOM</a></li>
+                           	</ul>
+                        </li>
+                        -->
+                	</ul>
+
+
+
+
+
+
+
+                    <div class="clearboth"></div>
+                    
+                </div>
+                
+            </nav>
+        </header> <!-- END of NAVIGATION -->
+        
+        <!--CONTENT SECTION-->
+        <section id="content">
+        	
+            <!-- CONTAINER-1 -->
+        	<div class="container">            
+            	
+                <!-- TITLE -->
+                <div class="row">
+                    <div class="col-md-offset-3 col-md-6 text-center">
+                    
+                        <div class="page-title">
+                            <h1>Ombudsman 监察专员</h1>
+                                                       
+                        	<div class="heart-divider">
+                            	<span class="grey-line"></span>
+                            	<i class="de-icon-heart pink-heart"></i>
+                            	<i class="de-icon-heart grey-heart"></i>
+                            	<span class="grey-line"></span>
+                        	</div>
+						</div>
+                        
+                	</div>
+				</div><!-- END of TITLE -->                
+                
+  			</div><!-- END of CONTAINER-1 -->
+           
+            
+            <!-- CONTAINER-2 -->
+            <div class="container">
+                
+                <!-- ATTACHMENT -->	
+ 				<div class="row">
+                    <div class="col-md-offset-1 col-md-10">
+                      
+                   		<div class="row">
+                        
+                        	<!--PHOTO-->
+                                <div class="col-md-6">
+
+                                    <h3>Questions: select the answer you consider to be correct.</h3>
+                                    <p style="color:red;">Q1 :What kind of dispute is most likely to be resolved by an Ombudsman service? 什么样的争议最有可能由监察专员服务解决？</p>
+                                    <p>
+                                        (1)A dispute between a husband and wife.
+                                        丈夫和妻子之间的争执
+                                    </p>
+
+                                    <p style="color:green;">
+                                        (2)A dispute between a consumer and their energy company.
+                                        消费者与其能源公司之间的纠纷
+                                    </p>
+
+                                    <p>
+                                        (3)An intellectual property dispute between two multinational companies.
+                                        两家跨国公司之间的知识产权纠纷
+                                    </p>
+
+                                    <p>(4)All of these.以上都是。</p>
+
+                                    <p><strong>A1: the correct answer is (2)</strong></p>
+
+                                    <p>
+                                        While originally and still used to help resolve citizens’ disputes against their governments and other public bodies, Ombudsmen are now also used in the private sector.
+                                        虽然监察专员最初是用来帮助解决公民与政府和其他公共机构之间的纠纷，但现在也用于私营部门。
+                                    </p>
+                                    <p style="color:red;">Q2 :Which of the following statements accurately describes an Ombudsman scheme? 下列哪项表述准确地描述了监察专员计划？</p>
+                                    <p style="color:green;">
+                                        (1)The Ombudsman takes a proactive inquisitorial approach to investigating the case.
+                                        监察专员采取积极主动的调查方式调查案件
+                                    </p>
+
+                                    <p>
+                                        (2)The Ombudsman helps facilitate a joint decision by the parties.
+                                        监察专员协助促成当事各方共同作出决定
+
+                                    </p>
+
+                                    <p>
+                                        (3)The Ombudsman is always required to apply the law.
+                                        监察专员总是被要求适用法律
+
+                                    </p>
+
+                                    <p>(4)All of these.以上都是。</p>
+
+                                    <p><strong>A1: the correct answer is (1)</strong></p>
+
+                                    <p>
+                                        Ombudsman takes a proactive inquisitorial approach to investigating the case.
+                                        监察专员采取积极主动的调查方式调查案件
+                                    </p>
+                                    <p style="color:red;">Q3 :What is the difference in the way private and public sector Ombudsman schemes work? 私营及公营机构监察专员计划的运作方式有何不同？</p>
+                                    <p style="color:green;">
+                                        (1)Public sector schemes lack the power to bind the parties.
+                                        公共部门计划缺乏约束各方的权力
+
+                                    </p>
+
+                                    <p>
+                                        (2)Complex scientific and technical issues.
+                                        复杂的科学和技术问题
+                                    </p>
+
+                                    <p>
+                                        (3)Complex business or economic issues.
+                                        复杂的商业或经济问题
+                                    </p>
+
+                                    <p>(4)All of these.以上都是。</p>
+
+                                    <p><strong>A1: the correct answer is (1)</strong></p>
+
+                                    <h3 style="color:red;">
+                                        Congratulations! 恭喜！
+                                    </h3>
+                                    <p>
+                                        You have achieved a basic understanding of the Ombudsman process.
+                                        你已对监察专员的程序有了基本的了解
+                                    </p>
+                                    <p>
+                                        You have learned the following:
+                                        你学到了以下内容：
+                                    </p>
+                                    <p>
+                                        (1)Originally, Ombudsman helped resolve citizen’s disputes against their governments and other public bodies but now are also used to resolve disputes in the private sector.
+                                        最初，监察专员帮助解决公民对政府和其他公共机构的纠纷，但现在也用于解决私营部门的纠纷
+                                    </p>
+                                    <p>
+                                        (2)The ombudsmen can discern behaviour patterns in clients that maybe an arbitrator would not identify.
+                                        监察专员可以识别委托人的行为模式，而这些模式可能仲裁员无法识别
+                                    </p>
+                                    <p>
+                                        (3)The private ombudsmen resolve complaints brought by consumers or small businesses up to certain maximum award limits.
+                                        私人监察员解决消费者或小企业提出的投诉，最高赔偿限额为一定的上限
+                                    </p>
+                                    <p>
+                                        (4)Public sector schemes lack this power to bind the parties. They can only make recommendations which the respondents can ignore.
+                                        公共部门的计划缺乏这种约束各方的力量。他们只能提出被调查者可以忽略的建议。
+                                    </p>
+                                </div>
+                            
+                            <!-- DESCRIPTION -->
+                            <div class="col-md-6">
+                                <h2 style="color:red;"><strong>What is the aim of this module? </strong></h2>
+                                <p>
+                                    Understanding how Ombudsman works and what the outcomes of this mechanism are.
+                                    了解监察专员的工作方式以及该机制的结果
+                                </p>
+                                <img src="static/picture/OM1.png" alt="" class="fullwidth" style="margin-bottom:30px;">
+
+                                <p>
+                                    The term Ombudsman or Ombudsperson is Swedish in origin and ‘derives from “ombud”, meaning a representative. It can be traced to 1713, when the Swedish King appointed an officer to investigate complaints against other officials and to check whether their actions were in accordance with the law’.
+                                    Ombudsman(监察专员)或者Ombudsperson（监察专员） 一词起源于瑞典语，“源自ombud”,意思是代表。这可以追溯到1713年，当时瑞典国王任命了一名官员来调查对其官员的投诉，并检查他们的行为是否符合法律。
+                                </p>
+                                <p>Under the Swedish Constitution, the Ombudsman is ‘to act as the attorney of Parliament and to control the observance of laws and regulations insofar as these are applicable by persons subject to official responsibility’. Ombudsmen now hold important dispute resolution roles in many industrialised nations. 根据瑞典宪法，监察专员的职责是“充当议会的代理人并管理法律和法规的遵守情况，只要这些规定适用于负有官方责任的人员”。监察专员现在在许多工业化国家发挥着重要的争议解决作用。</p>
+                                <img src="static/picture/OM2.png" alt="" class="fullwidth" style="margin-bottom:30px;">
+                                <p>1981: </p>
+                                <p>
+                                    In 1981, the first Ombudsman was established in the UK.
+                                    在1981年，英国设立了第一个监察专员办公室
+                                </p>
+                                <p>1990: </p>
+                                <p>
+                                    These types of schemes have been expanded into legal services, estate agents, housing, pensions, investments and even briefly, funeral services. The complainant typically has to complain to the respondent before the Ombudsman can deal with the case.
+                                    这些类型的计划已经扩展到法律服务、房地产经纪人、住房、养老金、投资，甚至短暂地扩展到丧葬服务。通常投诉人必须先向被投诉人投诉，然后监察专员才能处理这个案件。
+                                </p>
+                                <p>2000:</p>
+                                <p>
+                                    The 21st century has seen a further expansion of these private sector schemes often through legislation or regulatory action.
+                                    21世纪，这些私营部门的计划通常通过立法或监管行动进行进一步扩张。
+                                </p>
+                                <p>2015:</p>
+                                <p>
+                                    While originally and still used to help resolve citizens’ disputes against their governments and other public bodies, Ombudsmen are now also used in the private sector.
+                                    虽然监察专员最初是用来帮助解决公民与政府和其他公共机构之间的纠纷，但现在也用于私营部门。
+                                </p>
+                                <img src="static/picture/OM3.png" alt="" class="fullwidth" style="margin-bottom:30px;">
+                                <p>
+                                    Ombudsman Schemes usually take a proactive inquisitorial approach, appreciating that consumers often cannot present their own complaints fully.
+                                    监察专员计划通常采取积极主动的调查方式，因为消费者往往无法充分提出自己的投诉。
+                                </p>
+                                <p>
+                                    Staff carrying out investigations typically know the most commonly complained about respondents and can discern patterns of behaviour that an arbitrator would never be able to identify.
+                                    进行调查的工作人员通常知道常被抱怨的调查对象，并且可以辨别出仲裁员永远无法识别的行为模式。
+                                </p>
+                                <img src="static/picture/OM4.png" alt="" class="fullwidth" style="margin-bottom:30px;">
+                                <p style="color:red;">There is a basic difference in the way in which the private sector and public sector schemes work. 私营部门和公共部门计划的运作方式存在根本区别。</p>
+                                <p>
+                                    The private Ombudsmen resolve complaints brought by consumers or small businesses up to certain maximum award limits often with the power to make recommendations as to further compensation. Their decisions bind the respondents only if the complainant accepts and not the other way around.
+                                    私人监察专员解决消费者或小型企业提出的投诉，但不超过一定的最高赔偿限额，通常有权就进一步赔偿提出建议。他们的裁决只有在投诉人接受的情况下才能约束调查对象，而不是反过来。
+                                </p>
+                                <p>
+                                    Public sector schemes lack the power to bind the parties. They can only make recommendations which the respondents can ignore although not usually without giving a reason for doing so. ‘Many “non-binding recommendations” have led to system changes, official apologies and compensation payments… to aggrieved individuals.’
+                                    公共部门计划缺乏约束各方的权力。他们只能提出调查对象可以忽略的建议，虽然通常不会在没有给出理由的情况下提出建议。许多“不具约束力的建议”导致了制度的改变，官方道歉和对受害个人的赔偿。
+                                </p>
+                                <p>
+                                    Typically, the Ombudsman is bound to have regard to — but is not required to apply — the law although there are exceptions to this. In particular, almost all schemes are entitled to ignore legal restrictions on compensation for distress and inconvenience.
+                                    通常情况下，监察专员有义务考虑（但不一定要适用）法律，虽然有例外情况。特别是，几乎所有的计划都有权无视对痛苦和不便的的赔偿的法律限制。
+                                </p>
+                                <p><strong>Roles in the Ombudsman process 监察专员程序中的角色</strong></p>
+                                <img src="static/picture/OM5.png" alt="" class="fullwidth" style="margin-bottom:30px;">
+                                <p>
+                                    The Complainant should first send a complaint to the relevant organisation and give them the opportunity to comment on the case and resolve the problem.
+                                    投诉人应首先向有关机构提出投诉，并让他们有机会就个案提出意见和解决问题。
+                                </p>
+                                <p>
+                                    If the company’s feedback on the complaint is not acceptable to the complainant he can forward the case to an Ombudsman. He will further investigate the way the organisation has dealt with the situation.
+                                    如果投诉人不能接受公司对投诉的反馈，他可以将案件转交给监察专员。他将进一步调查该组织处理这一情况的方式。
+                                </p>
+                               
+
+                            </div>
+                       	</div>
+                        
+                      
+					</div>
+ 				</div><!-- END of ATTACHMENT-->
+                
+			</div><!-- END of CONTAINER-2 -->
+            
+        </section><!-- END of CONTENT SECTION -->
+        
+        
+        
+        <!-- FOOTER SECTION -->
+		<footer>
+            <div class="image-divider fixed-height" style="background-image:url(static/image/footer-image-5.jpg); height:400px" data-stellar-background-ratio="0.5">
+                
+                <div class="divider-overlay"></div>
+                    
+                <!-- Use Center Middle Alignment to align middle the content for fixed-height parallax -->
+                <div class="alignment"> 
+                   	<div class="v-align center-middle">                  	
+                    
+                    	<!-- HEART DIVIDER & COUPLE NAME -->
+                    	<div class="container">                 	 
+                    		<div class="row">
+                        		<div class="col-md-12">
+                                        
+                        			<div class="heart-divider animation delay1 fadeInUp">
+                        				<span class="white-line"></span>
+                        				<i class="de-icon-heart pink-heart"></i>
+                        				<i class="de-icon-heart white-heart"></i>
+                        				<span class="white-line"></span>
+                        			</div>
+                                    
+									<div id="footer-couple-name" class="animation delay1 fadeInUp">
+                                		铭 & 贝
+                                	</div>
+                     
+                     			</div>
+                     		</div>
+                     	</div><!-- END of HEART DIVIDER & COUPLE NAME -->
+                     
+                    </div>
+				</div><!-- END of Center Middle Alignment -->
+                    
+			</div>
+		</footer><!-- END of FOOTER SECTION -->
+        
+		<!-- jQuery -->
+    	<script src="static/js/jquery-1.11.1.min.js"></script>
+        <!-- Pace -->
+        <script src="static/js/pace.min.js"></script> 
+    	<!-- Bootstrap -->
+    	<script src="static/js/bootstrap.js"></script>    
+        <!-- Modernizr -->
+        <script src="static/js/modernizr.js"></script>  
+        <!-- Device JS -->
+        <script src="static/js/device.js"></script>  
+        <!-- TinyNav -->
+        <script src="static/js/tinynav.min.js"></script>
+        <!-- SmoothScroll -->
+        <script src="static/js/jquery.smooth-scroll.js"></script>
+        <!-- Flexslider -->
+        <script src="static/js/jquery.flexslider.js"></script>  
+        <!-- Sticky -->
+        <script src="static/js/jquery.sticky.js"></script>  
+        <!-- Waypoint -->
+        <script src="static/js/jquery.waypoints.min.js"></script>
+        <!-- DoubleTapToGo -->
+        <script src="static/js/jquery.ui.widget.js"></script>
+        <script src="static/js/jquery.dcd.doubletaptogo.js"></script>
+        <!-- Vide -->
+        <script src="static/js/jquery.vide.js"></script>
+        <!-- Stellar -->
+        <script src="static/js/jquery.stellar.js"></script>
+        <!-- Masonry -->
+        <script src="static/js/masonry.pkgd.min.js"></script>
+        <!-- Countdown -->
+        <script src="static/js/jquery.plugin.js"></script>
+        <script src="static/js/jquery.countdown.js"></script>
+        <!-- Countdown Labels / Localisation -->
+        <script src="static/js/jquery.countdown-custom-label.js"></script>
+        <!-- Magnific Popup -->
+        <script src="static/js/jquery.magnific-popup.js"></script>
+        <!-- Owl Carousel -->
+        <script src="static/js/owl.carousel.js"></script>
+        
+        <!-- Custom Core Script -->
+        <script type="text/javascript" src="static/js/script.js"></script>        
+        <!-- Custom Additional Script -->
+        <script type="text/javascript" src="static/js/main-slider-fade.js"></script>
+        
+	</body>
+</html>
