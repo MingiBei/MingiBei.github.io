@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+     	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+     	<meta name="description" content="FOREVER - MingiBei">
+      	<meta name="author" content="zhuming">
+        <meta name="ROBOTS" content="NOINDEX">
+      	<title>FOREVER - MingiBei</title>
+        
+        
+        <!-- Bootstrap -->
+    	<link rel="stylesheet" href="static/css/bootstrap.min.css" type="text/css" media="screen">
+        <!-- Pace -->
+        <link rel="stylesheet" href="static/css/preloader.css" media="screen">
+        <link rel="stylesheet" href="static/css/preloader-default.css" media="screen">
+        <!-- Flexslider -->
+        <link rel="stylesheet" href="static/css/flexslider.css" type="text/css">
+        <!-- Animate -->
+        <link rel="stylesheet" href="static/css/animate.css" type="text/css">       
+        <!-- Countdown -->
+        <link rel="stylesheet" href="static/css/jquery.countdown.css" type="text/css">
+        <!-- Magnific Popup -->
+        <link rel="stylesheet" href="static/css/magnific-popup.css" type="text/css">
+        <!-- Owl Carousel -->
+        <link rel="stylesheet" href="static/css/owl.carousel.css" type="text/css">
+        <link rel="stylesheet" href="static/css/owl.theme.css" type="text/css">
+        <!-- Icon -->
+        <link rel="stylesheet" href="static/css/fontello.css" type="text/css" media="screen">
+        <!-- Font -->
+        <link href='static/css/css.css' rel='stylesheet' type='text/css'>
+        <link href='static/css/css1.css' rel='stylesheet' type='text/css'>
+        <link href='static/css/css2.css' rel='stylesheet' type='text/css'>
+        
+        <!-- Theme CSS -->
+    	<link href="static/css/style.css" rel="stylesheet" media="screen">
+        
+        <!-- Skin CSS -->
+    	<!-- <link href="css/skin/light-teal/light-teal.css" rel="stylesheet" media="screen"> -->
+        <!-- <link href="css/skin/light-teal/light-teal-reverse-navbar.css" rel="stylesheet" media="screen"> -->
+        <!-- <link href="css/skin/pattern/pattern-1.css" rel="stylesheet" media="screen"> -->
+        
+        <script>
+  			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  			ga('create', 'UA-50945301-2', 'dethemes.com');
+  			ga('send', 'pageview');
+
+		</script>
+	</head>
+
+	<body class="no-slider-page">
+    	<!--PRELOADER-->
+        <div id="preloader">
+        
+        	<div class="alignment">
+            	<div class="v-align center-middle"> 
+            		
+                    <!-- LEFT HEART -->
+            		<div class="heart-animation">                	
+            			<i class="de-icon-heart"></i>
+               	 	</div>
+                
+                	<!-- RIGHT HEART -->
+                	<div class="heart-animation-reverse">
+            			<i class="de-icon-heart"></i>
+                	</div>     
+                     
+                </div>
+            </div>
+            
+        </div> <!--END of PRELOADER-->
+        
+        <!--SETTING-->
+        <div id="options-setting"> 
+        	<div id="setting-button-wrapper">
+        		<a id="setting-button" href="#">
+        			<div class="de-icon square light small-size inline" style="border:1px solid #CCC;">
+         				<i class="de-icon-cog"></i>
+            		</div>
+            	</a>
+            </div>
+            <div>
+            	<h5>TEMPLATE COLOR</h5>
+                <div style="position:relative">
+                	<a href="#" id="coral"><span class="swatches">&nbsp;</span></a>
+                	<a href="#" id="coral-red"><span class="swatches">&nbsp;</span></a>
+                	<a href="#" id="lapis"><span class="swatches">&nbsp;</span></a>
+               	 	<a href="#" id="light-teal"><span class="swatches">&nbsp;</span></a>
+                	<a href="#" id="tan"><span class="swatches">&nbsp;</span></a>
+               	 	<a href="#" id="reset-color"><span>Reset</span></a>
+                </div>
+            </div>
+            <hr>
+            <div>
+            	<h5>BLOCK NAVBAR BACKGROUND</h5>
+                <div style="position:relative;">
+                	<a href="#" id="white-navbar"><span class="navbar-setting-button active">White</span></a>&nbsp;
+                	<a href="#" id="color-navbar"><span class="navbar-setting-button">Template Color</span></a>
+                </div>
+                <p class="setting-info"> For Transparent NavBar, this option will only works on sticky mode.</p>
+            </div>
+            <hr>
+            <div>
+            	<h5>PATTERN</h5>
+                <div style="position:relative;">
+                	<a href="#" id="pattern-1"><span class="pattern-setting-button">1</span></a>&nbsp;
+                	<a href="#" id="pattern-2"><span class="pattern-setting-button">2</span></a>&nbsp;
+                    <a href="#" id="pattern-3"><span class="pattern-setting-button">3</span></a>&nbsp;
+                    <a href="#" id="pattern-none"><span class="pattern-setting-button active">None</span></a>&nbsp;
+                </div>
+            </div>
+        </div>        
+       	<!--END of SETTING-->
+       
+        
+        <!-- NAVIGATION -->    
+    	<header id="nav-header">
+        	<nav id="nav-bar" class="top-bar fluid-width block-color nav-center sticky-nav animation fadeInDown">
+            	
+                <div id="nav-wrapper">
+            		
+                    <!-- LOGO -->
+            		<div class="logo-wrapper">
+                		<!-- CSS LOGO --> 
+                        <a href="index.html">
+                    		<div class="css-logo rounded">
+                   				<div class="css-logo-text">
+                        			<strong>铭</strong><i class="de-icon-heart-1"></i><strong>贝</strong>
+                    			</div>
+                    		</div>
+                        </a>
+                    
+                    	<!-- IMG LOGO 
+                    	<div class="img-logo">
+                    		<img src="images/slide1.jpg">
+                    	</div>-->
+                	</div>
+                	<!-- END of LOGO -->
+                    <!--
+                    <div id="mobile-nav">
+                    	<i class="de-icon-menu"></i>
+                    </div>
+                
+                	<ul id="nav-menu">
+                		<li class="first-child">
+                        	<a href="index.html">HOME</a>
+                            <ul>
+                            	<li>
+                                	<a href="#">MENU VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="index.html">TOP BAR - TRANSPARENT</a></li>
+                                        <li><a href="index-topbar-color.html">TOP BAR - COLOR</a></li>
+                                        <li><a href="index-bottombar-transparent.html">BOTTOM BAR - TRANSPARENT</a></li>
+                                        <li><a href="index-bottombar-color.html">BOTTOM BAR - COLOR</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                	<a href="#">SLIDER VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="index.html">IMAGE - FADE</a></li>
+                                        <li><a href="index-slide.html">IMAGE - SLIDE</a></li>
+                                        <li><a href="index-image-animation-v1.html">IMAGE - ANIMATION - MUSIC - V1</a></li>
+                                        <li><a href="index-image-animation-v2.html">IMAGE - ANIMATION - MUSIC - V2</a></li>
+                                        <li><a href="index-title-animation.html">TITLE - ANIMATION</a></li>
+                                        <li><a href="index-image-title-animation.html">TITLE &amp; IMAGE - ANIMATION</a></li>
+                                        <li><a href="index-video.html">VIDEO</a></li>
+                                    </ul>
+                                </li>    
+                                <li>
+                                	<a href="#">PRELOADER VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="index.html">PRELOADER - DEFAULT</a></li>
+                                        <li><a href="index-preloader-logo-spinner.html">PRELOADER - V1</a></li>
+                                        <li><a href="index-preloader-couple-name.html">PRELOADER - V2</a></li>
+                                    </ul>
+                                </li>                             
+                            </ul>
+                        </li>
+                   		<li>
+                        	<a href="#">ABOUT</a>
+                            <ul>
+                            	<li>
+                                	<a href="profile-him.html">ABOUT HIM</a>
+                                </li>
+                                <li>
+                                	<a href="profile-her.html">ABOUT HER</a>
+                                </li>
+                           	</ul> 	
+                        </li>
+                    	<li>
+                        	<a href="#">GALLERY</a>
+                            <ul>
+                            	<li><a href="gallery.html">GALLERY</a></li>
+                                <li><a href="gallery-slider.html">GALLERY WITH SLIDER</a></li>
+                                <li><a href="gallery-full-5col.html">FULL GALLERY - 5 COLUMN</a></li>
+                                <li><a href="gallery-full-4col.html">FULL GALLERY - 4 COLUMN</a></li>
+                                <li><a href="gallery-full-3col.html">FULL GALLERY - 3 COLUMN</a></li>
+                            </ul>
+                        </li>
+                    	<li><a href="the-story.html">THE STORY</a></li>
+                        <li class="first-child split-margin">
+                        	<a href="#">THE WEDDING</a>
+                             <ul>
+                             	<li><a href="location.html">LOCATION</a></li>
+                                <li><a href="accomodation.html">ACCOMODATION</a></li>
+                                <li>
+                                	<a href="#">BRIDESMAID</a>
+                                    <ul>
+                             			<li><a href="bridesmaid-gallery.html">BRIDESMAID GALLERY</a></li>
+                                		<li><a href="bridesmaid-parallax-image.html">BRIDESMAID - PARALLAX IMAGE</a></li>
+                           			</ul>
+                                </li>
+                                <li>
+                                	<a href="#">GROOMSMEN</a>
+                                    <ul>
+                             			<li><a href="groomsmen-gallery.html">GROOMSMEN GALLERY</a></li>
+                                		<li><a href="groomsmen-parallax-image.html">GROOMSMEN - PARALLAX IMAGE</a></li>
+                           			</ul>
+                                </li>
+                                <li><a href="gift.html">GIFT REGISTRY</a></li>
+                            </ul>
+                        </li>
+                    	
+                        <li>
+                        	<a href="#">BLOG</a>
+                            <ul>
+                            	<li><a href="blog.html">BLOG</a></li>
+                                <li><a href="blog-slider.html">BLOG SLIDER</a></li>
+                                <li><a href="blog-parallax-image.html">BLOG PARALLAX IMAGE</a></li>
+                                <li><a href="blog-parallax-sidebar.html">BLOG PARALLAX - SIDEBAR</a></li>
+                            </ul>
+                        </li>
+                    	<li>
+                       	 	<a href="page.html">PAGE</a>
+                        </li>
+                    	<li>
+                        	<a href="#">RSVP</a>
+                            <ul>
+                             	<li><a href="rsvp-1.html">RSVP - 1</a></li>
+                                <li><a href="rsvp-2.html">RSVP - 2</a></li>
+                                <li><a href="rsvp-3.html">RSVP - 3</a></li>
+                                <li><a href="rsvp-custom.html">CUSTOM</a></li>
+                           	</ul>
+                        </li>
+                	</ul>
+                    -->
+
+                    <div id="mobile-nav">
+                    	<i class="de-icon-menu"></i>
+                    </div>
+
+                	<ul id="nav-menu">
+                		<li class="first-child">
+                        	<a href="">HIM_BLOG</a>
+                            <!--
+                            <ul>
+                            	<li>
+                                	<a href="#">MENU VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="">TOP BAR - TRANSPARENT</a></li>
+                                        <li><a href="index-topbar-color.html">TOP BAR - COLOR</a></li>
+                                        <li><a href="index-bottombar-transparent.html">BOTTOM BAR - TRANSPARENT</a></li>
+                                        <li><a href="index-bottombar-color.html">BOTTOM BAR - COLOR</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                	<a href="#">SLIDER VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="">IMAGE - FADE</a></li>
+                                        <li><a href="index-slide.html">IMAGE - SLIDE</a></li>
+                                        <li><a href="index-image-animation-v1.html">IMAGE - ANIMATION - MUSIC - V1</a></li>
+                                        <li><a href="index-image-animation-v2.html">IMAGE - ANIMATION - MUSIC - V2</a></li>
+                                        <li><a href="index-title-animation.html">TITLE - ANIMATION</a></li>
+                                        <li><a href="index-image-title-animation.html">TITLE &amp; IMAGE - ANIMATION</a></li>
+                                        <li><a href="index-video.html">VIDEO</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                	<a href="#">PRELOADER VARIATIONS</a>
+                                    <ul>
+                                    	<li><a href="">PRELOADER - DEFAULT</a></li>
+                                        <li><a href="index-preloader-logo-spinner.html">PRELOADER - V1</a></li>
+                                        <li><a href="index-preloader-couple-name.html">PRELOADER - V2</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            -->
+                        </li>
+                   		<!--
+                        <li>
+                        	<a href="#">ABOUT</a>
+                            <ul>
+                            	<li>
+                                	<a href="profile-him.html">ABOUT HIM</a>
+                                </li>
+                                <li>
+                                	<a href="profile-her.html">ABOUT HER</a>
+                                </li>
+                           	</ul>
+                        </li>
+                    	<li>
+                        	<a href="#">GALLERY</a>
+                            <ul>
+                            	<li><a href="gallery.html">GALLERY</a></li>
+                                <li><a href="gallery-slider.html">GALLERY WITH SLIDER</a></li>
+                                <li><a href="gallery-full-5col.html">FULL GALLERY - 5 COLUMN</a></li>
+                                <li><a href="gallery-full-4col.html">FULL GALLERY - 4 COLUMN</a></li>
+                                <li><a href="gallery-full-3col.html">FULL GALLERY - 3 COLUMN</a></li>
+                            </ul>
+                        </li>
+                    	<li><a href="the-story.html">THE STORY</a></li>
+                        -->
+                        <li class="first-child split-margin">
+                        	<a href="#">HER_BLOG</a>
+                            <!--
+                             <ul>
+                             	<li><a href="location.html">LOCATION</a></li>
+                                <li><a href="accomodation.html">ACCOMODATION</a></li>
+                                <li>
+                                	<a href="#">BRIDESMAID</a>
+                                    <ul>
+                             			<li><a href="bridesmaid-gallery.html">BRIDESMAID GALLERY</a></li>
+                                		<li><a href="bridesmaid-parallax-image.html">BRIDESMAID - PARALLAX IMAGE</a></li>
+                           			</ul>
+                                </li>
+                                <li>
+                                	<a href="#">GROOMSMEN</a>
+                                    <ul>
+                             			<li><a href="groomsmen-gallery.html">GROOMSMEN GALLERY</a></li>
+                                		<li><a href="groomsmen-parallax-image.html">GROOMSMEN - PARALLAX IMAGE</a></li>
+                           			</ul>
+                                </li>
+                                <li><a href="gift.html">GIFT REGISTRY</a></li>
+                            </ul>
+                            -->
+                        </li>
+                    	<!--
+                        <li>
+                        	<a href="#">BLOG</a>
+                            <ul>
+                            	<li><a href="blog.html">BLOG</a></li>
+                                <li><a href="blog-slider.html">BLOG SLIDER</a></li>
+                                <li><a href="blog-parallax-image.html">BLOG PARALLAX IMAGE</a></li>
+                                <li><a href="blog-parallax-sidebar.html">BLOG PARALLAX - SIDEBAR</a></li>
+                            </ul>
+                        </li>
+                    	<li>
+                       	 	<a href="page.html">PAGE</a>
+                        </li>
+                    	<li>
+                        	<a href="#">RSVP</a>
+                            <ul>
+                             	<li><a href="rsvp-1.html">RSVP - 1</a></li>
+                                <li><a href="rsvp-2.html">RSVP - 2</a></li>
+                                <li><a href="rsvp-3.html">RSVP - 3</a></li>
+                                <li><a href="rsvp-custom.html">CUSTOM</a></li>
+                           	</ul>
+                        </li>
+                        -->
+                	</ul>
+
+
+
+
+
+
+
+                    <div class="clearboth"></div>
+                    
+                </div>
+                
+            </nav>
+        </header> <!-- END of NAVIGATION -->
+        
+        <!--CONTENT SECTION-->
+        <section id="content">
+        	
+            <!-- CONTAINER-1 -->
+        	<div class="container">            
+            	
+                <!-- TITLE -->
+                <div class="row">
+                    <div class="col-md-offset-3 col-md-6 text-center">
+                    
+                        <div class="page-title">
+                            <h1>Online Dispute Resolution 在线争议解决</h1>
+                                                       
+                        	<div class="heart-divider">
+                            	<span class="grey-line"></span>
+                            	<i class="de-icon-heart pink-heart"></i>
+                            	<i class="de-icon-heart grey-heart"></i>
+                            	<span class="grey-line"></span>
+                        	</div>
+						</div>
+                        
+                	</div>
+				</div><!-- END of TITLE -->                
+                
+  			</div><!-- END of CONTAINER-1 -->
+           
+            
+            <!-- CONTAINER-2 -->
+            <div class="container">
+                
+                <!-- ATTACHMENT -->	
+ 				<div class="row">
+                    <div class="col-md-offset-1 col-md-10">
+                      
+                   		<div class="row">
+                        
+                        	<!--PHOTO-->
+                                <div class="col-md-6">
+
+                                    <h3>Questions: Select the answer you consider to be correct and then to check your response at the end of this chapter.  </h3>
+                                    <p style="color:red;">Q1:Which of the following is an example of ODR?</p>
+                                    <p>
+                                        (1)A mediation conducted by conference call technology such as Skype.
+                                        通过Skype等电话会议技术进行的调解
+                                    </p>
+                                    <p>
+                                        (2)A small claims arbitration conducted by email.
+                                        通过电子邮件进行小额索赔仲裁
+                                    </p>
+                                    <p>
+                                        (3)A two-party negotiation conducted through online video communication.
+                                        双方通过在线视频沟通进行谈判
+                                    </p>
+                                    <p style="color:green">(4)All of these. (所有这些)</p>
+                                    <p style="color:red;">A1: The correct answer is ‘All of these’.</p>
+                                    <p style="color:green;">Online Dispute Resolution (ODR) refers to the use of ADR mechanisms through the Internet as a means to resolve commercial disputes. (在线争议解决(Online Dispute Resolution)是指通过互联网利用ADR机制作为解决商业纠纷的手段。)</p>
+
+                                    <p style="color:red;">Q2:Which of the following is considered an advantage of ODR? 以下哪一项被认为是ODR的优势？</p>
+                                    <p>
+                                        (1)It allows parties build a stronger rapport with one another that offline methods of ADR.
+                                        与线下的ADR方式相比，它可以让当事人之间建立更牢固的关系
+                                    </p>
+
+                                    <p style="color:green">
+                                        (2)It reduces the time and costs incurred in disputes where the parties are at a distance.
+                                        减少了当事人异地纠纷的时间和费用
+                                    </p>
+
+                                    <p>
+                                        (3)ODR is less susceptible to technical problems than offline forms of ADR.
+                                        线上争议解决（ODR）要比线下ADR形式更不容易受到技术问题影响
+                                    </p>
+                                    <p>(4)All of these. (所有这些)</p>
+                                    <p style="color:red;">A2: The Correct answer is  (2)</p>
+                                    <p>
+                                        In those cases where parties are at a distance or when the need is for a cheaper and faster mechanism for resolving their disputes the use of online technology appears o be more appropriate since it avoids the physical limitations of many ADR forms.
+                                        在当事人距离较远的情况下，或者需要一种更便宜和更快的机制来解决其争议时，使用在线技术似乎更为合适，因为它避免了许多ADR形式的物理限制。
+                                    </p>
+                                    <p style="color:red;">Q3:Which of the following has been suggested as a disadvantage of ODR 以下哪一项被认为是ODR（线上争议解决）的确定？</p>
+                                    <p style="color:green">
+                                        (1)It may be difficult to enforce online decisions.
+                                        执行网上的裁决可能很困难
+                                    </p>
+
+                                    <p>
+                                        (2)ODR requires stronger computer skills.
+                                        线上争议解决需要更强的计算机技能
+                                    </p>
+
+                                    <p>
+                                        (3)ODR is only a recent innovation.
+                                        线上争议解决是最近的创新
+                                    </p>
+                                    <p>(4)All of these. (所有这些)</p>
+                                    <p style="color:red;">A3: The correct answer is  (1)</p>
+                                    <p>
+                                        While ‘online systems provide several technological advantages they may raise many issues related to how to ensure enforcement of online decisions. Despite this, judicial enforcement of these decisions has increased recently.’
+                                        虽然在线系统提供了一些技术优势，但它们可能会引发许多与如何确保线上裁决执行的相关问题。尽管如此，这些裁决的司法执行最近有所增加。
+                                    </p>
+                                    <h3 style="color:red;">
+                                        Congratulations! 恭喜！
+                                    </h3>
+                                    <p>
+                                        You have achieved a basic understanding of the Online Dispute Resolution process.
+                                        你已经对在线争议解决（ODR）流程有了基本的了解。
+                                        You have learned the following:
+                                    </p>
+                                    <p>
+                                        (1)Online Dispute Resolution (ODR) refers to the use of ADR mechanisms through the Internet as a means to resolve commercial disputes that arise from online transactions.
+                                        在线争议解决（Online Dispute Resolution）是指通过互联网使用ADR机制，作为解决在线交易产生的商业纠纷的手段
+                                    </p>
+                                    <p>
+                                        (2)Even if the Internet offers an effective means of communication, it will also lead to new causes of dispute.
+                                        即使互联网提供了一种有效的沟通手段，它也会导致新的纠纷原因
+                                    </p>
+                                    <p>
+                                        (3)ODR emerged not just because of the problems that affect courts, but also because of deficiencies that face all offline dispute resolution methods.
+                                        ODR的出现不仅是因为影响法院的问题，还因为所有线下争议解决方法都面临缺陷
+                                    </p>
+                                    <p>
+                                        (4)ODR promotes the idea that it is possible to develop online versions of almost all offline dispute resolution processes.
+                                        在线争议解决（ODR）提倡一种理念，即可以开发几乎所有线下争议解决程序的在线版本
+
+                                    </p>
+                                </div>
+                            
+                            <!-- DESCRIPTION -->
+                            <div class="col-md-6">
+                                <h2 style="color:red;"><strong>What is the aim of this module?</strong></h2>
+                                <p>
+                                    Understanding how the process of Online Dispute Resolution works and what the outcomes of this mechanism are.
+                                    了解在线争议解决的过程是如何运行的，以及这种机制的结果是什么
+                                </p>
+                                <img src="static/picture/ODR1.png" alt="" class="fullwidth" style="margin-bottom:30px;">
+                                <p style="color:red;">
+                                    <strong>
+                                        Online Dispute Resolution (ODR) ‘refers to the use of ADR mechanisms through the Internet as a means to resolve commercial disputes that arise from online transactions.’
+                                        在线争议解决（ODR）是指通过互联网利用ADR机制，解决因网上交易而产生的商业纠纷。
+                                    </strong>
+                                </p>
+                                <p>
+                                    It is believed that ODR ‘was technologically developed in the US and Canada… Whereas ADR moved dispute resolution “out of court”, ODR moves even further away from court to cyberspace’.
+                                    据信，ODR“在技术上是在美国和加拿大发展起来的…而ADR将争议解决“移到了法庭之外”，ODR甚至更远地从法庭移到了网络空间”。
+                                </p>
+                                <p>
+                                    The first decision to be rendered after online proceedings was made in 1996. The case concerned an advertisement’ promoting the availability of millions of email addresses’ for sale. Since then, a plethora of ODR ‘services have arisen within the Internet community’.
+                                    在线诉讼后，作出的第一个裁决是在1996年。该案件涉及一则广告，该广告“宣传有数百万个电子邮件地址可供出售”。从那时起，大量的ODR “服务在互联网社区中出现”。
+                                </p>
+                                <img src="static/picture/ODR2.png" alt="" class="fullwidth" style="margin-bottom:30px;">
+                                <p>
+                                    Despite the fact that ‘the Internet offers an effective means of communication, it will also lead to new causes of dispute. 尽管互联网提供了一种有效的沟通手段，但它也会导致新的纠纷
+                                    The population of Internet users is growing every day, and the increasing development of online interaction between Internet users will inevitably result in more disputes. People will increasingly enter into electronic contracts and perform their duties without ever exchanging a sheet of paper. Therefore, ODR can be a practical and effective alternative to traditional court systems’. 互联网用户的数量每天都在增长，互联网用户之间在线互动的日益发展必然会导致更多的纠纷。人们将越来越多地签订电子合同，履行他们的职责，而不需要交换一张纸。因此，ODR可以成为传统法院系统的一种实际和有效的替代方案。
+                                </p>
+                                <img src="static/picture/ODR3.png" alt="" class="fullwidth" style="margin-bottom:30px;">
+                                <p>
+                                    ODR ‘emerged not just because of the problems that affect only courts, but also because of deficiencies that fact all offline dispute resolution methods.
+                                    线上争议解决的出现不仅是因为只影响法院的问题，还因为所有线下争议解决方法都存在缺陷。
+                                </p>
+                                <p>
+                                    Its founding idea is that it is possible to develop online versions of almost all offline dispute resolution processes’. ODR mechanisms may vary significantly. These include ‘assisted negotiation; mediation; conciliation; ombudsmen, MED-ARB for consumers, arbitration, etc.’
+                                    它的创始理念是，有可能开发几乎所有线下争议解决程序的在线版本“。ODR机制可能差别很大。这包括 “协助谈判”；
+                                </p>
+                                <img src="static/picture/ODR4.png" alt="" class="fullwidth" style="margin-bottom:30px;">
+                                <p>
+                                    Although it was traditionally developed as a means to resolve online related disputes, ODR can be used to resolve a wide variety of disputes.
+                                    虽然传统上它是作为解决线上相关争议的一种手段而发展起来的，但ODR可以用于解决各种各样的争议
+                                </p>
+                                <p>
+                                    In those cases ‘where parties are at a distance or when the need is for a cheaper and faster mechanism for resolving their disputes’ the use of online technology appears to be more appropriate since it avoids the physical limitations of many ADR forms.
+                                    在“当事人相距遥远或需要更便宜，更快捷的纠纷解决机制”的情况下，使用线上技术似乎更为合适，因为它避免了许多ADR形式的物理限制。
+                                </p>
+                                <img src="static/picture/ODR5.png" alt="" class="fullwidth" style="margin-bottom:30px;">
+                                <p>
+                                    While ‘online systems provide several technological advantages they may raise many issues related to how to ensure enforcement of online decisions’.
+                                    虽然“在线系统提供了一些技术优势，但它们可能会引发许多与如何确保线上裁决执行的相关问题”。
+                                </p>
+                                <p>
+                                    Despite this, judicial enforcement of these decisions has increased during the last few years.’
+                                    Of all the various forms of ADR currently in mainstream use, ODR is undoubtedly the most recent innovation.
+                                    尽管如此，这些裁决的司法执行在过去几年中有所增加。在目前主流使用的各种形式的ADR中，ODR无疑是最新的创新。
+                                </p>
+
+
+                            </div>
+                       	</div>
+                        
+                      
+					</div>
+ 				</div><!-- END of ATTACHMENT-->
+                
+			</div><!-- END of CONTAINER-2 -->
+            
+        </section><!-- END of CONTENT SECTION -->
+        
+        
+        
+        <!-- FOOTER SECTION -->
+		<footer>
+            <div class="image-divider fixed-height" style="background-image:url(static/image/footer-image-5.jpg); height:400px" data-stellar-background-ratio="0.5">
+                
+                <div class="divider-overlay"></div>
+                    
+                <!-- Use Center Middle Alignment to align middle the content for fixed-height parallax -->
+                <div class="alignment"> 
+                   	<div class="v-align center-middle">                  	
+                    
+                    	<!-- HEART DIVIDER & COUPLE NAME -->
+                    	<div class="container">                 	 
+                    		<div class="row">
+                        		<div class="col-md-12">
+                                        
+                        			<div class="heart-divider animation delay1 fadeInUp">
+                        				<span class="white-line"></span>
+                        				<i class="de-icon-heart pink-heart"></i>
+                        				<i class="de-icon-heart white-heart"></i>
+                        				<span class="white-line"></span>
+                        			</div>
+                                    
+									<div id="footer-couple-name" class="animation delay1 fadeInUp">
+                                		铭 & 贝
+                                	</div>
+                     
+                     			</div>
+                     		</div>
+                     	</div><!-- END of HEART DIVIDER & COUPLE NAME -->
+                     
+                    </div>
+				</div><!-- END of Center Middle Alignment -->
+                    
+			</div>
+		</footer><!-- END of FOOTER SECTION -->
+        
+		<!-- jQuery -->
+    	<script src="static/js/jquery-1.11.1.min.js"></script>
+        <!-- Pace -->
+        <script src="static/js/pace.min.js"></script> 
+    	<!-- Bootstrap -->
+    	<script src="static/js/bootstrap.js"></script>    
+        <!-- Modernizr -->
+        <script src="static/js/modernizr.js"></script>  
+        <!-- Device JS -->
+        <script src="static/js/device.js"></script>  
+        <!-- TinyNav -->
+        <script src="static/js/tinynav.min.js"></script>
+        <!-- SmoothScroll -->
+        <script src="static/js/jquery.smooth-scroll.js"></script>
+        <!-- Flexslider -->
+        <script src="static/js/jquery.flexslider.js"></script>  
+        <!-- Sticky -->
+        <script src="static/js/jquery.sticky.js"></script>  
+        <!-- Waypoint -->
+        <script src="static/js/jquery.waypoints.min.js"></script>
+        <!-- DoubleTapToGo -->
+        <script src="static/js/jquery.ui.widget.js"></script>
+        <script src="static/js/jquery.dcd.doubletaptogo.js"></script>
+        <!-- Vide -->
+        <script src="static/js/jquery.vide.js"></script>
+        <!-- Stellar -->
+        <script src="static/js/jquery.stellar.js"></script>
+        <!-- Masonry -->
+        <script src="static/js/masonry.pkgd.min.js"></script>
+        <!-- Countdown -->
+        <script src="static/js/jquery.plugin.js"></script>
+        <script src="static/js/jquery.countdown.js"></script>
+        <!-- Countdown Labels / Localisation -->
+        <script src="static/js/jquery.countdown-custom-label.js"></script>
+        <!-- Magnific Popup -->
+        <script src="static/js/jquery.magnific-popup.js"></script>
+        <!-- Owl Carousel -->
+        <script src="static/js/owl.carousel.js"></script>
+        
+        <!-- Custom Core Script -->
+        <script type="text/javascript" src="static/js/script.js"></script>        
+        <!-- Custom Additional Script -->
+        <script type="text/javascript" src="static/js/main-slider-fade.js"></script>
+        
+	</body>
+</html>
